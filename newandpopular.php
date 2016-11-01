@@ -61,7 +61,7 @@
 										<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
 										<span class="df-buy">Купить</span>
 									</div>
-									<span class="df-buy1click">Купить в 1 клик</span>
+									<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
 								</div>
 							</li>					
 						</ul>			
