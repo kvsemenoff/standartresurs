@@ -1,9 +1,31 @@
 
-.dd-jj{
-	//font-family: "Lato-Bold";
-	font-family: "ArialNarrow";
-	outline: 1px solid red;
-	font-size: 30px;
+.dd-header-wrapper{
+	.dd-line{
+		background: url(../img/dd-line.png) no-repeat center;
+		height: 4px;
+		width: 100%;
+		background-size:cover;
+	}
+	.dd-logo-wrap{
+		.dd-logo-img{
+			float: left;
+		}
+		.dd-logo-txt{
+			float: left;
+			outline: 1px solid red;
+			span{
+				text-transform: uppercase;
+				font-family: "ArialNarrow";
+				font-size: 18px;
+			}
+			span:first-child{
+				color:#00CA48;
+			}
+			span:last-child{
+				color:#262E45;
+			}
+		}
+	}
 }
 
 
