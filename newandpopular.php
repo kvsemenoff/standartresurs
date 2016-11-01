@@ -56,7 +56,7 @@
 										<img src="/img/ico-check.png">
 										в наличии
 									</div>
-									<p class="df-price">2 980 руб.</p>
+									<p class="df-price">2 980 <b>руб.</b></p>
 									<div class="df-buy-product">
 										<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
 										<span class="df-buy">Купить</span>
