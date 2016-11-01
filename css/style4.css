@@ -1,6 +1,2 @@
-.dd-jj {
-  font-family: "ArialNarrow";
-  outline: 1px solid red;
-  font-size: 30px; }
-
+.dd-header-wrapper .dd-line{background:url(../img/dd-line.png) no-repeat center;height:4px;width:100%;background-size:cover}.dd-header-wrapper .dd-logo-wrap .dd-logo-img{float:left}.dd-header-wrapper .dd-logo-wrap .dd-logo-txt{float:left;outline:1px solid red}.dd-header-wrapper .dd-logo-wrap .dd-logo-txt span{text-transform:uppercase;font-family:"ArialNarrow";font-size:18px}.dd-header-wrapper .dd-logo-wrap .dd-logo-txt span:first-child{color:#00CA48}.dd-header-wrapper .dd-logo-wrap .dd-logo-txt span:last-child{color:#262E45}
 /*# sourceMappingURL=style4.css.map */
