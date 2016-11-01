@@ -1,3 +1,53 @@
+.clear {
+  clear: both; }
 
+.df-new-4boxs {
+  padding-left: 17%; }
+
+.df-new {
+  display: inline-block;
+  float: left;
+  margin-right: 14px;
+  margin-top: 15px;
+  position: relative; }
+  .df-new .df-new-box .df-bg-new {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px #dcdcdc;
+    width: 150px;
+    overflow: hidden;
+    min-height: 310px; }
+    .df-new .df-new-box .df-bg-new .df-name-product {
+      display: block;
+      padding: 9px; }
+      .df-new .df-new-box .df-bg-new .df-name-product .df-img {
+        text-align: center;
+        height: 120px;
+        width: 150px;
+        padding: 15px 20px 0 10px; }
+      .df-new .df-new-box .df-bg-new .df-name-product .df-title {
+        color: #5D84BA;
+        font-family: MSC-1;
+        font-size: 14px;
+        margin: 10px 5px;
+        overflow: hidden;
+        border-bottom: 2.5px dotted #698BBA;
+        width: 120px; }
+    .df-new .df-new-box .df-bg-new .df-status-product {
+      font-size: 13px;
+      margin: 3px 5px;
+      padding: 0px 10px;
+      font-family: MC-700; }
+      .df-new .df-new-box .df-bg-new .df-status-product img {
+        width: 8px;
+        height: 6px; }
+    .df-new .df-new-box .df-bg-new .df-price {
+      color: #434343;
+      font-family: MC-700;
+      margin-top: 10px;
+      padding: 15px 12px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 37px; }
 
 /*# sourceMappingURL=style5.css.map */
