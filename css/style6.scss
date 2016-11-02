@@ -12,6 +12,16 @@
 		min-height: 346px;
 	}
 }
+@media only screen and (max-width: 992px){
+	.right-footer{
+		margin-top: 80px;
+	}
+	.liveint{
+		position: relative !important;
+		top: 10px !important;
+		text-align: center !important;
+	}
+}
 @media only screen and (max-width: 768px){
 	.dg-catalog h3{
 		text-align: center;
@@ -41,6 +51,26 @@
 		width: 100% !important;
 		top: 20% !important;
 	}
+	.dg-footer ul{
+		width: 200px;
+		margin: 0 auto;
+		padding-left: 40px;
+	}
+	.leftbottom{
+		text-align: center;
+		p{
+			display: block;
+			text-align: center !important;
+		}
+	}
+	.right-footer{
+		text-align: center !important;
+		margin-top: 180px;
+		p{
+			text-align: center !important;
+		}
+	}
+
 }
 
 @media (min-width: 991px) and (max-width: 1200px){
@@ -68,7 +98,6 @@
 	.sm11{
 		height: 350px;
 	}
-
 }
 
 
@@ -80,7 +109,7 @@
 		font-family: "Arial Narrow", Arial;
 		color: #fff;
 		font-size: 21px;
-		line-height: 17px;
+		line-height: 21px;
 		margin-bottom: 30px;
 		text-transform: uppercase;
 	}
@@ -142,8 +171,6 @@
 			}
 		}
 	}
-	
-
 }
 
 .dg-slider{
@@ -198,6 +225,121 @@
 		position: relative;
 		top: 20px;
 	}
+}
 
-
+.dg-footer{
+	background-color: #2d3246;
+	background-image: url('../img/dd-line.png');
+	background-repeat: repeat-x;
+	background-position: top center;
+	padding-top: 35px;
+	ul{
+		li{
+			list-style-type: square;
+			color: #2ed903;
+			padding-left: 10px;
+			a{
+			  font-size: 13px;
+			  font-family: "OpenSans-LightOpenSans-Light";
+			  color: rgb(207, 211, 220);
+			  line-height: 2.462;
+			  text-align: left;
+			}
+			a:hover{
+				color: #2ed903;
+				text-decoration: underline;
+			}
+		}
+	}
+	.right-footer{
+		span{
+		  font-size: 13px;
+		  font-family: "OpenSans-Semibold";
+		  color: rgb(255, 255, 255);
+		  line-height: 2.077;
+		  text-align: left;
+		}
+		p{
+		  font-size: 13px;
+		  font-family: "OpenSans-Regular";
+		  color: rgb(207, 211, 220);
+		  line-height: 1.385;
+		  text-align: left;
+		}
+		.cartbox{
+			margin-top: 20px;
+			height: 169px;
+		}
+	}
+	.leftbottom{
+		margin-top: 60px;
+		.nopadding{
+			padding: 0;
+		}
+		.logo{
+			padding-top: 19px;
+		}
+		a{
+			position: relative;
+			top: 18px;
+		    display: inline-block;
+		    background: #00CF4D;
+		    padding: 6px 15px 6px 34px;
+		    border-radius: 4px;
+		    border-bottom: 3px solid #00B334;
+		    font-family: "Conv_MyriadPro-Regular";
+		    color: #fff;
+		    font-size: 14px;
+		    min-width: 150px;
+		}
+		a:hover{
+			background: #10DF5D;
+		}
+		a:before{
+			content: "";
+		    position: absolute;
+		    background: url(../img/dd-tel.png) no-repeat center;
+		    width: 16px;
+		    height: 16px;
+		    left: 10px;
+		}
+		p{
+		  font-size: 11px;
+		  font-family: "OpenSans-LightOpenSans-Light";
+		  color: #bfc3cc;
+		  line-height: 1.545;
+		  text-align: left;
+		}
+		span{
+		  display: inline-block;
+		  font-size: 17px;
+		  font-family: "OpenSans-Semibold";
+		  color: rgb(255, 255, 255);
+		  line-height: 1.118;
+		  text-align: left;
+		  .light{
+		  	font-family: "OpenSans-LightOpenSans-Light";
+		  }
+		}
+	}
+	.bot{
+		background-color: #25293b;
+		padding: 29px 0;
+		margin-top: 20px;
+		p{
+		  font-size: 11px;
+		  font-family: "OpenSans-Regular";
+		  color: rgb(116, 122, 139);
+		  line-height: 1.545;
+		  text-align: center;
+		}
+		.relative{
+			position: relative;
+		}
+		.liveint{
+			position: absolute;
+			top: 0;
+			text-align: right;
+		}
+	}
 }
