@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<h3>Каталог строительных материалов</h3>
 
-				<div class="col-md-2 catbox">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat1.png" alt="">
@@ -13,7 +13,7 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat2.png" alt="">
@@ -22,16 +22,17 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat3.png" alt="">
 						</div>
-						<a href="#">Цементно-стружечная плита ЦСП</a>
+						<a href="#"><span>Цементно-стружечная плита ЦСП</span></a>
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat4.png" alt="">
@@ -40,7 +41,8 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat5.png" alt="">
@@ -49,7 +51,7 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat6.png" alt="">
@@ -58,7 +60,8 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat7.png" alt="">
@@ -67,7 +70,7 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat8.png" alt="">
@@ -76,7 +79,8 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat9.png" alt="">
@@ -85,7 +89,7 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat10.png" alt="">
@@ -94,7 +98,8 @@
 					</div>
 					
 				</div>
-				<div class="col-md-2 catbox li3">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li3 sm3">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat11.png" alt="">
@@ -107,7 +112,7 @@
 						<li><a href="#">Утеплитель Пенофол</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li3">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li3 sm3">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat12.png" alt="">
@@ -119,12 +124,13 @@
 						<li><a href="#">ПГП Кнауф</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li3">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li3 sm3">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat13.png" alt="">
 						</div>
-						<a href="#">Бетонные кольца колодезные ЖБИ</a>
+						<a href="#"><span>Бетонные кольца колодезные ЖБИ</span></a>
 					</div>
 					<ul>
 						<li><a href="#">Утеплитель Rockwool</a></li>
@@ -132,7 +138,7 @@
 						<li><a href="#">Утеплитель Пенофол</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li3">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li3 sm3">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat14.png" alt="">
@@ -144,19 +150,20 @@
 						<li><a href="#">Евроцемент М300</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li3">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li3 sm6">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat15.png" alt="">
 						</div>
-						<a href="#">Асбестоцементные изделия</a>
+						<a href="#"><span>Асбестоцементные изделия</span></a>
 					</div>
 					<ul> 
 						<li><a href="#">Асбестоцементные трубы</a></li>
 						<li><a href="#">Асбестоцементные листы</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li11">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li11  sm6">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat16.png" alt="">
@@ -172,7 +179,8 @@
 						<li><a href="#">Блок-хаус</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li11">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li11 sm11">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat17.png" alt="">
@@ -187,7 +195,7 @@
 						<li><a href="#">Наливной пол Юнис</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li11">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li11 sm11">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat18.png" alt="">
@@ -208,7 +216,8 @@
 						<li><a href="#">Шпильки и болты</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li11">
+				
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li11 sm6">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat19.png" alt="">
@@ -224,7 +233,7 @@
 						<li><a href="#">Швеллер</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 catbox li11">
+				<div class="col-md-2 col-sm-6 col-xs-12 catbox li11 sm6">
 					<div class="itembox-zag">
 						<div class="imgbox">
 							<img src="img/cat20.png" alt="">
@@ -238,6 +247,7 @@
 						<li><a href="#">Плиточный клей Кнауф</a></li>
 					</ul>
 				</div>
+
 			</div>
 		</div>
 	</div>
