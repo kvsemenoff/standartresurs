@@ -6,8 +6,133 @@
 @import "fonts.css";
 
 
+.db-sidebar4-div1{
+    display: table-cell;
+    width: 60%;
+    vertical-align: top;
+}
+.db-sidebar4-div2{
+    display: table-cell;
+    width: 40%;
+    vertical-align: top;
+    padding: 0px 15px;
+}
+.db-sidebar4{
+    display: table;
+    width: 100%;
+    border: 1px solid #ebedef;
+    border-radius: 3px;
+    padding: 16px;
+}
+.db-sidebar4-link{
+    display: block;
+    color: #4278ca;
+    font-family: "OpenSans-Regular";
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+.db-sidebar4-link1{
+    position: relative;
+    display: block;
+    color: #26ce58;
+    font-family: "OpenSans-Regular";
+    font-size: 12px;
+    line-height: 18px;
+}
+.db-sidebar4-link1:before{
+    position: absolute;
+    content: "";
+    width: 92px;
+    height: 1px;
+    bottom: 0px;
+    left: 0px;
+    background: url(../img/db-side_line.png) center center no-repeat;
+}
+.db-sidebar4-span{
+    position: relative;
+    display: block;
+    color: #929ca6;
+    font-family: "OpenSans-Regular";
+    font-size: 12px;
+    line-height: 18px;
+}
+.db-sidebar4-span:before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 8px;
+    top: 0px;
+    left: 0px;
+    background: url(../img/db-side_arr.png) center center no-repeat;
+}
+.db-sidebar4-span1{
+    display: block;
+    color: #a1a9b2;
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: line-through;
+}
+.db-sidebar4-span2{
+    display: block;
+    color: #313a43;
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 13px;
+    line-height: 18px;
+}
+.db-wrapdiv{
+    width: 100%;
+    // height: 56px;
+    background-color: #28d15a;
+    background-image: linear-gradient(180deg, #28d15a 0%, #28d15a 2%, #1fc350 94%, #14b242 94%, #14b242 100%);
+    border-radius: 3px;
+    padding: 5px;
+}
+.db-wrapdiv-list{
+    display: block;
+    padding: 5px;
+    background-color: #14b242;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    li{
+        display: inline-block;
+        margin-right: 5px;
+        span{
+            color: #fff;
+        }
+        a{
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    li:last-child{
+         margin-right: 0px;   
+    }
+}
+.db-sidebar4-span3{
+    position: relative;
+    display: block;
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.db-sidebar4-span3:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 13px;
+    top: 0px;
+    right: 0px;
+    background: url(../img/db-side_kor.png) center center no-repeat;
+}
+// **********************************************
 .ah-menu-list {
     display: block;
+    border: 1px solid #24cb56;
+    border-radius: 3px;
     .ah-menu-list_item{
     	// position: relative;
     	display: block;
@@ -361,7 +486,7 @@
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    //outline: 5px solid red;
+    outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   
