@@ -2,21 +2,22 @@
   clear: both; }
 
 .df-new-4boxs {
-  padding-left: 17%; }
+  text-align: center; }
 
 .df-new {
   display: inline-block;
-  margin-right: 14px;
+  margin-right: 5px;
   margin-top: 15px;
   text-align: center; }
   .df-new .df-new-box .df-bg-new {
     background: #fff;
     border-radius: 6px;
-    box-shadow: 0 2px 5px #dcdcdc;
+    border: 1px solid #ebedef;
     width: 171px;
     min-height: 340px;
-    padding: 0 8px;
-    padding-bottom: 11px; }
+    padding: 0 5px;
+    padding-bottom: 11px;
+    position: relative; }
     .df-new .df-new-box .df-bg-new .df-name-product {
       display: block;
       padding: 8px; }
@@ -24,6 +25,17 @@
         height: 115px;
         width: 160px;
         padding: 15px 20px 0 0px; }
+        .df-new .df-new-box .df-bg-new .df-name-product .df-img .df-new-hit {
+          font-family: "OpenSans-Bold";
+          font-size: 13px;
+          border: 1px solid #23c954;
+          border-radius: 5px;
+          color: #23c954;
+          text-transform: uppercase;
+          padding: 5px 7px;
+          position: absolute;
+          top: 11px;
+          left: 8px; }
       .df-new .df-new-box .df-bg-new .df-name-product .df-title {
         color: #4278ca;
         font-family: "OpenSans-Regular";
@@ -51,9 +63,17 @@
       color: #2d3246;
       font-family: "OpenSans-Regular";
       margin-top: 10px;
-      padding: 14px 12px 12px 12px;
+      padding: 14px 0px 12px 0px;
       font-size: 19px;
       font-weight: bold; }
+      .df-new .df-new-box .df-bg-new .df-price em {
+        text-decoration: line-through;
+        color: #a1a9b2;
+        font-size: 13.5px;
+        padding-right: 11px;
+        font-family: "OpenSans-LightOpenSans-Light"; }
+        .df-new .df-new-box .df-bg-new .df-price em b {
+          font-size: 9.26px; }
       .df-new .df-new-box .df-bg-new .df-price b {
         font-weight: normal;
         font-size: 13px;
@@ -78,7 +98,10 @@
         height: 22px;
         color: #fff;
         transition: background 0.5s; }
-      .df-new .df-new-box .df-bg-new .df-buy-product .df-buy {
+        .df-new .df-new-box .df-bg-new .df-buy-product .df-number a {
+          color: #fff;
+          padding: 0 5px; }
+      .df-new .df-new-box .df-bg-new .df-buy-product .df-buy a {
         background: url(/img/basket.png) center right no-repeat;
         width: 70px;
         padding-right: 25px;
@@ -101,6 +124,6 @@
         transition: color 0.5s, border 0.5s; }
     .df-new .df-new-box .df-bg-new .df-buy1click a:hover {
       color: #da2d26;
-      border-bottom: 1px dotted #da2d26; }
+      border-bottom: 1px dashed #da2d26; }
 
 /*# sourceMappingURL=style5.css.map */
