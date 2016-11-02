@@ -22,6 +22,8 @@
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.ui-slider.js"></script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
 	<script>
@@ -34,6 +36,19 @@
 
 	<?php require_once('includes/header.php'); ?>
 	
+	<section class="db-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<?php require_once('includes/sidebar.php'); ?>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<!-- Место для ваших includ-ов -->
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<?php require_once('includes/footer.php'); ?>
 
 	
