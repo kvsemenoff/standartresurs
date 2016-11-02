@@ -44,6 +44,7 @@
 				</div>
 				<div class="col-md-8 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
+					<?php require_once('includes/newandpopular.php'); ?>
 				</div>
 			</div>
 		</div>
