@@ -44,7 +44,7 @@ $(document).ready(function() {
       navigation : true,
       navigationText : ["",""],
       pagination : false,
-      items : 10, 
+      items : 8, 
       itemsDesktop : [1000,5], 
       itemsDesktopSmall : [900,4],
       itemsTablet: [600,2], 
