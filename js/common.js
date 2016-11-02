@@ -42,7 +42,7 @@ $(document).ready(function() {
 
       owl.owlCarousel({
       navigation : true,
-      navigationText : ["prev","next"],
+      navigationText : ["",""],
       pagination : false,
       items : 10, 
       itemsDesktop : [1000,5], 
