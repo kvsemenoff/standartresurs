@@ -115,4 +115,24 @@
       .dg-catalog ul li a:hover {
         color: #2ed903; }
 
+.dg-slider {
+  padding-top: 40px; }
+  .dg-slider #owl-demo .item {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .dg-slider .customNavigation {
+    text-align: center; }
+  .dg-slider .customNavigation a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; }
+
 /*# sourceMappingURL=style6.css.map */

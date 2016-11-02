@@ -36,4 +36,35 @@ $(document).ready(function(){
 
  });
 
+$(document).ready(function() {
 
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+      navigation : true,
+      navigationText : ["prev","next"],
+      pagination : false,
+      items : 10, 
+      itemsDesktop : [1000,5], 
+      itemsDesktopSmall : [900,4],
+      itemsTablet: [600,2], 
+      itemsMobile : false 
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+      $(".play").click(function(){
+        owl.trigger('owl.play',1000);
+      })
+      $(".stop").click(function(){
+        owl.trigger('owl.stop');
+      })
+
+
+    });
