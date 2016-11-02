@@ -1,22 +1,35 @@
 
 .dd-header-wrapper{
+	//outline:1px solid red;
+	padding-bottom:20px;
 	.dd-line{
 		background: url(../img/dd-line.png) no-repeat center;
 		height: 4px;
 		width: 100%;
 		background-size:cover;
+		box-shadow: 0 0 22px 1px;
 	}
 	.dd-logo-wrap{
+		padding-top:33px;
+		margin:0 auto;
+		width: 236px;
+		//max-height: 106px;
+		// outline: 1px solid red;
 		.dd-logo-img{
 			float: left;
+			height: 73px;
+			//outline: 1px solid black;
 		}
 		.dd-logo-txt{
 			float: left;
-			outline: 1px solid red;
+			//outline: 1px solid red;
+			padding-left:12px;
 			span{
 				text-transform: uppercase;
 				font-family: "ArialNarrow";
-				font-size: 18px;
+				font-size: 15px;
+				display: block;
+				letter-spacing: 8px;
 			}
 			span:first-child{
 				color:#00CA48;
@@ -24,27 +37,163 @@
 			span:last-child{
 				color:#262E45;
 			}
+			.dd-slogan-txt{	
+				padding-top: 5px;
+				font-family: "OpenSans-LightOpenSans-Light";
+				color:#AAAAAA;
+				font-size: 12px;
+			}
+		}
+	}
+	.dd-phone-wrap{
+		//outline: 1px solid black;
+		.dd-phone{
+			padding-top:33px;
+			text-align: center;
+			.dd-cont{
+				padding-bottom:5px;
+			}
+			span{
+				display: block;
+			}
+			span:nth-child(1){
+				font-family: "OpenSans-LightOpenSans-Light";
+				color:#AAAAAA;
+				font-size: 11px;
+			}
+			.dd-numbers{
+				font-size: 17px;
+				font-family: "OpenSans-LightOpenSans-Light";
+				color:#4B5763;
+				span{
+					display: inline-block;
+					font-size: 17px;
+					font-family: "OpenSans-Semibold";
+					color:#262E45;
+				}
+			}
+		}
+		.dd-header-button-wrap{
+			margin-top:16px;
+			text-align: center;
+			.dd-header-button{
+				position: relative;
+				display: inline-block;
+				background:#00CF4D;
+				padding: 6px 15px 6px 34px;
+				border-radius: 4px;
+				border-bottom:3px solid #00B334;
+				font-family: "Conv_MyriadPro-Regular";
+				color:#fff;
+				font-size: 14px;
+			}
+			.dd-header-button:hover{
+				background:#10DF5D;
+			}
+			.dd-header-button:after{
+				content:"";
+				position:absolute;
+				background:url(../img/dd-tel.png) no-repeat center;
+				width: 16px;
+				height: 16px;
+				left: 10px;
+			}
+		}	
+	}
+	.dd-time-wrap{
+		padding-top:33px;
+		// outline: 1px solid green;
+		position:relative;
+		//width: 159px;
+		.dd-time{
+			position:relative;
+			width: 186px;
+			height: 54px;
+			//outline: 1px solid green;
+			padding-left:34px;
+			margin: 0 auto; 
+			.dd-time-element:first-child{
+				font-size: 11px;
+				font-family: "OpenSans-LightOpenSans-Light";
+				color:#4B5763;
+			}
+			.dd-time-element:nth-child(2){
+				font-size: 20px;
+				font-family: "OpenSans-Semibold";
+				color: #262E45;
+			}
+			.dd-time-element:nth-child(3){
+				font-size: 13px;
+				font-family: "OpenSans-LightOpenSans-Light";
+				color:#4B5763;
+			}
+		}
+		.dd-time:after{
+			content:"";
+			position:absolute;
+			background:url(../img/dd-watch.png) no-repeat center;
+			width: 24px;
+			height: 24px;
+			left: 0;
+			top: 22px;
+		}	
+	}
+	.dd-korzina-wrap{
+		padding-top:33px;
+		.dd-korzina-element{
+			margin:0 auto;
+			position:relative;
+			padding-left:67px;
+			padding-top:12px;
+			width: 168px;
+			height: 60px;
+			border:1px solid #00C545;
+			border-radius:5px;
+			.dd-elipse{
+				position:absolute;
+				background:#00D24F;
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				border-radius:10px;
+				font-family: "OpenSans-Bold";
+				font-size: 14px;
+				color: #fff;
+				left: 27px;
+				top: 15px;
+				z-index: 500;
+			}
+			.dd-korzina-txt{
+				font-size: 13px;
+				font-family: "OpenSans-LightOpenSans-Light";
+				color:#4B5763;
+			}
+			.dd-price{
+				text-align: center;
+				span{
+					font-family: "MicrosoftSansSerif";
+					color:#262E45;
+					font-size: 19px;
+				}
+				.dd-ex-price{
+					span{
+						font-size: 13px;
+						font-family: "OpenSans-LightOpenSans-Light";
+					}
+				}
+			}
+		}
+		.dd-korzina-element:after{
+			content:"";
+			position:absolute;
+			background:url(../img/dd-korz.png) no-repeat center;
+			width: 27px;
+			height: 23px;
+			left:15px;
+			top: 19px;
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -58,13 +207,59 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+	.dd-header-wrapper{
+		.dd-phone-wrap{
+			float: left;
+			width: 321px;
+			height: 56px;
+			.dd-phone{
+				float: left;
+				padding-top:27px;
+				text-align: left;
+				padding-left:10px;
+			}
+			.dd-header-button-wrap{
+				float: left;
+				padding-top:35px;
+				.dd-header-button{
+
+					margin-left: 14px;
+				}
+			}
+		}
+		.dd-time-wrap{
+			float: left;
+			width: 160px;
+			//width: 188px;
+			height: 63px;
+			margin-left: 25px;
+			padding-left: 6px;
+		    padding-top: 28px;
+		    //outline: 1px solid red;
+			.dd-time{
+				float: left;
+			}
+		}
+		.dd-korzina-wrap{
+			float: left;
+			padding-left: 23px;
+		    padding-top: 31px;
+		}			
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+
+	.dd-header-wrapper{
+		.dd-time-wrap{
+			width: 188px;
+		}
+	}	
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    //outline: 5px solid red;
+    // outline: 1px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   
