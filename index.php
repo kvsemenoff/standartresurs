@@ -22,8 +22,7 @@
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.ui-slider.js"></script>
-	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
 	<script>

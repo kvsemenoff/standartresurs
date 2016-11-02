@@ -190,55 +190,45 @@
 	</ul>
 </div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<!-- <input type="text" id="minCost" value="0"/>
-<input type="text" id="maxCost" value="1000"/> -->
+<input type="text" id="minCost" value="0"/>
+<input type="text" id="maxCost" value="1000"/>
 
-
+<br>
+<br>
+<br>
+<br>
 
 <div id="slider"></div>
 
+<br>
+<br>
+<br>
+<br>
 
 <script type="text/javascript">
+
 jQuery("#slider").slider({
 	min: 0,
 	max: 1000,
 	values: [0,1000],
-	range: true
+	range: true,
+	stop: function(event, ui) {
+		jQuery("input#minCost").val(jQuery("#slider").slider("values",0));
+		jQuery("input#maxCost").val(jQuery("#slider").slider("values",1));
+    },
+    slide: function(event, ui){
+		jQuery("input#minCost").val(jQuery("#slider").slider("values",0));
+		jQuery("input#maxCost").val(jQuery("#slider").slider("values",1));
+    }
 });
+
 </script>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-v
-<br>
-
-
-
-
-
-
-
-
-<p>Размер рисунка: <input type="range" min="1" max="5" id="size" 
-     oninput="sizePic()" value="3"></p>
-
-<script>
-   function sizePic() {
-    size = document.getElementById("size").value;
-    img = document.getElementById("pic");
-    img.width = 60 + 20*size;
-   }
-  </script>
 
 <script>
 
@@ -251,6 +241,5 @@ $(document).ready(function(){
 	});
 
 });
-
 
 </script>
