@@ -7,7 +7,11 @@
     min-height: 193px; }
 
   .li11 {
-    min-height: 346px; } }
+    min-height: 346px; }
+
+  .liveint {
+    padding-right: 41px;
+    width: 200px; } }
 @media only screen and (max-width: 992px) {
   .right-footer {
     margin-top: 80px; }
@@ -15,7 +19,8 @@
   .liveint {
     position: relative !important;
     top: 10px !important;
-    text-align: center !important; } }
+    text-align: center !important;
+    padding-right: 41px; } }
 @media only screen and (max-width: 768px) {
   .dg-catalog h3 {
     text-align: center; }
@@ -273,6 +278,7 @@
     .dg-footer .bot .liveint {
       position: absolute;
       top: 0;
+      right: 0;
       text-align: right; }
 
 /*# sourceMappingURL=style6.css.map */
