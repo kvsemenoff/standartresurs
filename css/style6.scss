@@ -1,4 +1,7 @@
 
+@media only screen and (min-width: 1200px){
+
+}
 
 @media only screen and (min-width: 992px){
 	.catbox{
@@ -25,6 +28,10 @@
 		top: 10px !important;
 		text-align: center !important;
 		padding-right: 41px;
+	}
+	.dg-cart .imgbox{
+		text-align: center;
+		
 	}
 }
 @media only screen and (max-width: 768px){
@@ -75,6 +82,9 @@
 			text-align: center !important;
 		}
 	}
+	.dg-cart .price a.click{
+		margin-left: 0 !important;
+	}
 
 }
 
@@ -82,6 +92,17 @@
 	.itembox-zag a span{
 		font-size: 9px !important;
 	}
+	.dg-cart .price a.click{
+		margin-left: 0 !important;
+	}
+	.dg-cart .price .old{
+		position: relative;
+		left: 26px;
+	}
+	.dg-cart .price .newprice{
+		font-size: 28px !important;
+	}
+
 }
 @media (min-width: 768px) and (max-width: 990px){
 	.catbox{
@@ -348,4 +369,242 @@
 			text-align: right;
 		}
 	}
+}
+
+.dg-cart{
+	//max-width: 715px;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: rgb(235, 237, 239);
+	  border-radius: 3px;
+	  padding: 26px;
+	.cartbox{
+	  
+	  
+	}
+	.bolder {
+		span{
+		  font-size: 13px;
+		  font-family: "OpenSans-Regular";
+		  color: rgb(45, 50, 70);
+		  line-height: 25px;
+		  font-weight: bold;
+		}
+	}
+	.ccc{
+		span {
+		  font-size: 13px;
+		  font-family: "OpenSans-LightOpenSans-Light";
+		  color: rgb(124, 128, 136);
+		  line-height: 25px;
+		}
+
+	}
+	.dg-mb{
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.price{
+		margin-top: 40px;
+		padding-left: 0;
+		padding-right: 0;
+		.old {
+		  color: red;
+		  text-decoration: line-through;
+		 
+		  	.gray{
+			  font-size: 14px;
+			  font-family: "Microsoft Sans Serif";
+			  color: #a1a9b2;
+			  line-height: 25px;
+			  text-align: left;
+		  	}
+		}
+		a.click{
+			font-size: 12px;
+			font-family: "OpenSans-Regular";
+			color: rgb(38, 206, 88);
+			text-align: right;
+			margin-left: 50px;
+			line-height: 25px;
+			border-bottom: 1px dashed #26ce58;
+		}
+		.newprice {
+		  font-size: 33px;
+		  font-family: "Microsoft Sans Serif";
+		  color: #d3041a;
+		  line-height: 25px;
+		  text-align: left;
+		}
+		.lh10{
+			margin-top: 10px;
+		}
+		.light{
+			font-family: "OpenSans-LightOpenSans-Light";
+		}
+
+		.df-buy-product{
+	    	width: 155px;
+	    	height: 33px;
+	    	background: #23c954;
+	    	border-radius: 3px;
+	    	padding:5px;
+	    	border-bottom: 3px solid  #14b242; border-radius: 3px;
+	    	font-family: "OpenSans-Regular";
+	    	font-size: 14px;
+	    	transition:background 0.5s, border 0.5s ;
+	    	.df-number {
+	    		text-align: center;
+				background: #14b242;
+				border-radius: 3px;
+				display: inline-block;
+				width: 60px;
+				height: 22px;
+				color:#fff;
+				transition:background 0.5s;
+				a{
+					color:#fff;
+					padding: 0 5px;
+				}	
+	    	}
+	    	.df-buy a{
+				background: url(/img/basket.png)center right no-repeat;
+				width: 70px;
+				padding-right: 25px;
+				padding-left: 5px;
+				color:#fff;
+
+	    	}
+	    }
+	    .df-buy-product:hover{
+	    	background: #da2d26;
+	    	border-bottom: 3px solid #cd1e1a;
+	    	.df-number{
+	    		background: #bc130f;
+	    	}
+	    }
+	    .df-buy1click{
+	    	text-align: center;		    	
+	    	font-family: "OpenSans-LightOpenSans-Light";
+	    	a{
+		    	text-align: center;
+		    	font-size: 12px;
+		    	font-family: "OpenSans-Regular";
+		    	color:#26ce58;		    	
+		    	border-bottom: 1px dashed #26ce58;			    	
+		    	transition:color 0.5s, border 0.5s;
+	    	}
+		}
+	    .df-buy1click a:hover{
+			color:#da2d26;
+			border-bottom: 1px dashed #da2d26;
+	    }
+
+
+	}
+
+	.title{
+	  font-size: 20px;
+	  font-family: "OpenSans-Semibold";
+	  color: rgb(45, 50, 70);
+	  line-height: 26px;
+	  text-align: left;
+	  margin-bottom: 10px;
+	}
+	.nalichie {
+	  position: relative;
+	  font-size: 12px;
+	  font-family: "OpenSans-Regular";
+	  color: rgb(146, 156, 166);
+	  line-height: 1.5;
+	  padding-left: 15px;
+	}
+	.nalichie:before{
+		position: absolute;
+		content: url('../img/dg-galka.png');
+		left: 0px;
+
+	}
+	.action{
+		display: block;
+		position: absolute;
+	    bottom: -49px;
+	    left: 15px;
+	    z-index: 9;
+	    font-size: 13px;
+	    background-color: #fff;
+		text-transform: uppercase;
+		color: #da2d26;
+		font-family: "OpenSans-Bold";
+		padding: 5px 10px;
+		width: 70px;
+		border: 1px solid #da2d26;
+		border-radius: 3px;
+
+
+	}
+
+}
+.nopadding{
+	padding-left: 0;
+	padding-right: 0;
+}
+.dg-dostavka{
+	  margin-top: 20px;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: rgb(235, 237, 239);
+	  border-radius: 3px;
+	  padding: 10px;
+	h3{
+		position: relative;
+		padding: 0px 10px 10px 50px;
+		font-size: 14px;
+		font-family: "OpenSans-Bold";
+		line-height: 25px;
+		color: #2d3246;
+		border-bottom: 1px dashed #e4e5e7;
+	}
+	h3:before{
+		position: absolute;
+		content: url('../img/dg-dostavka.png');
+		top: 0;
+		left: 5px;
+	}
+	ul{
+		margin-left: 20px;
+		li{
+			list-style-type: square;
+			color: #2ed903;
+			span{
+				font-size: 13px;
+				line-height: 25px;
+				font-family: "OpenSans-Regular";
+				color: #5c6d7d;
+			}
+		}
+	}
+}
+.dg-text{
+	  margin-top: 20px;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: rgb(235, 237, 239);
+	  border-radius: 3px;
+	  padding: 20px;
+	  padding-left: 30px;
+
+	  h3{
+		font-size: 17px;
+		font-family: "OpenSans-Semibold";
+		line-height: 26px;
+		color: #2d3246;
+		padding: 15px 0 10px 0;
+	  }
+	  p{
+		font-size: 13px;
+		line-height: 23px;
+		font-family: "OpenSans-LightOpenSans-Light";
+		color: #5c6d7d;
+	  }
 }

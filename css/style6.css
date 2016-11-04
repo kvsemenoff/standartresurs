@@ -20,7 +20,10 @@
     position: relative !important;
     top: 10px !important;
     text-align: center !important;
-    padding-right: 41px; } }
+    padding-right: 41px; }
+
+  .dg-cart .imgbox {
+    text-align: center; } }
 @media only screen and (max-width: 768px) {
   .dg-catalog h3 {
     text-align: center; }
@@ -65,10 +68,23 @@
     text-align: center !important;
     margin-top: 180px; }
     .right-footer p {
-      text-align: center !important; } }
+      text-align: center !important; }
+
+  .dg-cart .price a.click {
+    margin-left: 0 !important; } }
 @media (min-width: 991px) and (max-width: 1200px) {
   .itembox-zag a span {
-    font-size: 9px !important; } }
+    font-size: 9px !important; }
+
+  .dg-cart .price a.click {
+    margin-left: 0 !important; }
+
+  .dg-cart .price .old {
+    position: relative;
+    left: 26px; }
+
+  .dg-cart .price .newprice {
+    font-size: 28px !important; } }
 @media (min-width: 768px) and (max-width: 990px) {
   .catbox {
     width: 48%;
@@ -280,5 +296,192 @@
       top: 0;
       right: 0;
       text-align: right; }
+
+.dg-cart {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebedef;
+  border-radius: 3px;
+  padding: 26px; }
+  .dg-cart .bolder span {
+    font-size: 13px;
+    font-family: "OpenSans-Regular";
+    color: #2d3246;
+    line-height: 25px;
+    font-weight: bold; }
+  .dg-cart .ccc span {
+    font-size: 13px;
+    font-family: "OpenSans-LightOpenSans-Light";
+    color: #7c8088;
+    line-height: 25px; }
+  .dg-cart .dg-mb {
+    position: relative;
+    margin-bottom: 30px; }
+  .dg-cart .price {
+    margin-top: 40px;
+    padding-left: 0;
+    padding-right: 0; }
+    .dg-cart .price .old {
+      color: red;
+      text-decoration: line-through; }
+      .dg-cart .price .old .gray {
+        font-size: 14px;
+        font-family: "Microsoft Sans Serif";
+        color: #a1a9b2;
+        line-height: 25px;
+        text-align: left; }
+    .dg-cart .price a.click {
+      font-size: 12px;
+      font-family: "OpenSans-Regular";
+      color: #26ce58;
+      text-align: right;
+      margin-left: 50px;
+      line-height: 25px;
+      border-bottom: 1px dashed #26ce58; }
+    .dg-cart .price .newprice {
+      font-size: 33px;
+      font-family: "Microsoft Sans Serif";
+      color: #d3041a;
+      line-height: 25px;
+      text-align: left; }
+    .dg-cart .price .lh10 {
+      margin-top: 10px; }
+    .dg-cart .price .light {
+      font-family: "OpenSans-LightOpenSans-Light"; }
+    .dg-cart .price .df-buy-product {
+      width: 155px;
+      height: 33px;
+      background: #23c954;
+      border-radius: 3px;
+      padding: 5px;
+      border-bottom: 3px solid  #14b242;
+      border-radius: 3px;
+      font-family: "OpenSans-Regular";
+      font-size: 14px;
+      transition: background 0.5s, border 0.5s; }
+      .dg-cart .price .df-buy-product .df-number {
+        text-align: center;
+        background: #14b242;
+        border-radius: 3px;
+        display: inline-block;
+        width: 60px;
+        height: 22px;
+        color: #fff;
+        transition: background 0.5s; }
+        .dg-cart .price .df-buy-product .df-number a {
+          color: #fff;
+          padding: 0 5px; }
+      .dg-cart .price .df-buy-product .df-buy a {
+        background: url(/img/basket.png) center right no-repeat;
+        width: 70px;
+        padding-right: 25px;
+        padding-left: 5px;
+        color: #fff; }
+    .dg-cart .price .df-buy-product:hover {
+      background: #da2d26;
+      border-bottom: 3px solid #cd1e1a; }
+      .dg-cart .price .df-buy-product:hover .df-number {
+        background: #bc130f; }
+    .dg-cart .price .df-buy1click {
+      text-align: center;
+      font-family: "OpenSans-LightOpenSans-Light"; }
+      .dg-cart .price .df-buy1click a {
+        text-align: center;
+        font-size: 12px;
+        font-family: "OpenSans-Regular";
+        color: #26ce58;
+        border-bottom: 1px dashed #26ce58;
+        transition: color 0.5s, border 0.5s; }
+    .dg-cart .price .df-buy1click a:hover {
+      color: #da2d26;
+      border-bottom: 1px dashed #da2d26; }
+  .dg-cart .title {
+    font-size: 20px;
+    font-family: "OpenSans-Semibold";
+    color: #2d3246;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 10px; }
+  .dg-cart .nalichie {
+    position: relative;
+    font-size: 12px;
+    font-family: "OpenSans-Regular";
+    color: #929ca6;
+    line-height: 1.5;
+    padding-left: 15px; }
+  .dg-cart .nalichie:before {
+    position: absolute;
+    content: url("../img/dg-galka.png");
+    left: 0px; }
+  .dg-cart .action {
+    display: block;
+    position: absolute;
+    bottom: -49px;
+    left: 15px;
+    z-index: 9;
+    font-size: 13px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #da2d26;
+    font-family: "OpenSans-Bold";
+    padding: 5px 10px;
+    width: 70px;
+    border: 1px solid #da2d26;
+    border-radius: 3px; }
+
+.nopadding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.dg-dostavka {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebedef;
+  border-radius: 3px;
+  padding: 10px; }
+  .dg-dostavka h3 {
+    position: relative;
+    padding: 0px 10px 10px 50px;
+    font-size: 14px;
+    font-family: "OpenSans-Bold";
+    line-height: 25px;
+    color: #2d3246;
+    border-bottom: 1px dashed #e4e5e7; }
+  .dg-dostavka h3:before {
+    position: absolute;
+    content: url("../img/dg-dostavka.png");
+    top: 0;
+    left: 5px; }
+  .dg-dostavka ul {
+    margin-left: 20px; }
+    .dg-dostavka ul li {
+      list-style-type: square;
+      color: #2ed903; }
+      .dg-dostavka ul li span {
+        font-size: 13px;
+        line-height: 25px;
+        font-family: "OpenSans-Regular";
+        color: #5c6d7d; }
+
+.dg-text {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebedef;
+  border-radius: 3px;
+  padding: 20px;
+  padding-left: 30px; }
+  .dg-text h3 {
+    font-size: 17px;
+    font-family: "OpenSans-Semibold";
+    line-height: 26px;
+    color: #2d3246;
+    padding: 15px 0 10px 0; }
+  .dg-text p {
+    font-size: 13px;
+    line-height: 23px;
+    font-family: "OpenSans-LightOpenSans-Light";
+    color: #5c6d7d; }
 
 /*# sourceMappingURL=style6.css.map */
