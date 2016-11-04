@@ -65,3 +65,42 @@
 		</div>
 	</div>
 </section>
+
+<section class="dd-header hidden-sm hidden-xs">
+	<div class="container">
+		<div class="dd-nav-wrap ">
+			<div class="dd-nav">
+				<ul class="dd-mainmenu">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Бренд</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Наш адрес</a></li>
+					<li><a href="#">Напишите нам</a></li>
+					<li><a href="#">О компании</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+
+	<div class="anz-menu">
+	    <input type="checkbox" id="check_1" class=""/>
+	    <label class="anz-menu-ch hidden-lg hidden-md" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i></label>
+	    <div class="anz-perspective">
+	        <div class="menu-list-pressed">
+	            <label class="anz-menu-ch1" for="check_1"><i class="fa fa-times" aria-hidden="true"></i></label>
+	            <ul class="dd-mainmenu">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Бренд</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Наш адрес</a></li>
+					<li><a href="#">Напишите нам</a></li>
+					<li><a href="#">О компании</a></li>
+				</ul>
+	        </div>
+	    </div>
+	</div>
+</div>
