@@ -13,8 +13,19 @@
 		</li>
 		<li class="ah-menu-list_item db-item2">
 			<a href="#" class="ah-menu-list_item-link">По бренду:</a>
-			<ul class="ah-submenu-list">
-				<input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label>
+			<ul class="ah-submenu-list ah-submenu-fon">
+				<li class="ah-submenu-left">
+					<span class="ah-submenu-span"><input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check2" class="check2"><label for="check2" class="ah-check2">Волма</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check3" class="check3"><label for="check3" class="ah-check3">Ветонит</label></span>
+					<span class="ah-submenu-span1"><input type="checkbox" id="check4" class="check4"><label for="check4" class="ah-check4">Церезит</label></span>
+				</li>
+				<li class="ah-submenu-right">
+					<span class="ah-submenu-span"><input type="checkbox" id="check5" class="check5"><label for="check5" class="ah-check5">Основит</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check6" class="check6"><label for="check6" class="ah-check6">Глимс</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check7" class="check7"><label for="check7" class="ah-check7">Литокол</label></span>
+					<span class="ah-submenu-span1"><input type="checkbox" id="check8" class="check8"><label for="check8" class="ah-check8">Пуфас</label></span>
+				</li>
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item3">
