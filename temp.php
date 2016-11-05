@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -59,11 +59,9 @@
 			</div>
 		</div>
 	</section>
-	<?php require_once('includes/catalog-index.php'); ?>
-	<?php require_once('includes/slider.php'); ?>
+
 	<?php require_once('includes/footer.php'); ?>
 
 	
 </body>
 </html>
-

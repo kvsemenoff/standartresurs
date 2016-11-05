@@ -31,22 +31,69 @@ h3 {
   box-sizing: border-box;
   text-align: center;
   outline: none; }
+.ah-submenu-list .ah-submenu-span, .ah-submenu-list .ah-submenu-span1 {
+  width: 80%;
+  height: 22px;
+  display: inline-block;
+  padding: 3px;
+  background: #fafbfd; }
+.ah-submenu-list .ah-submenu-span {
+  margin-bottom: 14px; }
+.ah-submenu-list .ah-submenu-span:hover, .ah-submenu-list .ah-submenu-span1:hover {
+  background: #e5f7ea;
+  transition: background 0.3s, border 0.3s; }
+  .ah-submenu-list .ah-submenu-span:hover .ah-check1, .ah-submenu-list .ah-submenu-span:hover .ah-check2, .ah-submenu-list .ah-submenu-span:hover .ah-check3, .ah-submenu-list .ah-submenu-span:hover .ah-check4,
+  .ah-submenu-list .ah-submenu-span:hover .ah-check5, .ah-submenu-list .ah-submenu-span:hover .ah-check6, .ah-submenu-list .ah-submenu-span:hover .ah-check7, .ah-submenu-list .ah-submenu-span:hover .ah-check8, .ah-submenu-list .ah-submenu-span1:hover .ah-check1, .ah-submenu-list .ah-submenu-span1:hover .ah-check2, .ah-submenu-list .ah-submenu-span1:hover .ah-check3, .ah-submenu-list .ah-submenu-span1:hover .ah-check4,
+  .ah-submenu-list .ah-submenu-span1:hover .ah-check5, .ah-submenu-list .ah-submenu-span1:hover .ah-check6, .ah-submenu-list .ah-submenu-span1:hover .ah-check7, .ah-submenu-list .ah-submenu-span1:hover .ah-check8 {
+    font-family: "OpenSans-Semibold";
+    color: #2d3246 !important; }
 .ah-submenu-list label {
   display: block;
   background: url(../img/db-check0.jpg) center center no-repeat;
   width: 14px;
   height: 14px;
-  padding-left: 20px;
+  font-family: "OpenSans-LightOpenSans-Light";
+  font-size: 13px;
+  color: #505863;
+  padding-left: 30px;
   cursor: pointer; }
 .ah-submenu-list input[type="checkbox"] {
   display: none; }
-.ah-submenu-list input[type="checkbox"]:checked ~ label {
+.ah-submenu-list .check1:checked ~ .ah-check1 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check2:checked ~ .ah-check2 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check3:checked ~ .ah-check3 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check4:checked ~ .ah-check4 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check5:checked ~ .ah-check5 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check6:checked ~ .ah-check6 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check7:checked ~ .ah-check7 {
+  background: url(../img/db-check1.jpg) center center no-repeat; }
+.ah-submenu-list .check8:checked ~ .ah-check8 {
   background: url(../img/db-check1.jpg) center center no-repeat; }
 .ah-submenu-list .db-input-li {
   display: inline-block;
   margin-right: 38px; }
 .ah-submenu-list .db-input-li1 {
   display: inline-block; }
+
+.ah-submenu-fon {
+  background-color: #fafbfd; }
+
+.ah-submenu-left, .ah-submenu-right {
+  display: inline-block;
+  width: 45%; }
+
+.ah-submenu-left {
+  padding: 14px 0px 14px 10px; }
+
+.ah-submenu-right {
+  margin-left: 8%;
+  padding: 14px 0px 14px 30px; }
 
 .ah-submenu-list1 {
   text-align: center !important;
@@ -147,8 +194,8 @@ h3 {
   content: "";
   width: 10px;
   height: 8px;
-  top: 4px;
-  left: 0px;
+  top: 5px;
+  left: 5px;
   background: url(../img/db-side_arr.png) center center no-repeat; }
 
 .db-sidebar4-span1 {
@@ -179,7 +226,8 @@ h3 {
 
 .db-wrapdiv:hover {
   background-color: #da2d26 !important;
-  background-image: linear-gradient(180deg, #da2d26 0%, #da2d26 2%, #da2d26 91%, #cd1e1a 91%, #cd1e1a 100%); }
+  background-image: linear-gradient(180deg, #da2d26 0%, #da2d26 2%, #da2d26 91%, #cd1e1a 91%, #cd1e1a 100%);
+  transition: background 0.5s, border 0.5s; }
   .db-wrapdiv:hover .db-wrapdiv-list {
     background-color: #a80905 !important; }
 
@@ -193,8 +241,14 @@ h3 {
     display: inline-block;
     margin-right: 18px; }
     .db-wrapdiv-list li span {
+      font-family: "OpenSans-Regular";
+      font-size: 13px;
+      line-height: 14px;
       color: #fff; }
     .db-wrapdiv-list li a {
+      font-family: "OpenSans-Regular";
+      font-size: 13px;
+      line-height: 14px;
       color: #fff;
       cursor: pointer; }
   .db-wrapdiv-list li:last-child {

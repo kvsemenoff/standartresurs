@@ -68,3 +68,33 @@ $(document).ready(function() {
 
 
     });
+function navigation_scroll(){
+    var offset = $('.header').height() || $(window).height() || 150;
+    var scroll = $(document).scrollTop();
+
+    if (scroll < 50) {
+        $('.header')
+            .toggleClass('header-no-fixed', false)
+             .toggleClass('header-fixed', false);
+       
+            
+           
+     }     
+    else if (scroll >= offset) {
+        $('.header')
+            .toggleClass('header-no-fixed', false)
+            .toggleClass('header-fixed', true);
+            
+    }
+    else if (scroll < offset - 50) {
+        $('.header')
+            .toggleClass('header-fixed', true)
+            .toggleClass('header-no-fixed', false);
+            
+    }
+}
+
+
+$(document).scroll(function(){
+    navigation_scroll();
+});
