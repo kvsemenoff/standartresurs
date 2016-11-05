@@ -32,7 +32,7 @@
 						</span>
 					</div>
 					<div class="dd-header-button-wrap">
-						<a class="dd-header-button" href="#">Заказать звонок</a>
+						<a class="dd-header-button" href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
 					</div>
 				</div>
 				<div class="dd-time-wrap">

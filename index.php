@@ -23,13 +23,13 @@
     <script src="libs/new.owl/owl-carousel/owl.carousel.js"></script>
 	
 	<script src="libs/new.owl/assets/js/bootstrap-collapse.js"></script>
-    <script src="libs/new.owl/assets/js/bootstrap-transition.js"></script>
+    <!-- <script src="libs/new.owl/assets/js/bootstrap-transition.js"></script> -->
     <script src="libs/new.owl/assets/js/bootstrap-tab.js"></script>
 
     <script src="libs/new.owl/assets/js/google-code-prettify/prettify.js"></script>
     <script src="libs/new.owl/assets/js/application.js"></script>
 
-
+	<script src="libs/new.bootstrap/bootstrap.js"></script>
 	<!-- <script src="libs/fancybox/jquery.fancybox.pack.js"></script> -->
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
