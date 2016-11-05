@@ -3,12 +3,16 @@
 @import url(style3.css);
 @import url(style4.css);
 @import url(style5.css);
-@import url(style6.css);
 @import url(fonts.css);
 .clear {
   clear: both; }
 
 .center {
   text-align: center; }
+
+.header-fixed {
+  position: fixed;
+  top: 0px;
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
