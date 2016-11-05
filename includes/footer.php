@@ -315,7 +315,7 @@
 						<span><span class="light">+7 (919)</span> 997 90 20</span>
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 nopadding">
-						<a href="#">Заказать звонок</a>
+						<a href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
@@ -347,3 +347,26 @@
 		</div>
 	</div>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+    	<div class="row dg-form">
+    		<h4 class="dg-zakaz">Заказать звонок</h4>
+	        <form action="#">
+	        	<div class="col-md-12">
+	        		<input type="text" name="username" placeholder="Представьтесь пожалуйста">
+	        	</div>
+	        	<div class="col-md-12">
+	        		<input type="text" name="number" placeholder="Ваш номер телефона">
+	        	</div>
+	        	<span>Мы перезвоним вам в ближайшее время</span>
+	        	<input type="submit" class="dg-button" name="submit" value="Перезвоните мне"><span class="dg-icon"></span>
+	        </form>
+    	</div>
+      </div>
+    </div>
+  </div>
+</div>
