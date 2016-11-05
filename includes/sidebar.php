@@ -193,6 +193,26 @@
 <div class="clearfix"></div>
 
 <div class="db-sidebar4">
+	<span class="db-sidebar4-spantop">перевозка<br>манипулятором</span>
+	<div class="db-sidebar4-imgbox db-sidebar4-imgbox2">
+		<img src="img/db-side-img.jpg" class="img-responsive" alt="db-side-img">
+	<!-- </div> -->
+	<a href="#" class="db-sidebar4-linktop">Подробнее</a>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="db-sidebar4">
+	<div class="db-sidebar4-imgbox db-sidebar4-imgbox1">
+		<img src="img/db-side-baner.jpg" class="img-responsive" alt="db-side-baner">
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+<h3 class="db-h3">Рекомендуем</h3>
+<div class="db-sidebar4">
 	<div class="db-sidebar4-div1">
 		<div class="db-sidebar4-imgbox">
 			<img src="img/db-side-img1.jpg" class="img-responsive" alt="db-side-img1">
@@ -210,12 +230,37 @@
 				<li><span>5</span></li>
 				<li><a href="#">-</a></li>
 			</ul>
-			<span class="db-sidebar4-span3">Купить</span>
+			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
 		</div>
 	</div>
 </div>
 
 <div class="clearfix"></div>
+
+<div class="db-sidebar4">
+	<div class="db-sidebar4-div1">
+		<div class="db-sidebar4-imgbox">
+			<img src="img/db-side-img2.jpg" class="img-responsive" alt="db-side-img2">
+		</div>
+		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0 мм.</a>
+		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
+	</div>
+	<div class="db-sidebar4-div2">
+		<span class="db-sidebar4-span">в наличии</span>
+		<span class="db-sidebar4-span1">2520руб.</span>
+		<span class="db-sidebar4-span2 db-sidebar4-span22">1520руб</span>
+		<div class="db-wrapdiv">
+			<ul class="db-wrapdiv-list">
+				<li><a href="#">+</a></li>
+				<li><span>5</span></li>
+				<li><a href="#">-</a></li>
+			</ul>
+			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
+		</div>
+	</div>
+</div>
+
+
 
 <br>
 <br>
