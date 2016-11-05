@@ -4,6 +4,43 @@
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
 		<li class="ah-menu-list_item db-item1">
+			<a href="#" class="ah-menu-list_item-link">По цене:</a>
+			<ul class="ah-submenu-list ah-submenu-list1">
+				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
+				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
+				<div id="slider"></div>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item db-item2">
+			<a href="#" class="ah-menu-list_item-link">По бренду:</a>
+			<ul class="ah-submenu-list">
+				<input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item db-item3">
+			<a href="#" class="ah-menu-list_item-link">По материалу:</a>
+			<ul class="ah-submenu-list">
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item db-item4">
+			<a href="#" class="ah-menu-list_item-link">По цвету:</a>
+			<ul class="ah-submenu-list">
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="db-sidebar">
+	<ul class="ah-menu-list">
+		<li class="ah-menu-list_item db-item1">
 			<a href="#" class="ah-menu-list_item-link">Сухие смеси, Цемент, Пескобетон</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
@@ -193,6 +230,26 @@
 <div class="clearfix"></div>
 
 <div class="db-sidebar4">
+	<span class="db-sidebar4-spantop">перевозка<br>манипулятором</span>
+	<div class="db-sidebar4-imgbox db-sidebar4-imgbox2">
+		<img src="img/db-side-img.jpg" class="img-responsive" alt="db-side-img">
+	<!-- </div> -->
+	<a href="#" class="db-sidebar4-linktop">Подробнее</a>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="db-sidebar4">
+	<div class="db-sidebar4-imgbox db-sidebar4-imgbox1">
+		<img src="img/db-side-baner.jpg" class="img-responsive" alt="db-side-baner">
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+<h3 class="db-h3">Рекомендуем</h3>
+<div class="db-sidebar4">
 	<div class="db-sidebar4-div1">
 		<div class="db-sidebar4-imgbox">
 			<img src="img/db-side-img1.jpg" class="img-responsive" alt="db-side-img1">
@@ -210,22 +267,40 @@
 				<li><span>5</span></li>
 				<li><a href="#">-</a></li>
 			</ul>
-			<span class="db-sidebar4-span3">Купить</span>
+			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
 		</div>
 	</div>
 </div>
 
 <div class="clearfix"></div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class="db-sidebar4">
+	<div class="db-sidebar4-div1">
+		<div class="db-sidebar4-imgbox">
+			<img src="img/db-side-img2.jpg" class="img-responsive" alt="db-side-img2">
+		</div>
+		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0 мм.</a>
+		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
+	</div>
+	<div class="db-sidebar4-div2">
+		<span class="db-sidebar4-span">в наличии</span>
+		<span class="db-sidebar4-span1">2520руб.</span>
+		<span class="db-sidebar4-span2 db-sidebar4-span22">1520руб</span>
+		<div class="db-wrapdiv">
+			<ul class="db-wrapdiv-list">
+				<li><a href="#">+</a></li>
+				<li><span>5</span></li>
+				<li><a href="#">-</a></li>
+			</ul>
+			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
+		</div>
+	</div>
+</div>
 
-<input type="text" id="minCost" value="0"/>
-<input type="text" id="maxCost" value="1000"/>
 
+<!-- <input type="text" id="minCost" value="0"/>
+<input type="text" id="maxCost" value="1000"/> -->
+<!-- 
 <br>
 <br>
 <br>
@@ -236,7 +311,7 @@
 <br>
 <br>
 <br>
-<br>
+<br> -->
 
 <script type="text/javascript">
 
@@ -261,8 +336,8 @@ jQuery("#slider").slider({
 
 $(document).ready(function(){
 	
-	$('.ah-menu-list li').click(function(){
-		$(this).find('.ah-submenu-list').slideToggle(500);
+	$('.ah-menu-list li .ah-menu-list_item-link').click(function(){
+		$(this).next('.ah-submenu-list').slideToggle(500);
 
 		return false;
 	});
