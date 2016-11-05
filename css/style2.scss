@@ -13,6 +13,53 @@ h3{
     line-height: 17px;
     text-transform: uppercase;
 }
+.db-sidebar{
+    margin-bottom: 13px;
+}
+.ah-submenu-list{
+    input[type="text"]{
+        width: 95px;
+        height: 32px;
+        background-color: #fff;
+        border: 1px solid #ebedef;
+        border-radius: 2px;
+        color: #2d3246;
+        font-family: "MicrosoftSansSerif";
+        font-size: 19px;
+        line-height: 35px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        box-sizing: border-box;
+        text-align: center;
+        outline: none;
+    }
+    label{
+        display: block;
+        background: url(../img/db-check0.jpg) center center no-repeat;
+        width: 14px;
+        height: 14px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    input[type="checkbox"]{
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label{
+        // display: inline-block;
+        background: url(../img/db-check1.jpg) center center no-repeat;
+    }
+    .db-input-li{
+        display: inline-block;
+        margin-right: 38px;
+    }
+    .db-input-li1{
+        display: inline-block;
+    }
+}
+.ah-submenu-list1{
+    text-align: center !important;
+    margin: 18px 0px;
+}
 .db-h3{
     margin-top: 35px;
 }
@@ -68,7 +115,7 @@ h3{
     border: 1px solid #ebedef;
     border-radius: 3px;
     padding: 16px;
-    margin-top: 13px;
+    // margin-top: 13px;
 }
 .db-sidebar4-link{
     display: block;
@@ -242,15 +289,6 @@ h3{
 			}
 		}
     }
-    // .ah-menu-list_item:before{
-    //     position: absolute;
-    //     content: "";
-    //     width: 18px;
-    //     height: 18px;
-    //     top: 18px;
-    //     left: 5px;
-    //     background: url(../img/db-side1.png) center center no-repeat;
-    // }
 }
 .db-item1, .db-item2, .db-item3, .db-item4, .db-item5, .db-item6, .db-item7,
 .db-item8, .db-item9, .db-item10, .db-item11, .db-item12, .db-item13, .db-item14,
@@ -470,21 +508,24 @@ h3{
 
 /* Ширина слайдера */
 #slider {
-    width: 200px;
+    width: 228px !important;
+    margin-top: 18px;
 }
 /* Контейнер слайдера */
 .ui-slider {
     position: relative;
+    margin: 0 auto;
 }
 /* Ползунок */
 .ui-slider .ui-slider-handle {
     position: absolute;
     z-index: 2;
-    width: 13px;   /* Задаем нужную ширину */
-    height: 13px;  /* и высоту */
-    background-color: red;
-    // background: url(../img/slider.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
-    cursor: pointer
+    width: 14px;   /* Задаем нужную ширину */
+    height: 11px;  /* и высоту */
+    // background-color: red;
+    background: url(../img/db-pols.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+    cursor: pointer;
+    outline: none;
 }
 .ui-slider .ui-slider-range {
     position: absolute;
@@ -500,7 +541,7 @@ h3{
 }
 /* позиционируем ползунки */
 .ui-slider-horizontal .ui-slider-handle { 
-    top: -5px;
+    top: 1px;
     margin-left: -6px;
 }
 .ui-slider-horizontal .ui-slider-range {
@@ -515,13 +556,13 @@ h3{
 }
 /* оформление полосы по которой ходит ползунок */
 .ui-widget-content { 
-    border: 1px solid #D4D4D4;
+    border: 1px solid #25cc57;
     background: #fff;
 }
 /* оформление активного участка (между двумя ползунками) */
 .ui-widget-header { 
-    border: 1px solid #D4D4D4;
-    background: #f00;
+    border: 1px solid #25cc57;
+    background: #25cc57;
 }
 /* скругление для полосы слайдера */
 .ui-corner-all {

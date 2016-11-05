@@ -4,6 +4,43 @@
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
 		<li class="ah-menu-list_item db-item1">
+			<a href="#" class="ah-menu-list_item-link">По цене:</a>
+			<ul class="ah-submenu-list ah-submenu-list1">
+				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
+				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
+				<div id="slider"></div>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item db-item2">
+			<a href="#" class="ah-menu-list_item-link">По бренду:</a>
+			<ul class="ah-submenu-list">
+				<input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item db-item3">
+			<a href="#" class="ah-menu-list_item-link">По материалу:</a>
+			<ul class="ah-submenu-list">
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item db-item4">
+			<a href="#" class="ah-menu-list_item-link">По цвету:</a>
+			<ul class="ah-submenu-list">
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="db-sidebar">
+	<ul class="ah-menu-list">
+		<li class="ah-menu-list_item db-item1">
 			<a href="#" class="ah-menu-list_item-link">Сухие смеси, Цемент, Пескобетон</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
@@ -261,16 +298,9 @@
 </div>
 
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<input type="text" id="minCost" value="0"/>
-<input type="text" id="maxCost" value="1000"/>
-
+<!-- <input type="text" id="minCost" value="0"/>
+<input type="text" id="maxCost" value="1000"/> -->
+<!-- 
 <br>
 <br>
 <br>
@@ -281,7 +311,7 @@
 <br>
 <br>
 <br>
-<br>
+<br> -->
 
 <script type="text/javascript">
 
@@ -306,8 +336,8 @@ jQuery("#slider").slider({
 
 $(document).ready(function(){
 	
-	$('.ah-menu-list li').click(function(){
-		$(this).find('.ah-submenu-list').slideToggle(500);
+	$('.ah-menu-list li .ah-menu-list_item-link').click(function(){
+		$(this).next('.ah-submenu-list').slideToggle(500);
 
 		return false;
 	});
