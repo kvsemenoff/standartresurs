@@ -362,6 +362,7 @@
 /*============= Pagination =============*/
 .dd-pag-wrap{
 	text-align: center;
+	padding-top:10px;
 	a{
 		display: inline-block;
 		font-family: "MicrosoftSansSerif";
@@ -381,17 +382,445 @@
 		background:none;
 	}
 }
-
-
-
-
-
-
 /*======================================*/
 
+/*============= Hits =============*/
+.dd-new-wrap{
+	padding:0 19px;
+	margin-bottom:9px;
+	.dd-new{
+		padding:16px 9px;
+		background: #fff;
+	    border: 1px solid #ebedef;
+	    border-radius: 6px;
+	    text-align: center;
+		.dd-img, .dd-prod-txt, .dd-price-wrap, .dd-buy-product{
+			//float: left;
+		}
+		.dd-img{
+			position:relative;
+			width: 132px;
+			margin: 0 auto;
+			img{
+				margin: 0 auto;
+			}
+			.df-new-hit{
+				background: rgba(255, 255, 255, 0.5);
+			    border: 1px solid #23c954;
+			    border-radius: 5px;
+			    color: #23c954;
+			    font-family: "OpenSans-Bold";
+			    font-size: 13px;
+			    left: 39%;
+			    padding: 5px 7px;
+			    position: absolute;
+			    text-transform: uppercase;
+			    top: -8%;
+			}
+		}
+		.dd-prod-txt{
+			.dd-title{
+				width: 125px;
+				margin: 0 auto;
+				a{
+					border-bottom: 1px solid #4278ca;
+				    color: #4278ca;
+				    font-family: "OpenSans-Regular";
+				    font-size: 13px;
+				    line-height: 18px;
+				    overflow: hidden;
+				    transition: color 0.5s ease 0s, border 0.5s ease 0s;
+				}
+				a:hover{
+					color:#00CA48;
+					border-bottom: 1px solid #00CA48;
+				}
+			}
+		}
+		.dd-price-wrap{
+			.dd-price{
+				color: #2d3246;
+			    font-family: "OpenSans-Regular";
+			    font-size: 19px;
+			    font-weight: bold;
+			    padding: 14px 0 12px;
+			    text-align: center;
+			    em{
+			    	color: #a1a9b2;
+				    font-family: "OpenSans-LightOpenSans-Light";
+				    font-size: 13.5px;
+				    padding-right: 11px;
+				    text-decoration: line-through;
+			    }
+			    b{
+			    	font-family: "OpenSans-LightOpenSans-Light";
+				    font-size: 13px;
+				    font-weight: normal;
+			    }
+			}
+		}
+		.dd-buy-product{
+			.dd-status-product{
+				color: #929ca6;
+			    font-family: "OpenSans-Regular";
+			    font-size: 12px;
+			    margin: 0 5px 3px;
+			    padding: 0 10px;
+			}
+			.dd-number-wrap{
+				margin:0 auto;
+				background: #23c954 none repeat scroll 0 0;
+			    border-bottom: 3px solid #14b242;
+			    border-radius: 3px;
+			    font-family: "OpenSans-Regular";
+			    font-size: 14px;
+			    height: 33px;
+			    margin-bottom: 4px;
+			    padding: 5px;
+			    transition: background 0.5s ease 0s, border 0.5s ease 0s;
+			    width: 155px;
+			    .dd-number{
+					background: #14b242 none repeat scroll 0 0;
+				    border-radius: 3px;
+				    color: #fff;
+				    display: inline-block;
+				    height: 22px;
+				    text-align: center;
+				    transition: background 0.5s ease 0s;
+				    width: 60px;
+				    a{
+				    	color:#fff;
+				    }
+			    }
+			    .dd-buy{
+			    	a{
+						background: rgba(0, 0, 0, 0) url("/img/basket.png") no-repeat scroll right center;
+					    color: #fff;
+					    padding-left: 5px;
+					    padding-right: 25px;
+					    width: 70px;
+			    	}
+			    }
+			}
+			.dd-buy1click{
+				a{
+					border-bottom: 1px dashed #26ce58;
+				    color: #26ce58;
+				    font-family: "OpenSans-Regular";
+				    font-size: 12px;
+				    text-align: center;
+				    transition: color 0.5s ease 0s, border 0.5s ease 0s;
+				}
+				a:hover{
+					border-bottom: 1px dashed #da2d26;
+				    color: #da2d26;
+				}
+			}
+		}
+		.dd-number-wrap:hover{
+			background:#da2d26 ;
+			border-bottom:3px solid #cd1e1a;
+			.dd-number{
+		    		background: #bc130f;
+		    	}
+		}
+	}
+}
+
+/*================================*/
+
+/*===== Текст под пагинацией =====*/
+
+.dd-text-wrap{
+	padding:23px 19px;
+	.dd-text{
+		margin-bottom:9px;
+		padding:22px 26px;
+		background: #fff;
+	    border: 1px solid #ebedef;
+	    border-radius: 6px;
+	    h3{
+	    	font-family: "OpenSans-Semibold";
+	    	font-size: 18px;
+	    	padding-bottom:25px;
+	    }
+	    .nexth3{
+	    	padding-top:25px;
+	    }
+	    span{
+	    	font-family: "OpenSans-LightOpenSans-Light";
+	    	font-size: 13px;
+	    }
+	}
+}
+
+/*================================*/
+
+/*========= brad crumps ==========*/
+
+	.dd-brad-crumps{
+		padding:19px 5px;
+		a{
+			font-family: "OpenSans-LightOpenSans-Light";
+			font-size: 13px;
+			color:#262E45;
+			text-decoration: underline;
+			display: inline-block;
+		}
+		span{
+			font-family: "OpenSans-Semibold";
+			font-size: 13px;
+			color:#262E45;
+			display: inline-block;
+		}
+		a, span{
+			margin-left: 24px;
+		}
+		a:first-child{
+			margin-left: 0 !important;
+		}
+	}
+
+/*================================*/
+
+/*============ Poisk =============*/
+
+.dd-poisk-wrap{
+	padding-bottom:44px;
+	padding-left:20px;
+	position:relative;
+	.dd-poisk{
+		//outline: 1px solid red;
+		.dd-input{
+			width: 100%;
+			height: 36px;
+			outline: none;
+			border: 1px solid #EBEEF0;
+			border-radius:4px;
+			font-family: "OpenSans-LightOpenSans-Light";
+			font-size: 13px;
+			padding-left:12px;
+		}
+		.dd-button{
+			font-family: "MyriadPro-Regular";
+			background:#FFDC3B;
+			padding:9px 41px 8px 21px;
+			display: inline-block;
+			border-radius:4px;
+			color:#262E45;
+			position:relative;
+			transition: 0.5s;
+		}
+		.dd-button:hover{
+			background:#FFFF62;
+		}
+		.dd-button:after{
+			content: "";
+			position:absolute;
+			background:url("/img/lupa.png") no-repeat;
+			width: 15px;
+			height: 16px;
+			right: 15px;
+			top:10px;
+		}
+		.dd-poisk-txt{
+			position:absolute;
+			right: 186px;
+			top: 7px;
+			span{
+				font-family: "OpenSans-LightOpenSans-Light";
+				font-size: 13px;
+				color: #4B5763;
+				.dd-y{
+					font-family: "OpenSans-LightOpenSans-Light";
+					font-size: 13px;
+					color: #005CC5;
+					text-decoration:underline;
+					padding-left:5px;
+				}
+			}
+		}
+	}
+}
+
+/*================================*/
+
+/*======= Селект Анзара ========*/
+.dd-select-wrap{
+	padding-left:19px;
+	padding-right:15px;
+	padding-bottom:14px;
+	.dd-select-txt{
+		float: left;
+		//outline:1px solid red;
+		padding-right:10px;
+		padding-top:2px;
+		span{
+			font-family: "OpenSans-LightOpenSans-Light";
+			font-size: 13px;
+			color:#4B5763;
+		}
+	}
+
+	.az-select{
+	     border:1px solid #EBEEF0;
+	    border-radius:2px;
+	    position: relative;
+	    cursor: pointer;
+	    width: 105px;
+	    float: left;
+	}
+	select{
+	    height: 23px;
+	    width: 100%;
+	    border: none;
+	    background: transparent;
+	    outline: none;
+	    padding: 0 11px;
+	    letter-spacing: 0.02em;
+	    font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 13px;
+		color:#4B5763;
+	    cursor: pointer;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+
+	}
+	select::-ms-expand {
+	    display: none;
+	}
+	.az-options{
+		border-radius:2px;
+	    display: none;
+	    top: calc(100% + 2px);
+	    left: 0px;
+	    width: calc(100% + 0px);
+	    position: absolute;
+		background:#fff;
+	    // background: rgba(0,0,0,0.8);
+	    border-radius: 2px;
+	    z-index: 6;
+	    box-shadow:0px 4px 3px 0px rgba(0,0,0,0.2) ;
+	}
+
+	div[data-val]{
+	    font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 13px;
+		color:#4B5763;
+	    padding: 0 15px;
+	    line-height: 30px;
+	    letter-spacing: 0.02em;
+	    cursor: pointer;
+	}
+	div[data-val]:hover{
+	    //background: rgba(255,255,255,0.1);
+	    background:#EAEAEA;
+	}
+
+	.az-select:before{
+	    content: '';
+	    position: absolute;
+	    top: 59%;
+	    transform: translate(0, -50%);
+	    right: 4px;
+	    width: 13px;
+	    height: 8px;
+	    background: url(../img/select-arrow.png) no-repeat top left;
+	    z-index: 1;
+	}
+	.az-select-focus:before{
+	    background: url(../img/select-arrow-focus.png) no-repeat top left;
+	}
+	.az-select_style{
+	    position: relative;
+	    z-index: 2;
+	}
+
+	.button-1{
+	    width:270px;
+	    border:2px solid #CBD1D6;
+	    display:inline-block;
+	    padding: 8px 20px;
+	    width: 270px;
+	    font-family: "Opensans-Semibold";
+	    font-size: 14px;
+	    color: #2E2F30;
+	    position:relative;
+
+	}
+	.button-1:after{
+	    position:absolute;
+	    content:"";
+	    background:url(../img/kr-krest.png);
+	    width:14px;
+	    height:14px;
+	    right:17px;
+	    top:10px;
+	}
+	.dd-sort{
+		width: 77px;
+		height: 23px;
+		border:1px solid #9DEEC7;
+		border-radius:2px;
+		float: right;
+		position:relative;
+		cursor: pointer;
+		.fa{
+			position:absolute;
+			top: 3px;
+			left: 5px;
+			color:#262E45;
+		}
+		span{
+			font-family: "OpenSans-LightOpenSans-Light";
+			font-size: 13px;
+			color:#4B5763;
+			display: block;
+			padding-left:26px;
+			padding-top:1px;
+		}
+	}
+	.dd-sort:hover{
+		.fa{
+			color:#00C746;
+		}
+		span{
+			color:#00C746;
+		}
+	}
+	.dd-sort2{
+		margin-right:6px;
+	}
+}
+
+/*================================*/
+
+/*=========== banner =============*/
+
+.dd-banner{
+	border: 1px solid #ebedef;
+    border-radius: 3px;
+    text-align: center;
+    margin-top:23px;
+	img{
+		margin:0 auto;
+	}
+}
+.dd-side-title{
+	padding-top:35px;
+	padding-bottom:13px;
+	text-transform:uppercase;
+	font-family: "ArialNarrow";
+	font-size:21px;
+	color:#262E45;
+}
+
+.db-wrapdiv-list2{
+	text-align:center;
+}
 
 
-
+/*================================*/
 
 @media only screen and (min-width : 320px) {
 }
@@ -400,9 +829,49 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-poisk-wrap{
+		.dd-poisk{
+			.dd-input{
+				width: 62%;
+			}	
+		}		
+	}			
 }
 
 @media only screen and (min-width : 992px) {
+
+	.dd-poisk-wrap{
+		.dd-poisk{
+			.dd-input{
+				width: 71%;
+			}	
+		}		
+	}
+
+	.dd-new-wrap{
+		.dd-new{
+		    text-align: left;
+			.dd-img, .dd-prod-txt, .dd-price-wrap{
+				float: left;
+			}
+			.dd-buy-product{
+				float: right;
+			}
+			.dd-prod-txt{
+				margin-left: 55px;
+			}
+			.dd-price-wrap{
+				margin-left: 36px;
+			    padding-top: 8px;
+			}
+			.dd-img{
+				.df-new-hit{
+				    left: 0%;
+				    top: -8%;
+				}
+			}
+		}
+	}		
 
 	.dd-header-wrapper{
 		.dd-phone-wrap{
@@ -446,6 +915,17 @@
 }
 
 @media only screen and (min-width : 1248px) {
+
+	.dd-poisk-wrap{
+		.dd-poisk{
+			.dd-input{
+				width: 74%;
+			}
+			.dd-poisk-txt{
+				right: 203px;
+			}	
+		}		
+	}
 
 	.dd-header-wrapper{
 		.dd-time-wrap{

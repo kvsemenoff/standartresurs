@@ -28,7 +28,6 @@
 
     <script src="libs/new.owl/assets/js/google-code-prettify/prettify.js"></script>
     <script src="libs/new.owl/assets/js/application.js"></script>
-
 	<script src="libs/new.bootstrap/bootstrap.js"></script>
 	<!-- <script src="libs/fancybox/jquery.fancybox.pack.js"></script> -->
 	<script src="libs/wow/wow.min.js"></script>
@@ -49,40 +48,100 @@
 	<section class="db-wrapper">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
+					<div class="dd-brad-crumps">
+						<a href="#">Главная</a>
+						<span><img src="img/b-str.png" alt=""></span>
+						<a href="#">Пиломатериалы</a>
+						<span><img src="img/b-str.png" alt=""></span>
+						<span>Фанера и ОСБ</span>
+					</div>
+				</div>
+				<div class="clearfix"></div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
-					<?php require_once('includes/sidebar.php'); ?>
+					<?php require_once('includes/sidebar2.php'); ?>
+					
 				</div>
 				<div class="col-md-8 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
-					<?php require_once('includes/newandpopular.php'); ?>
+					<div class="dd-poisk-wrap">
+						<form class="dd-poisk" action="#">
+							<input class="dd-input" placeholder="Поиск по сайту" type="text">
+							<a class="dd-button" href="#">Найти на сайте</a>
+							<div class="dd-poisk-txt hidden-xs hidden-sm">
+								<span>Например:<a class="dd-y" href="#">штукатурка</a></span>
+							</div>
+						</form>
+					</div>
+					<div class="dd-select-wrap">
+						<div class="dd-select-txt">
+							<span>Соритровать по</span>
+						</div>
+						<div  class="az-select az-margin-bottom10">
+							<select name="" id="">
+								<option value="1">Цене</option>
+								<option value="2">Типу</option>
+								<option value="3">Цене</option>
+								<option value="4">Типу</option>
+							</select>
+						</div>
+						<a href="#">
+							<div class="dd-sort ">
+							<i class="fa fa-th-list" aria-hidden="true"></i>
+							<span>Список</span>
+							</div>
+						</a>
+						<a href="#">
+							<div class="dd-sort dd-sort2">
+							<i class="fa fa-th" aria-hidden="true"></i>
+							<span>Плитка</span>
+							</div>
+						</a>
+						<div class="clearfix"></div>
+					</div>
+					<?php require_once('includes/newandpopular2.php'); ?>
 					<?php require_once('includes/hits.php'); ?>
 					<?php require_once('includes/pagination.php'); ?>
+					<!-- Поле с текстом -->
+					<div class="dd-text-wrap">
+						<div class="dd-text">
+							<h3>Для чего используется плиточный клей</h3>
+							<span>
+								Кафельная плитка на сегодняшний день является одним из самых востребованных и популярных отделочных материалов. Её используют в ванной и на кухнях, в помещениях и вне помещений. Но чтобы она продержалась действительно долго, не доставляя лишних проблем владельцу, при монтаже необходимо использовать качественный клей плиточный.
+								Он используется для максимально прочного прилегания плитки к любым типам поверхности – полу, потолку или стенам. И в первую очередь от него зависит, продержатся ли плитки многие годы, пока не возникнет необходимость демонтажа, или же отвалятся через считанные недели или месяцы.
+							</span>
+							<h3 class="nexth3">Виды временного плиточного клея</h3>
+							<span>
+								Одним из показателей, на который обращает внимание большинство непрофессионалов, покупая клей плиточный, это цена. А ведь есть ещё немало факторов, которые обязательно нужно учитывать при выборе материала. Сегодня на рынке можно увидеть большое количество самых разных марок плиточного клея, каждый из которых нередко имеет довольно узкую специализацию. О наиболее распространенных видах клея будет полезно знать.
+							</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-<section class="dg-slider">
-	<div class="container">
-		<div class="row wor">
-			<div id="owl-demo" class="owl-carousel owl-theme">
-			  <div class="item"><img src="img/slide1.png" alt=""></div>
-			  <div class="item"><img src="img/slide2.png" alt=""></div>
-			  <div class="item"><img src="img/slide3.png" alt=""></div>
-			  <div class="item"><img src="img/slide4.png" alt=""></div>
-			  <div class="item"><img src="img/slide5.png" alt=""></div>
-			  <div class="item"><img src="img/slide6.png" alt=""></div>
-			  <div class="item"><img src="img/slide7.png" alt=""></div>
-			  <div class="item"><img src="img/slide8.png" alt=""></div>
-			  <div class="item"><img src="img/slide3.png" alt=""></div>
-			  <div class="item"><img src="img/slide1.png" alt=""></div>
-			  <div class="item"><img src="img/slide5.png" alt=""></div>
-			  <div class="item"><img src="img/slide4.png" alt=""></div>
-			  <div class="item"><img src="img/slide6.png" alt=""></div>
+	<section class="dg-slider">
+		<div class="container">
+			<div class="row wor">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+				  <div class="item"><img src="img/slide1.png" alt=""></div>
+				  <div class="item"><img src="img/slide2.png" alt=""></div>
+				  <div class="item"><img src="img/slide3.png" alt=""></div>
+				  <div class="item"><img src="img/slide4.png" alt=""></div>
+				  <div class="item"><img src="img/slide5.png" alt=""></div>
+				  <div class="item"><img src="img/slide6.png" alt=""></div>
+				  <div class="item"><img src="img/slide7.png" alt=""></div>
+				  <div class="item"><img src="img/slide8.png" alt=""></div>
+				  <div class="item"><img src="img/slide3.png" alt=""></div>
+				  <div class="item"><img src="img/slide1.png" alt=""></div>
+				  <div class="item"><img src="img/slide5.png" alt=""></div>
+				  <div class="item"><img src="img/slide4.png" alt=""></div>
+				  <div class="item"><img src="img/slide6.png" alt=""></div>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
 <footer class="dg-footer">
 	<div class="container">
