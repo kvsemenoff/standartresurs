@@ -59,7 +59,8 @@
 			</div>
 		</div>
 	</section>
-
+	<?php require_once('includes/catalog-index.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	
