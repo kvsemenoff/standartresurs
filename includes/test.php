@@ -1,5 +1,4 @@
-<br><br>
-<section class="df-bg">
+<section class="df-bg hidden-xs hidden-sm">
 	<div class="container">
 		<div class="df-logotip">
 			<div class="df-img-logo">
@@ -21,7 +20,7 @@
 				<span class="df-pricebasket">5 450 <em>р.</em></span>
 			</div>
 			<div class="df-button-buy">
-				<a href="#">Заказать звонок</a>
+				<a href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
 			</div>
 			
 			<div class="clear"></div>

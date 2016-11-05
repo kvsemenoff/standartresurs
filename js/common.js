@@ -69,11 +69,11 @@ $(document).ready(function() {
 
     });
 function navigation_scroll(){
-    var offset = $('.header').height() || $(window).height() || 150;
+    var offset = $('.dd-header-wrapper').height() || $(window).height() || 150;
     var scroll = $(document).scrollTop();
 
     if (scroll < 50) {
-        $('.header')
+        $('.df-bg')
             .toggleClass('header-no-fixed', false)
              .toggleClass('header-fixed', false);
        
@@ -81,13 +81,13 @@ function navigation_scroll(){
            
      }     
     else if (scroll >= offset) {
-        $('.header')
+        $('.df-bg')
             .toggleClass('header-no-fixed', false)
             .toggleClass('header-fixed', true);
             
     }
     else if (scroll < offset - 50) {
-        $('.header')
+        $('.df-bg')
             .toggleClass('header-fixed', true)
             .toggleClass('header-no-fixed', false);
             

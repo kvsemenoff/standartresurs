@@ -1,10 +1,14 @@
-
+.col-md-3{
+	margin: 0!important;
+	padding: 0 !important;
+}
 
 .df-bg{
 	display: none;
 	background: #2d3246;
 	height: 55px;
 	width: 100%;
+	z-index: 500;
 	.df-logotip{
 		padding: 10px 0 10px 0px;
 		.df-img-logo{
@@ -34,7 +38,7 @@
 	}
 	.df-numbers{
 		padding-top: 5px;
-		margin-left: 159px;
+		margin-left: 14px;
 		float: left;
 		span{
 			float: left;			
