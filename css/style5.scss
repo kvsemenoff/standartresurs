@@ -1,48 +1,55 @@
 
 
 .df-bg{
+	display: none;
 	background: #2d3246;
 	height: 55px;
 	width: 100%;
-}
-.df-menufixed{	
 	.df-logotip{
-	padding: 10px 0 10px 0px;
-	margin-left: 40px;	
+		padding: 10px 0 10px 0px;
 		.df-img-logo{
 			float: left;
-			height: 73px;
-		}
-		.dfimgtext{
-			float: left;
-			padding-left: 12px;
-			span{
-				text-transform: uppercase;
-				font-family: "ArialNarrow";
-				font-size: 15px;
-				display: block;
-				letter-spacing: 8px;
-				color:#fff;
-				font-weight: bold;
-			}
-			span:first-child{
-				color: #00CA48;
+			margin-left: 41px;
+			//height: 73px;
+			.df-img-wrap{
+				float: left;
+			}		
+			.dfimgtext{
+				float: left;
+				padding-left: 12px;
+				span{
+					text-transform: uppercase;
+					font-family: "ArialNarrow";
+					font-size: 15px;
+					display: block;
+					letter-spacing: 8px;
+					color:#fff;
+					font-weight: bold;
+				}
+				span:first-child{
+					color: #00CA48;
+				}
 			}
 		}
 	}
 	.df-numbers{
+		padding-top: 5px;
+		margin-left: 159px;
+		float: left;
 		span{
 			float: left;			
 			color: #e3e4e6;
 			font-size: 17px;
 			font-family: "OpenSans-LightOpenSans-Light";
+			margin-left: 23px;
 			em{
 				font-family: "OpenSans-Semibold";
 			}
 		}
 	}
 	.df-button-buy{
-		float: left;
+		float: right;
+		margin-right: 65px;
 		
 		a{
 			display: inline-block;
@@ -70,30 +77,32 @@
 		border: 1px solid #00CF4D;
 		border-radius: 5px;
 		float: right;
-		padding: 3px 5px 3px 15px;		
+		text-align: right;
+		padding: 3px 5px 3px 15px;
+		position: relative;		
 		.df-ellips{
 			border-radius: 50px; width: 20px; height: 20px;
 			background: #00CF4D;
 			color:#fff;
 			display: inline-block;
-			text-align: center;			
+			text-align: center;
+			position: absolute;
+			top:-5px;
+			left:27px;			
 		}
-		.df-pricebasket{
-		text-align: right;
+		.df-pricebasket{		
 		display: inline-block;
 		font-family: "OpenSans-Semibold";
 		font-size: 19px;
 		color:#fff;
 		background: url(../img/dd-korz2.png) no-repeat;
-		//padding-left: 17px;					
+		padding-left: 45px;					
 			em{
 				font-family: "OpenSans-LightOpenSans-Light";
 			}
 		}
 	}	
 }
-
-
 
 .clear{
 	clear:both;
