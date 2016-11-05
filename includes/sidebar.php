@@ -4,7 +4,7 @@
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
 		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
-		<li class="ah-menu-list_item db-item1">
+		<li class="ah-menu-list_item">
 			<a href="#" class="ah-menu-list_item-link">По цене:</a>
 			<ul class="ah-submenu-list ah-submenu-list1">
 				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
@@ -12,7 +12,7 @@
 				<div id="slider"></div>
 			</ul>
 		</li>
-		<li class="ah-menu-list_item db-item2">
+		<li class="ah-menu-list_item">
 			<a href="#" class="ah-menu-list_item-link">По бренду:</a>
 			<ul class="ah-submenu-list ah-submenu-fon">
 				<li class="ah-submenu-left">
@@ -29,7 +29,7 @@
 				</li>
 			</ul>
 		</li>
-		<li class="ah-menu-list_item db-item3">
+		<li class="ah-menu-list_item">
 			<a href="#" class="ah-menu-list_item-link">По материалу:</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
@@ -37,7 +37,7 @@
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
 			</ul>
 		</li>
-		<li class="ah-menu-list_item db-item4">
+		<li class="ah-menu-list_item">
 			<a href="#" class="ah-menu-list_item-link">По цвету:</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
