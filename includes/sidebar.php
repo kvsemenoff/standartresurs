@@ -3,6 +3,7 @@
 
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
+		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
 		<li class="ah-menu-list_item db-item1">
 			<a href="#" class="ah-menu-list_item-link">По цене:</a>
 			<ul class="ah-submenu-list ah-submenu-list1">
@@ -51,6 +52,7 @@
 
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
+		<h3 class="db-h3 db-padd">Каталог</h3>
 		<li class="ah-menu-list_item db-item1">
 			<a href="#" class="ah-menu-list_item-link">Сухие смеси, Цемент, Пескобетон</a>
 			<ul class="ah-submenu-list">
