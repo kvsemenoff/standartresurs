@@ -194,6 +194,7 @@
 <div class="dd-banner">
 	<a href="#"><img src="img/banner.jpg" alt=""></a>
 </div>
+
 <div class="dd-side-title">
 	Рекомендуем
 </div>
