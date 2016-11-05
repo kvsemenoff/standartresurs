@@ -66,6 +66,58 @@
 	</div>
 </section>
 
+<!-- <section class="dd-header-wrapper-scrol">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="dd-logo-wrap">
+					<div class="dd-logo-img">
+						<img src="img/dd-logo.png" alt="">
+					</div>
+					<div class="dd-logo-txt">
+						<span>Standart</span>
+						<span>Resurs</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="dd-phone-wrap">
+					<div class="dd-phone">
+						<span class="dd-numbers">
+						+7 (495)
+							<span>749 85 35</span>
+						</span>
+						<span class="dd-numbers">
+						+7 (919)
+							<span>997 90 20</span>
+						</span>
+					</div>
+					<div class="dd-header-button-wrap">
+						<a class="dd-header-button" href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
+					</div>
+				</div>
+				<div class="dd-korzina-wrap">
+					<a href="#">
+						<div class="dd-korzina-element">
+							<div class="dd-elipse">
+								3
+							</div>
+							<div class="dd-price">
+								<span class="dd-ex-price">1780
+									<span>руб.</span>
+								</span>
+							</div>
+						</div>
+					</a>	
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section> -->
+
+
 <section class="dd-header hidden-sm hidden-xs">
 	<div class="container">
 		<div class="dd-nav-wrap ">

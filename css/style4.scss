@@ -1,7 +1,13 @@
 
+// .dd-header-wrapper, .dd-header{
+// 	position:fixed;
+// }
 .dd-header-wrapper{
 	//outline:1px solid red;
-	padding-bottom:20px;
+	background:#fff;
+	//position:fixed;
+	//height:200px;
+	padding-bottom:12px;
 	.dd-line{
 		background: url(../img/dd-line.png) no-repeat center;
 		height: 4px;
@@ -194,7 +200,10 @@
 		}
 	}
 }
+.dd-header-wrapper-scrol{
+	//height:54px;
 
+}
 /*============= menu ===============*/
 
 /*menu Анзара*/
