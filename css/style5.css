@@ -1,3 +1,78 @@
+.df-bg {
+  background: #2d3246;
+  height: 55px;
+  width: 100%; }
+
+.df-menufixed .df-logotip {
+  padding: 10px 0 10px 0px;
+  margin-left: 40px; }
+  .df-menufixed .df-logotip .df-img-logo {
+    float: left;
+    height: 73px; }
+  .df-menufixed .df-logotip .dfimgtext {
+    float: left;
+    padding-left: 12px; }
+    .df-menufixed .df-logotip .dfimgtext span {
+      text-transform: uppercase;
+      font-family: "ArialNarrow";
+      font-size: 15px;
+      display: block;
+      letter-spacing: 8px;
+      color: #fff;
+      font-weight: bold; }
+    .df-menufixed .df-logotip .dfimgtext span:first-child {
+      color: #00CA48; }
+.df-menufixed .df-numbers span {
+  float: left;
+  color: #e3e4e6;
+  font-size: 17px;
+  font-family: "OpenSans-LightOpenSans-Light"; }
+  .df-menufixed .df-numbers span em {
+    font-family: "OpenSans-Semibold"; }
+.df-menufixed .df-button-buy {
+  float: left; }
+  .df-menufixed .df-button-buy a {
+    display: inline-block;
+    background-color: #00CF4D;
+    padding: 6px 15px 6px 34px;
+    border-radius: 4px;
+    border-bottom: 3px solid #00B334;
+    font-family: "Conv_MyriadPro-Regular";
+    color: #fff;
+    font-size: 14px;
+    position: relative; }
+  .df-menufixed .df-button-buy a:after {
+    content: "";
+    position: absolute;
+    background: url(../img/dd-tel.png) no-repeat center;
+    width: 16px;
+    height: 16px;
+    left: 10px; }
+.df-menufixed .df-basket {
+  width: 138px;
+  height: 33px;
+  border: 1px solid #00CF4D;
+  border-radius: 5px;
+  float: right;
+  padding: 3px 5px 3px 15px; }
+  .df-menufixed .df-basket .df-ellips {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background: #00CF4D;
+    color: #fff;
+    display: inline-block;
+    text-align: center; }
+  .df-menufixed .df-basket .df-pricebasket {
+    text-align: right;
+    display: inline-block;
+    font-family: "OpenSans-Semibold";
+    font-size: 19px;
+    color: #fff;
+    background: url(../img/dd-korz2.png) no-repeat; }
+    .df-menufixed .df-basket .df-pricebasket em {
+      font-family: "OpenSans-LightOpenSans-Light"; }
+
 .clear {
   clear: both; }
 
