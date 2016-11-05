@@ -45,6 +45,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/test.php'); ?>
 	
 	<section class="db-wrapper">
 		<div class="container">
