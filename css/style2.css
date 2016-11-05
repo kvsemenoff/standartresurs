@@ -67,7 +67,7 @@ h3 {
   text-align: center;
   outline: none; }
 .ah-submenu-list .ah-submenu-span, .ah-submenu-list .ah-submenu-span1 {
-  width: 80%;
+  width: 100%;
   height: 22px;
   display: inline-block;
   padding: 3px;
@@ -90,7 +90,7 @@ h3 {
   font-family: "OpenSans-LightOpenSans-Light";
   font-size: 13px;
   color: #505863;
-  padding-left: 30px;
+  padding-left: 23px;
   cursor: pointer; }
 .ah-submenu-list input[type="checkbox"] {
   display: none; }
@@ -127,7 +127,6 @@ h3 {
   padding: 14px 0px 14px 10px; }
 
 .ah-submenu-right {
-  margin-left: 8%;
   padding: 14px 0px 14px 30px; }
 
 .ah-submenu-list1 {
@@ -152,7 +151,7 @@ h3 {
   background: url(../img/db-side_top.png) center center no-repeat; }
 
 .db-padd1 {
-  padding-left: 30px; }
+  padding-left: 10px; }
 
 .db-sidebar4-imgbox1, .db-sidebar4-imgbox2 {
   padding: 0px 10px; }
@@ -196,7 +195,6 @@ h3 {
   display: table-cell;
   width: 40%;
   vertical-align: top;
-  padding: 0px 15px;
   text-align: center; }
 
 .db-sidebar4 {
@@ -204,7 +202,8 @@ h3 {
   width: 100%;
   border: 1px solid #ebedef;
   border-radius: 3px;
-  padding: 16px; }
+  padding: 16px 10px;
+  margin-bottom: 13px; }
 
 .db-sidebar4-link {
   display: block;
