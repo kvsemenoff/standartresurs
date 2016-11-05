@@ -4,12 +4,37 @@
 .df-new-4boxs{
 	text-align: center;
 }
+#df-margintop{
+	margin-top: 15px;
+}
+.df-top-caption{
+	max-width: 715px;
+	margin:0 auto;
+	padding: 0 3px;
+	margin-bottom: 5px;
+	.df-caption-popular{		
+		display: inline-block;
+		font-size: 21px;
+		color:#2d3246;
+		text-transform: uppercase;
+		font-family: "ArialNarrow";
+		padding: 0px 9px 10px 0px;		
+	}
+	.df-look-all{
+		display: inline-block;
+		font-family: "OpenSans-LightOpenSans-Light";		
+		color:#5c6d7d; font-size: 13px;
+		padding: 7px 12px;
+		background: #fff;
+		border:1px solid #ebedef;
+		border-radius: 5px;				
+	}
+}
 .df-new{
 	display: inline-block;
     //float: left;
-    margin-right: 5px;
-    margin-top: 15px;
-    //position: relative;
+    margin: 0 2.5px;
+    margin-bottom: 30px;    
     text-align: center;
     .df-new-box{    	
 	    .df-bg-new{
@@ -19,19 +44,25 @@
 		    //box-shadow: 0 2px 5px #dcdcdc;		   
 		    width: 171px;
 		    //overflow: hidden;
-		    min-height: 340px;
+		    //min-height: 340px;
 		    padding: 0 5px;
 		    padding-bottom: 11px;
 		    position: relative;
 		    .df-name-product{
 		    	display: block;
-		    	padding: 8px;
+		    	padding: 7px;
 		    	// text-align: center;
 		    	.df-img{		    		  		
 		    		height: 115px;
 		    		width: 160px;
-		    		padding: 15px 20px 0 0px;		    		
-		    		.df-new-hit{
+		    		//padding: 15px 20px 0 0px;
+		    		margin-top: 12px;
+		    				    		   		
+		    		img{
+		    			margin: 0 auto;		    			
+		    			display: inline-block;  			 			
+		    		}		    		
+		    		.df-new-hit, .hit-red{
 		    			font-family: "OpenSans-Bold";
 		    			font-size: 13px;
 		    			border:1px solid #23c954;
@@ -42,19 +73,20 @@
 		    			position: absolute;
 		    			top:11px;
 		    			left:8px;
+		    			background: rgba(#fff,0.5);
+		    		}
+		    		.hit-red{
+		    			color:#da2d26;
+		    			border:1px solid #da2d26;
 		    		}	
 		    	}
 		    	.df-title{		    		
 		    		color:#4278ca;
 				    font-family: "OpenSans-Regular";
-				    font-size: 13px; line-height: 18px;
-				    margin: 10px 5px;				    
+				    font-size: 13px; line-height: 18px;				    				    
 				    overflow: hidden;
-				    border-bottom: 1px solid #4278ca;
-				    //height: 38px;
-				    width:120px;
+				    border-bottom: 1px solid #4278ca;				    
 				    transition:color 0.5s, border 0.5s ease 0s;
-
 		    	}
 		    	.df-title:hover{
 		    		color:#25cc56;
@@ -64,10 +96,9 @@
 		    .df-status-product{
 		    	font-size: 12px;
 		    	color:#929ca6;
-    			margin: 3px 5px;
+    			margin: 0px 5px 3px 5px;
     			padding: 0px 10px;
-    			font-family: "OpenSans-Regular";
-    			//text-align: center;
+    			font-family: "OpenSans-Regular";    			
     			img{
     				width: 8px;
     				height: 6px;    				
@@ -77,7 +108,7 @@
 		    	text-align: center;		    		    	
 			    color: #2d3246;			    
 			    font-family: "OpenSans-Regular";
-			    margin-top: 10px;			    
+			    //margin-top: 10px;			    
 			    padding: 14px 0px 12px 0px;
 			    font-size: 19px;
 			    font-weight: bold;
@@ -106,6 +137,7 @@
 		    	border-bottom: 3px solid  #14b242; border-radius: 3px;
 		    	font-family: "OpenSans-Regular";
 		    	font-size: 14px;
+		    	margin-bottom: 4px;
 		    	transition:background 0.5s, border 0.5s ;
 		    	.df-number {
 		    		text-align: center;
@@ -118,7 +150,7 @@
 					transition:background 0.5s;
 					a{
 						color:#fff;
-						padding: 0 5px;
+						padding: 0 px;
 					}	
 		    	}
 		    	.df-buy a{
@@ -167,12 +199,20 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.df-top-caption{
+		margin-top: 40px;	
+		.df-caption-popular{		
+			float: left;
+			padding:0;
+		}
+		.df-look-all{		
+			float: right;			
+		}
+	}
 }
 
 @media only screen and (min-width : 992px) {
-	.df-new{	
-    	//float: left;
-	}
+	
 }
 
 @media only screen and (min-width : 1248px) {

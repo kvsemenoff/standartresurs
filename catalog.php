@@ -55,6 +55,8 @@
 				<div class="col-md-8 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
 					<?php require_once('includes/newandpopular.php'); ?>
+					<?php require_once('includes/hits.php'); ?>
+					<?php require_once('includes/pagination.php'); ?>
 				</div>
 			</div>
 		</div>
@@ -77,9 +79,7 @@
 			  <div class="item"><img src="img/slide5.png" alt=""></div>
 			  <div class="item"><img src="img/slide4.png" alt=""></div>
 			  <div class="item"><img src="img/slide6.png" alt=""></div>
-			  
 			</div>
-
 		</div>
 	</div>
 </section>

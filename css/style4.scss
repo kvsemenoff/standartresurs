@@ -356,12 +356,42 @@
 		}
 	}	
 }
-
-
-
-
-
 /*==================================*/
+
+
+/*============= Pagination =============*/
+.dd-pag-wrap{
+	text-align: center;
+	a{
+		display: inline-block;
+		font-family: "MicrosoftSansSerif";
+		font-size: 19px;
+		color:#262E45;
+		padding:5px 10px;
+	}
+	a:hover{
+		background:#00CA48;
+		border-radius:4px;
+		color:#fff;
+	}
+	.dd-str{
+		margin: 0 40px; 
+	}
+	.dd-str:hover{
+		background:none;
+	}
+}
+
+
+
+
+
+
+/*======================================*/
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
