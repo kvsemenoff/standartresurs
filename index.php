@@ -45,21 +45,23 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/test.php'); ?>
 	
 	<section class="db-wrapper">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="col-md-3 col-sm-4 col-xs-12">
 					<?php require_once('includes/sidebar.php'); ?>
 				</div>
-				<div class="col-md-8 col-sm-8 col-xs-12">
+				<div class="col-md-9 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
 					<?php require_once('includes/newandpopular.php'); ?>
 				</div>
 			</div>
 		</div>
 	</section>
-
+	<?php require_once('includes/catalog-index.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	

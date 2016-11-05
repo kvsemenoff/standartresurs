@@ -635,6 +635,9 @@
   .dd-poisk-wrap .dd-poisk .dd-input {
     width: 62%; } }
 @media only screen and (min-width: 992px) {
+  .container {
+    width: 1017px !important; }
+
   .dd-poisk-wrap .dd-poisk .dd-input {
     width: 71%; }
 

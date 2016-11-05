@@ -1,3 +1,95 @@
+.col-md-3 {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.df-bg {
+  display: none;
+  background: #2d3246;
+  height: 55px;
+  width: 100%;
+  z-index: 500; }
+  .df-bg .df-logotip {
+    padding: 10px 0 10px 0px; }
+    .df-bg .df-logotip .df-img-logo {
+      float: left;
+      margin-left: 41px; }
+      .df-bg .df-logotip .df-img-logo .df-img-wrap {
+        float: left; }
+      .df-bg .df-logotip .df-img-logo .dfimgtext {
+        float: left;
+        padding-left: 12px; }
+        .df-bg .df-logotip .df-img-logo .dfimgtext span {
+          text-transform: uppercase;
+          font-family: "ArialNarrow";
+          font-size: 15px;
+          display: block;
+          letter-spacing: 8px;
+          color: #fff;
+          font-weight: bold; }
+        .df-bg .df-logotip .df-img-logo .dfimgtext span:first-child {
+          color: #00CA48; }
+  .df-bg .df-numbers {
+    padding-top: 5px;
+    margin-left: 14px;
+    float: left; }
+    .df-bg .df-numbers span {
+      float: left;
+      color: #e3e4e6;
+      font-size: 17px;
+      font-family: "OpenSans-LightOpenSans-Light";
+      margin-left: 23px; }
+      .df-bg .df-numbers span em {
+        font-family: "OpenSans-Semibold"; }
+  .df-bg .df-button-buy {
+    float: right;
+    margin-right: 65px; }
+    .df-bg .df-button-buy a {
+      display: inline-block;
+      background-color: #00CF4D;
+      padding: 6px 15px 6px 34px;
+      border-radius: 4px;
+      border-bottom: 3px solid #00B334;
+      font-family: "Conv_MyriadPro-Regular";
+      color: #fff;
+      font-size: 14px;
+      position: relative; }
+    .df-bg .df-button-buy a:after {
+      content: "";
+      position: absolute;
+      background: url(../img/dd-tel.png) no-repeat center;
+      width: 16px;
+      height: 16px;
+      left: 10px; }
+  .df-bg .df-basket {
+    width: 138px;
+    height: 33px;
+    border: 1px solid #00CF4D;
+    border-radius: 5px;
+    float: right;
+    text-align: right;
+    padding: 3px 5px 3px 15px;
+    position: relative; }
+    .df-bg .df-basket .df-ellips {
+      border-radius: 50px;
+      width: 20px;
+      height: 20px;
+      background: #00CF4D;
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      position: absolute;
+      top: -5px;
+      left: 27px; }
+    .df-bg .df-basket .df-pricebasket {
+      display: inline-block;
+      font-family: "OpenSans-Semibold";
+      font-size: 19px;
+      color: #fff;
+      background: url(../img/dd-korz2.png) no-repeat;
+      padding-left: 45px; }
+      .df-bg .df-basket .df-pricebasket em {
+        font-family: "OpenSans-LightOpenSans-Light"; }
+
 .clear {
   clear: both; }
 

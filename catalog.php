@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Каталог</title>
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	
@@ -44,6 +44,7 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/test.php'); ?>
 	
 	<section class="db-wrapper">
 		<div class="container">
@@ -58,11 +59,11 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="col-md-3 col-sm-4 col-xs-12">
 					<?php require_once('includes/sidebar2.php'); ?>
 					
 				</div>
-				<div class="col-md-8 col-sm-8 col-xs-12">
+				<div class="col-md-9 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
 					<div class="dd-poisk-wrap">
 						<form class="dd-poisk" action="#">
