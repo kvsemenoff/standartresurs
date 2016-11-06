@@ -73,7 +73,7 @@ h3 {
   padding: 3px;
   background: #fafbfd; }
 .ah-submenu-list .ah-submenu-span {
-  margin-bottom: 14px; }
+  margin-bottom: 3px; }
 .ah-submenu-list .ah-submenu-span:hover, .ah-submenu-list .ah-submenu-span1:hover {
   background: #e5f7ea;
   transition: background 0.3s, border 0.3s; }
@@ -127,27 +127,28 @@ h3 {
   padding: 14px 0px 14px 10px; }
 
 .ah-submenu-right {
-  padding: 14px 0px 14px 30px; }
+  padding: 14px 0px 14px 23px; }
 
 .ah-submenu-list1 {
   text-align: center !important;
-  margin: 18px 0px; }
+  padding: 18px 0px;
+  background-color: #fafbfd; }
 
 .db-h3 {
-  margin-top: 35px;
-  margin-bottom: 23px; }
+  margin-top: 31px;
+  margin-bottom: 34px; }
 
 .db-padd {
   position: relative;
-  padding-left: 50px; }
+  padding-left: 61px; }
 
 .db-padd:before {
   position: absolute;
   content: "";
   width: 22px;
   height: 16px;
-  top: 0px;
-  left: 6px;
+  top: -1px;
+  left: 21px;
   background: url(../img/db-side_top.png) center center no-repeat; }
 
 .db-padd1 {
@@ -197,12 +198,15 @@ h3 {
   vertical-align: top;
   text-align: center; }
 
+.db-sidebar4-imgbox {
+  margin-top: 5px; }
+
 .db-sidebar4 {
   display: table;
   width: 100%;
   border: 1px solid #ebedef;
   border-radius: 3px;
-  padding: 16px 10px;
+  padding: 15px 10px;
   margin-bottom: 13px; }
 
 .db-sidebar4-link {
@@ -238,7 +242,7 @@ h3 {
   font-family: "OpenSans-Regular";
   font-size: 12px;
   line-height: 18px;
-  margin-bottom: 10px; }
+  margin-bottom: 12px; }
 
 .db-sidebar4-span:before {
   position: absolute;
@@ -246,7 +250,7 @@ h3 {
   width: 10px;
   height: 8px;
   top: 5px;
-  left: -4px;
+  left: 1px;
   background: url(../img/db-side_arr.png) center center no-repeat; }
 
 .db-sidebar4-span1 {
@@ -259,10 +263,10 @@ h3 {
 
 .db-sidebar4-span2 {
   display: block;
-  color: #313a43;
-  font-family: "OpenSans-LightOpenSans-Light";
-  font-size: 13px;
-  line-height: 18px;
+  font-family: "MicrosoftSansSerif";
+  color: #2d3246;
+  font-size: 19px;
+  line-height: 20px;
   margin-bottom: 40px; }
 
 .db-sidebar4-span22 {
@@ -286,8 +290,7 @@ h3 {
   display: block;
   padding: 5px;
   background-color: #14b242;
-  border-radius: 2px;
-  margin-bottom: 8px; }
+  border-radius: 2px; }
   .db-wrapdiv-list li {
     display: inline-block;
     margin-right: 12px; }
@@ -309,10 +312,9 @@ h3 {
   position: relative;
   display: block;
   color: white;
-  font-family: "Myriad Pro";
+  font-family: "MyriadPro-Regular";
   font-size: 14px;
-  font-weight: 400;
-  line-height: 35px;
+  line-height: 22px;
   text-align: left;
   margin-left: 7px; }
 
@@ -321,9 +323,14 @@ h3 {
   content: "";
   width: 15px;
   height: 13px;
-  top: 11px;
-  right: 4px;
+  top: 3px;
+  right: 8px;
   background: url(../img/db-side_kor.png) center center no-repeat; }
+
+.ah-font1 {
+  color: #2d3246 !important;
+  font-family: "OpenSans-Semibold" !important;
+  font-size: 13px !important; }
 
 .ah-menu-list {
   display: block;
@@ -340,7 +347,7 @@ h3 {
       line-height: 25px;
       cursor: pointer;
       color: #5c6d7d;
-      padding: 15px 0px 15px 40px;
+      padding: 11px 0px 12px 40px;
       text-decoration: none !important; }
     .ah-menu-list .ah-menu-list_item .ah-menu-list_item-link:hover {
       background-color: #27cf59;
@@ -378,8 +385,8 @@ h3 {
   content: "";
   width: 18px;
   height: 18px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side1.png) center center no-repeat; }
 
 .db-item2:before {
@@ -387,8 +394,8 @@ h3 {
   content: "";
   width: 23px;
   height: 25px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side2.png) center center no-repeat; }
 
 .db-item3:before {
@@ -396,8 +403,8 @@ h3 {
   content: "";
   width: 23px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side3.png) center center no-repeat; }
 
 .db-item4:before {
@@ -405,8 +412,8 @@ h3 {
   content: "";
   width: 20px;
   height: 18px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side4.png) center center no-repeat; }
 
 .db-item5:before {
@@ -414,8 +421,8 @@ h3 {
   content: "";
   width: 22px;
   height: 17px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side5.png) center center no-repeat; }
 
 .db-item6:before {
@@ -423,8 +430,8 @@ h3 {
   content: "";
   width: 29px;
   height: 21px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 6px;
   background: url(../img/db-side6.png) center center no-repeat; }
 
 .db-item7:before {
@@ -432,8 +439,8 @@ h3 {
   content: "";
   width: 28px;
   height: 25px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 7px;
   background: url(../img/db-side7.png) center center no-repeat; }
 
 .db-item8:before {
@@ -441,8 +448,8 @@ h3 {
   content: "";
   width: 25px;
   height: 20px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 9px;
   background: url(../img/db-side8.png) center center no-repeat; }
 
 .db-item9:before {
@@ -450,8 +457,8 @@ h3 {
   content: "";
   width: 19px;
   height: 31px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side9.png) center center no-repeat; }
 
 .db-item10:before {
@@ -459,8 +466,8 @@ h3 {
   content: "";
   width: 23px;
   height: 24px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side10.png) center center no-repeat; }
 
 .db-item11:before {
@@ -468,8 +475,8 @@ h3 {
   content: "";
   width: 25px;
   height: 14px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side11.png) center center no-repeat; }
 
 .db-item12:before {
@@ -477,8 +484,8 @@ h3 {
   content: "";
   width: 34px;
   height: 15px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 4px;
   background: url(../img/db-side12.png) center center no-repeat; }
 
 .db-item13:before {
@@ -486,8 +493,8 @@ h3 {
   content: "";
   width: 18px;
   height: 26px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side13.png) center center no-repeat; }
 
 .db-item14:before {
@@ -495,8 +502,8 @@ h3 {
   content: "";
   width: 23px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side14.png) center center no-repeat; }
 
 .db-item15:before {
@@ -504,8 +511,8 @@ h3 {
   content: "";
   width: 17px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side15.png) center center no-repeat; }
 
 .db-item16:before {
@@ -513,8 +520,8 @@ h3 {
   content: "";
   width: 12px;
   height: 24px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side16.png) center center no-repeat; }
 
 .db-item17:before {
@@ -522,8 +529,8 @@ h3 {
   content: "";
   width: 26px;
   height: 22px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 8px;
   background: url(../img/db-side17.png) center center no-repeat; }
 
 .db-item18:before {
@@ -531,8 +538,8 @@ h3 {
   content: "";
   width: 23px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side18.png) center center no-repeat; }
 
 .db-item19:before {
@@ -540,8 +547,8 @@ h3 {
   content: "";
   width: 23px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side19.png) center center no-repeat; }
 
 .db-item20:before {
@@ -549,8 +556,8 @@ h3 {
   content: "";
   width: 23px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side20.png) center center no-repeat; }
 
 .db-item21:before {
@@ -558,8 +565,8 @@ h3 {
   content: "";
   width: 23px;
   height: 23px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side21.png) center center no-repeat; }
 
 .db-item22:before {
@@ -567,8 +574,8 @@ h3 {
   content: "";
   width: 18px;
   height: 30px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side22.png) center center no-repeat; }
 
 .db-item23:before {
@@ -576,8 +583,8 @@ h3 {
   content: "";
   width: 23px;
   height: 24px;
-  top: 18px;
-  left: 5px;
+  top: 16px;
+  left: 12px;
   background: url(../img/db-side23.png) center center no-repeat; }
 
 /* ╨и╨╕╤А╨╕╨╜╨░ ╤Б╨╗╨░╨╣╨┤╨╡╤А╨░ */
