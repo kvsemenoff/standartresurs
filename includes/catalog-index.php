@@ -1,7 +1,7 @@
 <section class="dg-catalog">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 nopadding">
 				<h3>Каталог строительных материалов</h3>
 
 				<div class="col-md-2 col-sm-6 col-xs-12 catbox">
@@ -28,7 +28,7 @@
 						<div class="imgbox">
 							<img src="img/cat3.png" alt="">
 						</div>
-						<a href="#"><span>Цементно-стружечная плита ЦСП</span></a>
+						<a href="#"><span class="first">Цементно-стружечная плита ЦСП</span></a>
 					</div>
 					
 				</div>
