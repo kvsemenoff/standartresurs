@@ -16,7 +16,7 @@ body{
 	text-align: center;
 }
 .container{
-	//outline: 1px solid red;
+	outline: 1px solid red;
 	padding: 0px !important;
 }
 
@@ -30,6 +30,7 @@ body{
 	
 }
 .main-slider{
+	margin-bottom: 40px;
 	.item{
 		border-radius: 5px !important;
 		overflow: hidden;
