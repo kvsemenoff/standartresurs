@@ -3,6 +3,54 @@
 
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
+		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
+		<li class="ah-menu-list_item">
+			<a href="#" class="ah-menu-list_item-link ah-font1">По цене:</a>
+			<ul class="ah-submenu-list ah-submenu-list1">
+				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
+				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
+				<div id="slider"></div>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item">
+			<a href="#" class="ah-menu-list_item-link ah-font1">По бренду:</a>
+			<ul class="ah-submenu-list ah-submenu-fon">
+				<li class="ah-submenu-left">
+					<span class="ah-submenu-span"><input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check2" class="check2"><label for="check2" class="ah-check2">Волма</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check3" class="check3"><label for="check3" class="ah-check3">Ветонит</label></span>
+					<span class="ah-submenu-span1"><input type="checkbox" id="check4" class="check4"><label for="check4" class="ah-check4">Церезит</label></span>
+				</li>
+				<li class="ah-submenu-right">
+					<span class="ah-submenu-span"><input type="checkbox" id="check5" class="check5"><label for="check5" class="ah-check5">Основит</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check6" class="check6"><label for="check6" class="ah-check6">Глимс</label></span>
+					<span class="ah-submenu-span"><input type="checkbox" id="check7" class="check7"><label for="check7" class="ah-check7">Литокол</label></span>
+					<span class="ah-submenu-span1"><input type="checkbox" id="check8" class="check8"><label for="check8" class="ah-check8">Пуфас</label></span>
+				</li>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item">
+			<a href="#" class="ah-menu-list_item-link ah-font1">По материалу:</a>
+			<ul class="ah-submenu-list">
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
+			</ul>
+		</li>
+		<li class="ah-menu-list_item">
+			<a href="#" class="ah-menu-list_item-link ah-font1">По цвету:</a>
+			<ul class="ah-submenu-list">
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
+				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="clearfix"></div>
+
+<div class="db-sidebar">
+	<ul class="ah-menu-list">
 		<li class="ah-menu-list_item db-item1">
 			<a href="#" class="ah-menu-list_item-link">Сухие смеси, Цемент, Пескобетон</a>
 			<ul class="ah-submenu-list">
