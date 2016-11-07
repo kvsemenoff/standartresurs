@@ -50,15 +50,15 @@
 	<section class="db-wrapper">
 		<div class="container">
 			
-				<div class="main-content-left">
-					<?php require_once('includes/sidebar.php'); ?>
-				</div>
-				<div class="main-content-right">
-					<!-- Место для ваших includ-ов -->
-					<?php require_once('includes/main-slider.php'); ?>
-					<?php require_once('includes/newandpopular.php'); ?>
-				</div>
-				<div class="clear"></div>
+			<div class="main-content-left">
+				<?php require_once('includes/sidebar.php'); ?>
+			</div>
+			<div class="main-content-right">
+				<!-- Место для ваших includ-ов -->
+				<?php require_once('includes/main-slider.php'); ?>
+				<?php require_once('includes/newandpopular.php'); ?>
+			</div>
+			<div class="clear"></div>
 		</div>
 	</section>
 	<?php require_once('includes/catalog-index.php'); ?>
