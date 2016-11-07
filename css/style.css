@@ -15,7 +15,6 @@ body {
   text-align: center; }
 
 .container {
-  outline: 1px solid red;
   padding: 0px !important; }
 
 .header-fixed {
@@ -41,7 +40,7 @@ body {
 .main-slider .owl-buttons .owl-next {
   position: absolute;
   top: 45%;
-  right: 4%; }
+  right: 1%; }
 .main-slider .owl-buttons span {
   font-size: 26px !important;
   color: #2d3246 !important; }
@@ -85,11 +84,9 @@ body {
 
 @media only screen and (min-width: 992px) {
   .main-content-left {
-    width: 280px;
-    outline: 1px solid red; }
+    width: 280px; }
 
   .main-content-right {
-    width: 715px;
-    outline: 1px solid red; } }
+    width: 715px; } }
 
 /*# sourceMappingURL=style.css.map */
