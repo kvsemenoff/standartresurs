@@ -54,7 +54,7 @@
 	<ul class="ah-menu-list">
 		<h3 class="db-h3 db-padd">Каталог</h3>
 		<li class="ah-menu-list_item db-item1">
-			<a href="#" class="ah-menu-list_item-link">Сухие смеси, Цемент, Пескобетон</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Сухие смеси, Цемент, Пескобетон</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -62,7 +62,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item2">
-			<a href="#" class="ah-menu-list_item-link">Штукатурка</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Штукатурка</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -70,7 +70,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item3">
-			<a href="#" class="ah-menu-list_item-link">Шпаклевка</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Шпаклевка</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -78,7 +78,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item4">
-			<a href="#" class="ah-menu-list_item-link">Строительный кирпич</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Строительный кирпич</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -86,7 +86,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item5">
-			<a href="#" class="ah-menu-list_item-link">Бетонные кольца колодезные ЖБИ</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Бетонные кольца колодезные ЖБИ</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -94,7 +94,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item6">
-			<a href="#" class="ah-menu-list_item-link">Пеноблоки газосиликатные</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Пеноблоки газосиликатные</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -102,7 +102,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item7">
-			<a href="#" class="ah-menu-list_item-link">Гипсокартон, Гипсоволокно</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Гипсокартон, Гипсоволокно</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -110,7 +110,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item8">
-			<a href="#" class="ah-menu-list_item-link">Пазогребневые плиты</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Пазогребневые плиты</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -118,7 +118,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item9">
-			<a href="#" class="ah-menu-list_item-link">Профиль для гипсокартона</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Профиль для гипсокартона</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -126,7 +126,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item10">
-			<a href="#" class="ah-menu-list_item-link">Утеплитель</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Утеплитель</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Утеплитель Rockwool</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Утеплитель Пеноплекс</a></li>
@@ -134,7 +134,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item11">
-			<a href="#" class="ah-menu-list_item-link">Пиломатериалы</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Пиломатериалы</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -142,7 +142,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item12">
-			<a href="#" class="ah-menu-list_item-link">Асбестоцементные изделия</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Асбестоцементные изделия</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -150,7 +150,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item13">
-			<a href="#" class="ah-menu-list_item-link">Грунтовка</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Грунтовка</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -158,7 +158,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item14">
-			<a href="#" class="ah-menu-list_item-link">Клей плиточный</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Клей плиточный</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -166,7 +166,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item15">
-			<a href="#" class="ah-menu-list_item-link">Гидроизоляция</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Гидроизоляция</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -174,7 +174,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item16">
-			<a href="#" class="ah-menu-list_item-link">Клеи монтажный</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Клеи монтажный</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -182,7 +182,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item17">
-			<a href="#" class="ah-menu-list_item-link">Наливные полы</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Наливные полы</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -190,7 +190,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item18">
-			<a href="#" class="ah-menu-list_item-link">Пленки</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Пленки</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -198,7 +198,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item19">
-			<a href="#" class="ah-menu-list_item-link">Сетка металлическая</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Сетка металлическая</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -206,7 +206,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item20">
-			<a href="#" class="ah-menu-list_item-link">Пескобетон (Мансурово)</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Пескобетон (Мансурово)</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -214,7 +214,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item21">
-			<a href="#" class="ah-menu-list_item-link">Цементно-стружечная плита ЦСП</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Цементно-стружечная плита ЦСП</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -222,7 +222,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item22">
-			<a href="#" class="ah-menu-list_item-link">Металлопрокат</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Металлопрокат</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
@@ -230,7 +230,7 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item db-item23">
-			<a href="#" class="ah-menu-list_item-link">Саморезы и гвозди</a>
+			<a href="#" class="ah-menu-list_item-link db-paddleft">Саморезы и гвозди</a>
 			<ul class="ah-submenu-list">
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
 				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
