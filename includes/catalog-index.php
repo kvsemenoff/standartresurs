@@ -156,7 +156,7 @@
 						<div class="imgbox">
 							<img src="img/cat15.png" alt="">
 						</div>
-						<a href="#"><span>Асбестоцементные изделия</span></a>
+						<a href="#" class="dg-asb-a"><span class="dg-asb">Асбестоцементные изделия</span></a>
 					</div>
 					<ul> 
 						<li><a href="#">Асбестоцементные трубы</a></li>
