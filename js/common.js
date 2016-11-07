@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
 
     $('.az-select').each(function(){
@@ -33,6 +32,37 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+
+
+    $('.main-slider').owlCarousel({
+        loop: true,
+        margin:5,
+        items: 1,
+        nav: true,
+        autoplay: true,
+        smartSpeed:1000,
+        autoplayTimeout:5000,
+
+        navigation : true,
+        navigationText : ["<span><i class='fa fa-chevron-left' aria-hidden='true'></i></span>","<span><i class='fa fa-chevron-right' aria-hidden='true'></i>"],
+        pagination : true,
+      
+        navText:['<span class="arrow-right">ff2222222222222</span>','<span class="arrow-left">ff2222222222222222222222222222</span>'],
+
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+          
+    });
+
 
  });
 

@@ -55,6 +55,7 @@
 				</div>
 				<div class="col-md-9 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
+					<?php require_once('includes/main-slider.php'); ?>
 					<?php require_once('includes/newandpopular.php'); ?>
 				</div>
 			</div>
