@@ -14,6 +14,10 @@ body {
 .center {
   text-align: center; }
 
+.container {
+  outline: 1px solid red;
+  padding: 0px !important; }
+
 .header-fixed {
   position: fixed;
   top: 0px;
@@ -68,5 +72,24 @@ body {
 .arrow-left {
   display: inline-block;
   outline: 1px solid red; }
+
+.main-content-left {
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
+
+.main-content-right {
+  float: right;
+  width: 100%;
+  box-sizing: border-box; }
+
+@media only screen and (min-width: 992px) {
+  .main-content-left {
+    width: 280px;
+    outline: 1px solid red; }
+
+  .main-content-right {
+    width: 715px;
+    outline: 1px solid red; } }
 
 /*# sourceMappingURL=style.css.map */
