@@ -46,12 +46,12 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/test.php'); ?>
 	
-	<section class="db-wrapper">
+	<section class="db-wrapper db-wrapper2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 dd-col-brad">
 					<div class="dd-brad-crumps">
-						<a href="#">Главная</a>
+						<a class="dd-f-b" href="#">Главная</a>
 						<span><img src="img/b-str.png" alt=""></span>
 						<a href="#">Пиломатериалы</a>
 						<span><img src="img/b-str.png" alt=""></span>

@@ -570,9 +570,11 @@
 /*================================*/
 
 /*========= brad crumps ==========*/
-
+	.dd-col-brad{
+		padding-left:0 !important;
+	}
 	.dd-brad-crumps{
-		padding:19px 5px;
+		padding:12px 5px;
 		a{
 			font-family: "OpenSans-LightOpenSans-Light";
 			font-size: 13px;
@@ -589,13 +591,15 @@
 		a, span{
 			margin-left: 24px;
 		}
-		a:first-child{
+		.dd-f-b{
 			margin-left: 0 !important;
 		}
 	}
 
 /*================================*/
-
+.db-wrapper2{
+	padding-top:0 !important;
+}
 /*============ Poisk =============*/
 
 .dd-poisk-wrap{
