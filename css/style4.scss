@@ -1,6 +1,6 @@
 .db-materials2{
-	padding-left:21px;
-	padding-right:23px;
+	//padding-left:21px;
+	padding-right:51px;
 	margin-bottom:33px;
 }
 // .dd-header-wrapper, .dd-header{
@@ -398,7 +398,8 @@
 
 /*============= Hits =============*/
 .dd-new-wrap{
-	padding:0 19px;
+	//padding:0 19px;
+	padding-right:47px;
 	margin-bottom:9px;
 	.dd-new{
 		padding:16px 9px;
@@ -544,7 +545,7 @@
 /*===== Текст под пагинацией =====*/
 
 .dd-text-wrap{
-	padding:23px 19px;
+	padding:23px 47px 23px 0px;
 	.dd-text{
 		margin-bottom:9px;
 		padding:22px 26px;
@@ -604,7 +605,8 @@
 
 .dd-poisk-wrap{
 	padding-bottom:8px;
-	padding-left:20px;
+	padding-right:36px;
+	//padding-left:20px;
 	position:relative;
 	.dd-poisk{
 		//outline: 1px solid red;
@@ -643,7 +645,7 @@
 		}
 		.dd-poisk-txt{
 			position:absolute;
-			right: 186px;
+			right: 256px;
 			top: 7px;
 			span{
 				font-family: "OpenSans-LightOpenSans-Light";
@@ -665,8 +667,8 @@
 
 /*======= Селект Анзара ========*/
 .dd-select-wrap{
-	padding-left:22px;
-	padding-right:22px;
+	//padding-left:22px;
+	padding-right:50px;
 	padding-bottom:14px;
 	.dd-select-txt{
 		float: left;
@@ -944,7 +946,7 @@
 				width: 74%;
 			}
 			.dd-poisk-txt{
-				right: 203px;
+				right: 236px;
 			}	
 		}		
 	}
