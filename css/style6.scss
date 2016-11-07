@@ -232,7 +232,7 @@
 	}
 	#owl-demo .item{
 	margin-top: 30px;
-	  text-align: center;
+	text-align: center;
 	position: relative;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
@@ -334,7 +334,7 @@
 		.logo{
 			padding-top: 19px;
 		}
-		a{
+		.dg-zakaz-a{
 			position: relative;
 			top: 18px;
 		    display: inline-block;
@@ -347,11 +347,11 @@
 		    font-size: 14px;
 		    min-width: 150px;
 		}
-		a:hover{
+		.dg-zakaz-a:hover{
 			background: #f4ce2f;
 			border-bottom: 3px solid #ecbf08
 		}
-		a:before{
+		.dg-zakaz-a:before{
 			content: "";
 		    position: absolute;
 		    background: url(../img/dd-tel.png) no-repeat center;
