@@ -5,15 +5,91 @@
 @import url(style5.css);
 @import url(style6.css);
 @import url(fonts.css);
+body {
+  color: #fafbfd; }
+
 .clear {
   clear: both; }
 
 .center {
   text-align: center; }
 
+.container {
+  outline: 1px solid red;
+  padding: 0px !important; }
+
 .header-fixed {
   position: fixed;
   top: 0px;
   display: block; }
+
+.db-wrapper {
+  padding-top: 30px; }
+
+.main-slider .item {
+  border-radius: 5px !important;
+  overflow: hidden;
+  position: relative; }
+  .main-slider .item img {
+    display: inline-block;
+    border-radius: 5px !important;
+    border: 1px solid #ebedef; }
+.main-slider .owl-buttons .owl-prev {
+  position: absolute;
+  top: 45%;
+  left: 1%; }
+.main-slider .owl-buttons .owl-next {
+  position: absolute;
+  top: 45%;
+  right: 4%; }
+.main-slider .owl-buttons span {
+  font-size: 26px !important;
+  color: #2d3246 !important; }
+.main-slider .owl-pagination {
+  margin-top: -50px; }
+  .main-slider .owl-pagination .owl-page span {
+    display: inline-block;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 10em !important;
+    background: #fff !important;
+    border: 1px solid #cdd1d4;
+    position: relative !important; }
+  .main-slider .owl-pagination .active span:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 10em !important;
+    background: #25cc56 !important;
+    top: 3px;
+    left: 3px; }
+
+.arrow-right {
+  display: inline-block;
+  outline: 1px solid red; }
+
+.arrow-left {
+  display: inline-block;
+  outline: 1px solid red; }
+
+.main-content-left {
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
+
+.main-content-right {
+  float: right;
+  width: 100%;
+  box-sizing: border-box; }
+
+@media only screen and (min-width: 992px) {
+  .main-content-left {
+    width: 280px;
+    outline: 1px solid red; }
+
+  .main-content-right {
+    width: 715px;
+    outline: 1px solid red; } }
 
 /*# sourceMappingURL=style.css.map */

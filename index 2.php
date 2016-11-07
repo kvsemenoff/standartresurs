@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Карточка товара</title>
+	<title>Главная</title>
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	
@@ -23,7 +23,7 @@
     <script src="libs/new.owl/owl-carousel/owl.carousel.js"></script>
 	
 	<script src="libs/new.owl/assets/js/bootstrap-collapse.js"></script>
-<!--     <script src="libs/new.owl/assets/js/bootstrap-transition.js"></script> -->
+    <!-- <script src="libs/new.owl/assets/js/bootstrap-transition.js"></script> -->
     <script src="libs/new.owl/assets/js/bootstrap-tab.js"></script>
 
     <script src="libs/new.owl/assets/js/google-code-prettify/prettify.js"></script>
@@ -45,20 +45,23 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/test.php'); ?>
 	
 	<section class="db-wrapper">
 		<div class="container">
-			<div class="main-content-left">
-				<?php require_once('includes/sidebar.php'); ?>
-			</div>
-			<div class="main-content-right">
-				<?php require_once('includes/cart-page.php'); ?>
-				<?php require_once('includes/newandpopular.php'); ?>
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<?php require_once('includes/sidebar.php'); ?>
+				</div>
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<!-- Место для ваших includ-ов -->
+					<?php require_once('includes/materials.php'); ?>
+				</div>
 			</div>
 		</div>
 	</section>
+
 	<?php require_once('includes/footer.php'); ?>
+
 	
 </body>
 </html>

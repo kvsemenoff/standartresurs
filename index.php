@@ -49,15 +49,16 @@
 	
 	<section class="db-wrapper">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-sm-4 col-xs-12">
-					<?php require_once('includes/sidebar.php'); ?>
-				</div>
-				<div class="col-md-9 col-sm-8 col-xs-12">
-					<!-- Место для ваших includ-ов -->
-					<?php require_once('includes/newandpopular.php'); ?>
-				</div>
+			
+			<div class="main-content-left">
+				<?php require_once('includes/sidebar.php'); ?>
 			</div>
+			<div class="main-content-right">
+				<!-- Место для ваших includ-ов -->
+				<?php require_once('includes/main-slider.php'); ?>
+				<?php require_once('includes/newandpopular.php'); ?>
+			</div>
+			<div class="clear"></div>
 		</div>
 	</section>
 	<?php require_once('includes/catalog-index.php'); ?>

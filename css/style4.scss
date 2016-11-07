@@ -13,7 +13,11 @@
 		height: 4px;
 		width: 100%;
 		background-size:cover;
-		box-shadow: 0 0 22px 1px;
+		//box-shadow: 0 0 22px 1px !important;
+	}
+	.dd-padding0{
+		padding-left:0 !important;
+		padding-right:0 !important;
 	}
 	.dd-logo-wrap{
 		padding-top:33px;
@@ -40,8 +44,9 @@
 			span:first-child{
 				color:#00CA48;
 			}
-			span:last-child{
-				color:#262E45;
+			.dd-res{
+				color:#262E45 !important;
+				//outline: 1px solid red;
 			}
 			.dd-slogan-txt{	
 				padding-top: 5px;
@@ -116,7 +121,7 @@
 			width: 186px;
 			height: 54px;
 			//outline: 1px solid green;
-			padding-left:34px;
+			padding-left:44px;
 			margin: 0 auto; 
 			.dd-time-element:first-child{
 				font-size: 11px;
@@ -140,7 +145,7 @@
 			background:url(../img/dd-watch.png) no-repeat center;
 			width: 24px;
 			height: 24px;
-			left: 0;
+			left: 9px;
 			top: 22px;
 		}	
 	}
@@ -150,7 +155,7 @@
 			margin:0 auto;
 			position:relative;
 			padding-left:67px;
-			padding-top:12px;
+			padding-top:6px;
 			width: 168px;
 			height: 60px;
 			border:1px solid #00C545;
@@ -344,12 +349,15 @@
 						color:#363636;
 						color:#fff;
 						display: inline-block;
-						padding: 9px 34px;
+						padding: 9px 32px;
 						//outline: 1px solid red;
 					}
 					a:hover{
 						background:#00CD4A;
 						border-bottom:4px solid #00B334;
+					}
+					.dd-first-el{
+						padding-left:23px !important;
 					}
 				}
 			}
@@ -843,7 +851,6 @@
 	.container{
 		width: 1017px !important;
 	}
-
 	.dd-poisk-wrap{
 		.dd-poisk{
 			.dd-input{
@@ -851,7 +858,6 @@
 			}	
 		}		
 	}
-
 	.dd-new-wrap{
 		.dd-new{
 		    text-align: left;
@@ -878,22 +884,24 @@
 	}		
 
 	.dd-header-wrapper{
+		background:url(../img/bg-h.jpg) repeat-x;
+		height: 122px;
 		.dd-phone-wrap{
+			// outline: 1px solid red;
 			float: left;
-			width: 321px;
+			width: 338px;
 			height: 56px;
 			.dd-phone{
 				float: left;
 				padding-top:27px;
 				text-align: left;
-				padding-left:10px;
+				padding-left:23px;
 			}
 			.dd-header-button-wrap{
 				float: left;
 				padding-top:35px;
 				.dd-header-button{
-
-					margin-left: 14px;
+					margin-left: 19px;
 				}
 			}
 		}
@@ -902,8 +910,8 @@
 			width: 160px;
 			//width: 188px;
 			height: 63px;
-			margin-left: 25px;
-			padding-left: 6px;
+			margin-left: 15px;
+			//padding-left: 6px;
 		    padding-top: 28px;
 		    //outline: 1px solid red;
 			.dd-time{
@@ -912,8 +920,8 @@
 		}
 		.dd-korzina-wrap{
 			float: left;
-			padding-left: 23px;
-		    padding-top: 31px;
+			padding-left: 25px;
+		    padding-top: 30px;
 		}			
 	}
 }

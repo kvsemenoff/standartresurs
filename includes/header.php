@@ -1,6 +1,6 @@
 <section class="dd-header-wrapper">
 	<div class="dd-line"></div>
-	<div class="container">
+	<div class="container dd-padding0">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="dd-logo-wrap">
@@ -9,7 +9,7 @@
 					</div>
 					<div class="dd-logo-txt">
 						<span>Standart</span>
-						<span>Resurs</span>
+						<span class="dd-res">Resurs</span>
 						<div class="dd-slogan-txt">
 							Интернет-магазин<br> 
 							строительных материалов
@@ -123,7 +123,7 @@
 		<div class="dd-nav-wrap ">
 			<div class="dd-nav">
 				<ul class="dd-mainmenu">
-					<li><a href="#">Главная</a></li>
+					<li><a class="dd-first-el" href="#">Главная</a></li>
 					<li><a href="#">Магазин</a></li>
 					<li><a href="#">Бренд</a></li>
 					<li><a href="#">Оплата и доставка</a></li>
