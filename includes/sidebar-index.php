@@ -302,7 +302,7 @@ $(document).ready(function(){
 	
 	$('.ah-menu-list li .ah-menu-list_item-link').click(function(){
 		$(this).next('.ah-submenu-list').slideToggle(500);
-
+		$(this).toggleClass('db-hov');
 		return false;
 	});
 
