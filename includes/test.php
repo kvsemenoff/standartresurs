@@ -16,8 +16,10 @@
 				<span>+7 (919)<em> 997 90 20</em></span>			
 			</div>
 			<div class="df-basket">
-				<span class="df-ellips">3</span>
-				<span class="df-pricebasket">5 450 <em>р.</em></span>
+				<a href="#">
+					<span class="df-ellips">3</span>
+					<span class="df-pricebasket">5 450 <em>р.</em></span>
+				</a>
 			</div>
 			<div class="df-button-buy">
 				<a href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>

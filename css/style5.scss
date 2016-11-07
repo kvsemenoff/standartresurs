@@ -13,7 +13,7 @@
 		padding: 10px 0 10px 0px;
 		.df-img-logo{
 			float: left;
-			margin-left: 41px;
+			margin-left: 33px;
 			//height: 73px;
 			.df-img-wrap{
 				float: left;
@@ -29,6 +29,7 @@
 					letter-spacing: 8px;
 					color:#fff;
 					font-weight: bold;
+					letter-spacing: 5px;
 				}
 				span:first-child{
 					color: #00CA48;
@@ -38,14 +39,14 @@
 	}
 	.df-numbers{
 		padding-top: 5px;
-		margin-left: 14px;
+		margin-left: 48px;
 		float: left;
 		span{
 			float: left;			
 			color: #e3e4e6;
 			font-size: 17px;
 			font-family: "OpenSans-LightOpenSans-Light";
-			margin-left: 23px;
+			margin-left: 31px;
 			em{
 				font-family: "OpenSans-Semibold";
 			}
@@ -53,8 +54,7 @@
 	}
 	.df-button-buy{
 		float: right;
-		margin-right: 65px;
-		
+		margin-right: 65px;		
 		a{
 			display: inline-block;
 			//background: url(/img/dd-tel.png) no-repeat center left;
@@ -76,14 +76,18 @@
 			left: 10px;
 		}
 	}
+	.df-button-buy a:hover{
+		background: #10DF5D;
+	}
 	.df-basket{
 		width: 138px; height: 33px;
 		border: 1px solid #00CF4D;
 		border-radius: 5px;
 		float: right;
 		text-align: right;
-		padding: 3px 5px 3px 15px;
-		position: relative;		
+		padding: 2px 9px 3px 15px;
+		position: relative;
+		margin-right: -4px;		
 		.df-ellips{
 			border-radius: 50px; width: 20px; height: 20px;
 			background: #00CF4D;
@@ -100,13 +104,15 @@
 		font-size: 19px;
 		color:#fff;
 		background: url(../img/dd-korz2.png) no-repeat;
-		padding-left: 45px;					
+		padding-left: 40px;					
 			em{
 				font-family: "OpenSans-LightOpenSans-Light";
 			}
 		}
 	}	
 }
+
+//NEW AND POPULAR
 
 .clear{
 	clear:both;
@@ -299,6 +305,56 @@
     }
 }
 
+
+.df-new-popular-text{
+	background: #fff;
+	border:1px solid #ebedef;
+	border-radius: 5px;
+	padding: 0 25px 0 25px;
+	max-width: 712px;
+	margin: 0 auto;
+	.dftext1, .dftext2{
+		h3{
+			font-family: "OpenSans-Semibold";
+			font-size: 18px; 
+			color:#010101; 
+			line-height: 24px;
+			
+			text-transform: none;
+		}
+		p{
+			font-family: "OpenSans-LightOpenSans-Light";
+			font-size: 13px; color:#414551;
+			line-height: 23px;
+		}
+	}
+	.dftext1 h3{
+		margin: 30px 0 24px 0;
+	}
+	.dftext2 h3{
+		margin:21px 0 15px 0;
+	}
+	.dftext3{
+		ul{	
+			margin-top: 15px;
+			li{
+				font-size: 13px;font-family: "OpenSans-LightOpenSans-Light";
+				color: #414551;
+				margin-bottom: 23px;
+				line-height: 23px;
+				padding-left: 20px;
+				background: url(/img/df-list-style.png)no-repeat top 8px left;
+				
+				b{
+					font-family: "OpenSans-Semibold";color:#000000;
+					font-size: 13px;
+					
+
+				}
+			}
+		}
+	}
+}
 
 
 
