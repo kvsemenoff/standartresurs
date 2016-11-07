@@ -5,6 +5,9 @@
 @import url(style5.css);
 @import url(style6.css);
 @import url(fonts.css);
+body {
+  color: #fafbfd; }
+
 .clear {
   clear: both; }
 
@@ -15,5 +18,8 @@
   position: fixed;
   top: 0px;
   display: block; }
+
+.db-wrapper {
+  padding-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */

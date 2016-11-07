@@ -6,7 +6,9 @@
 @import "style6.css";
 @import "fonts.css";
 
-
+body{
+	color: #fafbfd;
+}
 .clear{
     clear: both;
 }
@@ -18,6 +20,10 @@
 	position: fixed;
 	top: 0px;
 	display: block;
+}
+.db-wrapper{
+	padding-top: 30px;
+	
 }
 
 @media only screen and (min-width : 320px) {
