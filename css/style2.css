@@ -361,6 +361,12 @@ h3 {
       text-decoration: none !important;
       background-image: linear-gradient(180deg, #28d15a 0%, #28d15a 2%, #1fc350 89%, #14b242 89%, #14b242 100%);
       box-shadow: 0 0 16px rgba(40, 209, 90, 0.11); }
+    .ah-menu-list .ah-menu-list_item .db-hov {
+      background-color: #27cf59;
+      color: #fff;
+      text-decoration: none !important;
+      background-image: linear-gradient(180deg, #28d15a 0%, #28d15a 2%, #1fc350 89%, #14b242 89%, #14b242 100%);
+      box-shadow: 0 0 16px rgba(40, 209, 90, 0.11); }
     .ah-menu-list .ah-menu-list_item .ah-submenu-list {
       display: none;
       width: 100%; }
@@ -417,7 +423,7 @@ h3 {
   left: 0;
   background: url(../img/db-side1.png) center center no-repeat; }
 
-.db-item1:hover:before {
+.db-item1.db-hov:before, .db-item1:hover:before {
   background: url(../img/db-side1w.png) center center no-repeat; }
 
 .db-item2:before {
@@ -429,7 +435,7 @@ h3 {
   left: 0;
   background: url(../img/db-side2.png) center center no-repeat; }
 
-.db-item2:hover:before {
+.db-item2.db-hov:before, .db-item2:hover:before {
   background: url(../img/db-side2w.png) center center no-repeat; }
 
 .db-item3:before {
@@ -441,7 +447,7 @@ h3 {
   left: 0;
   background: url(../img/db-side3.png) center center no-repeat; }
 
-.db-item3:hover:before {
+.db-item3.db-hov:before, .db-item3:hover:before {
   background: url(../img/db-side3w.png) center center no-repeat; }
 
 .db-item4:before {
@@ -453,7 +459,7 @@ h3 {
   left: 0;
   background: url(../img/db-side4.png) center center no-repeat; }
 
-.db-item4:hover:before {
+.db-item4.db-hov:before, .db-item4:hover:before {
   background: url(../img/db-side4w.png) center center no-repeat; }
 
 .db-item5:before {
@@ -465,7 +471,7 @@ h3 {
   left: 0;
   background: url(../img/db-side5.png) center center no-repeat; }
 
-.db-item5:hover:before {
+.db-item5.db-hov:before, .db-item5:hover:before {
   background: url(../img/db-side5w.png) center center no-repeat; }
 
 .db-item6:before {
@@ -477,7 +483,7 @@ h3 {
   left: 0;
   background: url(../img/db-side6.png) center center no-repeat; }
 
-.db-item6:hover:before {
+.db-item6.db-hov:before, .db-item6:hover:before {
   background: url(../img/db-side6w.png) center center no-repeat; }
 
 .db-item7:before {
@@ -489,7 +495,7 @@ h3 {
   left: 0;
   background: url(../img/db-side7.png) center center no-repeat; }
 
-.db-item7:hover:before {
+.db-item7.db-hov:before, .db-item7:hover:before {
   background: url(../img/db-side7w.png) center center no-repeat; }
 
 .db-item8:before {
@@ -501,7 +507,7 @@ h3 {
   left: 0;
   background: url(../img/db-side8.png) center center no-repeat; }
 
-.db-item8:hover:before {
+.db-item8.db-hov:before, .db-item8:hover:before {
   background: url(../img/db-side8w.png) center center no-repeat; }
 
 .db-item9:before {
@@ -513,7 +519,7 @@ h3 {
   left: 0;
   background: url(../img/db-side9.png) center center no-repeat; }
 
-.db-item9:hover:before {
+.db-item9.db-hov:before, .db-item9:hover:before {
   background: url(../img/db-side9w.png) center center no-repeat; }
 
 .db-item10:before {
@@ -525,7 +531,7 @@ h3 {
   left: 0;
   background: url(../img/db-side10.png) center center no-repeat; }
 
-.db-item10:hover:before {
+.db-item10.db-hov:before, .db-item10:hover:before {
   background: url(../img/db-side10w.png) center center no-repeat; }
 
 .db-item11:before {
@@ -537,7 +543,7 @@ h3 {
   left: 0;
   background: url(../img/db-side11.png) center center no-repeat; }
 
-.db-item11:hover:before {
+.db-item11.db-hov:before, .db-item11:hover:before {
   background: url(../img/db-side11w.png) center center no-repeat; }
 
 .db-item12:before {
@@ -549,7 +555,7 @@ h3 {
   left: 0;
   background: url(../img/db-side12.png) center center no-repeat; }
 
-.db-item12:hover:before {
+.db-item12.db-hov:before, .db-item12:hover:before {
   background: url(../img/db-side12w.png) center center no-repeat; }
 
 .db-item13:before {
@@ -561,7 +567,7 @@ h3 {
   left: 0;
   background: url(../img/db-side13.png) center center no-repeat; }
 
-.db-item13:hover:before {
+.db-item13.db-hov:before, .db-item13:hover:before {
   background: url(../img/db-side13w.png) center center no-repeat; }
 
 .db-item14:before {
@@ -573,7 +579,7 @@ h3 {
   left: 0;
   background: url(../img/db-side14.png) center center no-repeat; }
 
-.db-item14:hover:before {
+.db-item14.db-hov:before, .db-item14:hover:before {
   background: url(../img/db-side14w.png) center center no-repeat; }
 
 .db-item15:before {
@@ -585,7 +591,7 @@ h3 {
   left: 0;
   background: url(../img/db-side15.png) center center no-repeat; }
 
-.db-item15:hover:before {
+.db-item15.db-hov:before, .db-item15:hover:before {
   background: url(../img/db-side15w.png) center center no-repeat; }
 
 .db-item16:before {
@@ -597,7 +603,7 @@ h3 {
   left: 0;
   background: url(../img/db-side16.png) center center no-repeat; }
 
-.db-item16:hover:before {
+.db-item16.db-hov:before, .db-item16:hover:before {
   background: url(../img/db-side16w.png) center center no-repeat; }
 
 .db-item17:before {
@@ -609,7 +615,7 @@ h3 {
   left: 0;
   background: url(../img/db-side17.png) center center no-repeat; }
 
-.db-item17:hover:before {
+.db-item17.db-hov:before, .db-item17:hover:before {
   background: url(../img/db-side17w.png) center center no-repeat; }
 
 .db-item18:before {
@@ -621,7 +627,7 @@ h3 {
   left: 0;
   background: url(../img/db-side18.png) center center no-repeat; }
 
-.db-item18:hover:before {
+.db-item18.db-hov:before, .db-item18:hover:before {
   background: url(../img/db-side18w.png) center center no-repeat; }
 
 .db-item19:before {
@@ -633,7 +639,7 @@ h3 {
   left: 0;
   background: url(../img/db-side19.png) center center no-repeat; }
 
-.db-item19:hover:before {
+.db-item19.db-hov:before, .db-item19:hover:before {
   background: url(../img/db-side19w.png) center center no-repeat; }
 
 .db-item20:before {
@@ -645,7 +651,7 @@ h3 {
   left: 0;
   background: url(../img/db-side20.png) center center no-repeat; }
 
-.db-item20:hover:before {
+.db-item20.db-hov:before, .db-item20:hover:before {
   background: url(../img/db-side20w.png) center center no-repeat; }
 
 .db-item21:before {
@@ -657,7 +663,7 @@ h3 {
   left: 0;
   background: url(../img/db-side21.png) center center no-repeat; }
 
-.db-item21:hover:before {
+.db-item21.db-hov:before, .db-item21:hover:before {
   background: url(../img/db-side21w.png) center center no-repeat; }
 
 .db-item22:before {
@@ -669,7 +675,7 @@ h3 {
   left: 0;
   background: url(../img/db-side22.png) center center no-repeat; }
 
-.db-item22:hover:before {
+.db-item22.db-hov:before, .db-item22:hover:before {
   background: url(../img/db-side22w.png) center center no-repeat; }
 
 .db-item23:before {
@@ -681,7 +687,7 @@ h3 {
   left: 0;
   background: url(../img/db-side23.png) center center no-repeat; }
 
-.db-item23:hover:before {
+.db-item23.db-hov:before, .db-item23:hover:before {
   background: url(../img/db-side23w.png) center center no-repeat; }
 
 /* ╨и╨╕╤А╨╕╨╜╨░ ╤Б╨╗╨░╨╣╨┤╨╡╤А╨░ */
