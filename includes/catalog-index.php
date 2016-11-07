@@ -1,6 +1,6 @@
 <section class="dg-catalog">
 	<div class="container">
-		<div class="row">
+		<!-- <div class="row"> -->
 			<div class="col-md-12">
 				<h3>Каталог строительных материалов</h3>
 
@@ -249,6 +249,6 @@
 				</div>
 
 			</div>
-		</div>
+		<!-- </div> -->
 	</div>
 </section>

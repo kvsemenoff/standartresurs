@@ -28,7 +28,7 @@
 				<div class="clear"></div>
 				<div class="leftbottom">
 					<div class="col-md-5 col-sm-5 col-xs-12 logo nopadding">
-						<img src="img/logo-footer.png" alt="">
+						<a href="/"><img src="img/logo-footer.png" alt=""></a>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<p>Контактные телефоны</p>
@@ -36,7 +36,7 @@
 						<span><span class="light">+7 (919)</span> 997 90 20</span>
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 nopadding">
-						<a href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
+						<a class="dg-zakaz-a" href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
