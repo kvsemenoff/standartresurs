@@ -15,7 +15,6 @@ body {
   text-align: center; }
 
 .container {
-  outline: 1px solid red;
   padding: 0px !important; }
 
 .header-fixed {
