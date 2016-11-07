@@ -46,12 +46,12 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/test.php'); ?>
 	
-	<section class="db-wrapper">
+	<section class="db-wrapper db-wrapper2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 dd-col-brad">
 					<div class="dd-brad-crumps">
-						<a href="#">Главная</a>
+						<a class="dd-f-b" href="#">Главная</a>
 						<span><img src="img/b-str.png" alt=""></span>
 						<a href="#">Пиломатериалы</a>
 						<span><img src="img/b-str.png" alt=""></span>
@@ -61,7 +61,6 @@
 				<div class="clearfix"></div>
 				<div class="col-md-3 col-sm-4 col-xs-12">
 					<?php require_once('includes/sidebar2.php'); ?>
-					
 				</div>
 				<div class="col-md-9 col-sm-8 col-xs-12">
 					<!-- Место для ваших includ-ов -->
@@ -74,6 +73,34 @@
 							</div>
 						</form>
 					</div>
+
+<div class="clearfix"></div>
+<div class="db-materials2">
+<h3 class="db-h3">Пиломатериалы</h3>
+<div class="db-materials">
+	<!-- <div class="db-materials-wrapper"> -->
+		<div class="db-materials-box1">
+			<ul class="db-materials-list">
+				<li><a href="#">Деревянные бруски</a></li>
+				<li><a href="#">Доска обрезная</a></li>
+			</ul>
+		</div>
+		<div class="db-materials-box2">
+			<ul class="db-materials-list">
+				<li><a href="#">Половая доска</a></li>
+				<li><a href="#">Фанера и ОСБ</a></li>
+			</ul>
+		</div>
+		<div class="db-materials-box3">
+			<ul class="db-materials-list">
+				<li><a href="#">Строганная доска</a></li>
+				<li><a href="#">Блок-хаус</a></li>
+			</ul>
+		</div>
+	<!-- </div> -->
+</div>
+</div>
+<div class="clearfix"></div>
 					<div class="dd-select-wrap">
 						<div class="dd-select-txt">
 							<span>Соритровать по</span>
@@ -107,12 +134,12 @@
 					<div class="dd-text-wrap">
 						<div class="dd-text">
 							<h3>Для чего используется плиточный клей</h3>
-							<span>
+							<span class="dd-txt-color">
 								Кафельная плитка на сегодняшний день является одним из самых востребованных и популярных отделочных материалов. Её используют в ванной и на кухнях, в помещениях и вне помещений. Но чтобы она продержалась действительно долго, не доставляя лишних проблем владельцу, при монтаже необходимо использовать качественный клей плиточный.
 								Он используется для максимально прочного прилегания плитки к любым типам поверхности – полу, потолку или стенам. И в первую очередь от него зависит, продержатся ли плитки многие годы, пока не возникнет необходимость демонтажа, или же отвалятся через считанные недели или месяцы.
 							</span>
 							<h3 class="nexth3">Виды временного плиточного клея</h3>
-							<span>
+							<span class="dd-txt-color">
 								Одним из показателей, на который обращает внимание большинство непрофессионалов, покупая клей плиточный, это цена. А ведь есть ещё немало факторов, которые обязательно нужно учитывать при выборе материала. Сегодня на рынке можно увидеть большое количество самых разных марок плиточного клея, каждый из которых нередко имеет довольно узкую специализацию. О наиболее распространенных видах клея будет полезно знать.
 							</span>
 						</div>

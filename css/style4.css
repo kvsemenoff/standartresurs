@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.db-materials2 {
+  padding-right: 51px;
+  margin-bottom: 33px; }
+
 .dd-header-wrapper {
   background: #fff;
   padding-bottom: 12px; }
@@ -6,8 +10,7 @@
     background: url(../img/dd-line.png) no-repeat center;
     height: 4px;
     width: 100%;
-    background-size: cover;
-    box-shadow: 0 0 22px 1px; }
+    background-size: cover; }
   .dd-header-wrapper .dd-padding0 {
     padding-left: 0 !important;
     padding-right: 0 !important; }
@@ -29,8 +32,8 @@
         letter-spacing: 8px; }
       .dd-header-wrapper .dd-logo-wrap .dd-logo-txt span:first-child {
         color: #00CA48; }
-      .dd-header-wrapper .dd-logo-wrap .dd-logo-txt span:last-child {
-        color: #262E45; }
+      .dd-header-wrapper .dd-logo-wrap .dd-logo-txt .dd-res {
+        color: #262E45 !important; }
       .dd-header-wrapper .dd-logo-wrap .dd-logo-txt .dd-slogan-txt {
         padding-top: 5px;
         font-family: "OpenSans-LightOpenSans-Light";
@@ -274,7 +277,7 @@
       background: #00CD4A;
       border-bottom: 4px solid #00B334; }
     .dd-header .dd-nav-wrap .dd-nav .dd-mainmenu li .dd-first-el {
-      padding-left: 0 !important; }
+      padding-left: 23px !important; }
 
 /*==================================*/
 /*============= Pagination =============*/
@@ -299,7 +302,7 @@
 /*======================================*/
 /*============= Hits =============*/
 .dd-new-wrap {
-  padding: 0 19px;
+  padding-right: 47px;
   margin-bottom: 9px; }
   .dd-new-wrap .dd-new {
     padding: 16px 9px;
@@ -410,7 +413,7 @@
 /*================================*/
 /*===== ╨в╨╡╨║╤Б╤В ╨┐╨╛╨┤ ╨┐╨░╨│╨╕╨╜╨░╤Ж╨╕╨╡╨╣ =====*/
 .dd-text-wrap {
-  padding: 23px 19px; }
+  padding: 23px 47px 23px 0px; }
   .dd-text-wrap .dd-text {
     margin-bottom: 9px;
     padding: 22px 26px;
@@ -423,14 +426,18 @@
       padding-bottom: 25px; }
     .dd-text-wrap .dd-text .nexth3 {
       padding-top: 25px; }
-    .dd-text-wrap .dd-text span {
+    .dd-text-wrap .dd-text .dd-txt-color {
       font-family: "OpenSans-LightOpenSans-Light";
-      font-size: 13px; }
+      font-size: 13px;
+      color: #3E4351; }
 
 /*================================*/
 /*========= brad crumps ==========*/
+.dd-col-brad {
+  padding-left: 0 !important; }
+
 .dd-brad-crumps {
-  padding: 19px 5px; }
+  padding: 12px 5px; }
   .dd-brad-crumps a {
     font-family: "OpenSans-LightOpenSans-Light";
     font-size: 13px;
@@ -444,14 +451,17 @@
     display: inline-block; }
   .dd-brad-crumps a, .dd-brad-crumps span {
     margin-left: 24px; }
-  .dd-brad-crumps a:first-child {
+  .dd-brad-crumps .dd-f-b {
     margin-left: 0 !important; }
 
 /*================================*/
+.db-wrapper2 {
+  padding-top: 0 !important; }
+
 /*============ Poisk =============*/
 .dd-poisk-wrap {
-  padding-bottom: 44px;
-  padding-left: 20px;
+  padding-bottom: 8px;
+  padding-right: 36px;
   position: relative; }
   .dd-poisk-wrap .dd-poisk .dd-input {
     width: 100%;
@@ -461,7 +471,8 @@
     border-radius: 4px;
     font-family: "OpenSans-LightOpenSans-Light";
     font-size: 13px;
-    padding-left: 12px; }
+    padding-left: 12px;
+    color: #3E4351; }
   .dd-poisk-wrap .dd-poisk .dd-button {
     font-family: "MyriadPro-Regular";
     background: #FFDC3B;
@@ -483,7 +494,7 @@
     top: 10px; }
   .dd-poisk-wrap .dd-poisk .dd-poisk-txt {
     position: absolute;
-    right: 186px;
+    right: 256px;
     top: 7px; }
     .dd-poisk-wrap .dd-poisk .dd-poisk-txt span {
       font-family: "OpenSans-LightOpenSans-Light";
@@ -499,8 +510,7 @@
 /*================================*/
 /*======= ╨б╨╡╨╗╨╡╨║╤В ╨Р╨╜╨╖╨░╤А╨░ ========*/
 .dd-select-wrap {
-  padding-left: 19px;
-  padding-right: 15px;
+  padding-right: 50px;
   padding-bottom: 14px; }
   .dd-select-wrap .dd-select-txt {
     float: left;
@@ -661,37 +671,40 @@
       left: 0%;
       top: -8%; }
 
-  .dd-header-wrapper .dd-phone-wrap {
-    float: left;
-    width: 338px;
-    height: 56px; }
-    .dd-header-wrapper .dd-phone-wrap .dd-phone {
+  .dd-header-wrapper {
+    background: url(../img/bg-h.jpg) repeat-x;
+    height: 122px; }
+    .dd-header-wrapper .dd-phone-wrap {
       float: left;
-      padding-top: 27px;
-      text-align: left;
-      padding-left: 23px; }
-    .dd-header-wrapper .dd-phone-wrap .dd-header-button-wrap {
+      width: 338px;
+      height: 56px; }
+      .dd-header-wrapper .dd-phone-wrap .dd-phone {
+        float: left;
+        padding-top: 27px;
+        text-align: left;
+        padding-left: 23px; }
+      .dd-header-wrapper .dd-phone-wrap .dd-header-button-wrap {
+        float: left;
+        padding-top: 35px; }
+        .dd-header-wrapper .dd-phone-wrap .dd-header-button-wrap .dd-header-button {
+          margin-left: 19px; }
+    .dd-header-wrapper .dd-time-wrap {
       float: left;
-      padding-top: 35px; }
-      .dd-header-wrapper .dd-phone-wrap .dd-header-button-wrap .dd-header-button {
-        margin-left: 19px; }
-  .dd-header-wrapper .dd-time-wrap {
-    float: left;
-    width: 160px;
-    height: 63px;
-    margin-left: 15px;
-    padding-top: 28px; }
-    .dd-header-wrapper .dd-time-wrap .dd-time {
-      float: left; }
-  .dd-header-wrapper .dd-korzina-wrap {
-    float: left;
-    padding-left: 25px;
-    padding-top: 30px; } }
+      width: 160px;
+      height: 63px;
+      margin-left: 15px;
+      padding-top: 28px; }
+      .dd-header-wrapper .dd-time-wrap .dd-time {
+        float: left; }
+    .dd-header-wrapper .dd-korzina-wrap {
+      float: left;
+      padding-left: 25px;
+      padding-top: 30px; } }
 @media only screen and (min-width: 1248px) {
   .dd-poisk-wrap .dd-poisk .dd-input {
     width: 74%; }
   .dd-poisk-wrap .dd-poisk .dd-poisk-txt {
-    right: 203px; }
+    right: 236px; }
 
   .dd-header-wrapper .dd-time-wrap {
     width: 188px; } }

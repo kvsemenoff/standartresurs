@@ -3,13 +3,14 @@
 	<div class="container dd-padding0">
 		<div class="row">
 			<div class="col-md-3">
+				<a href="#">
 				<div class="dd-logo-wrap">
 					<div class="dd-logo-img">
 						<img src="img/dd-logo.png" alt="">
 					</div>
 					<div class="dd-logo-txt">
 						<span>Standart</span>
-						<span>Resurs</span>
+						<span class="dd-res">Resurs</span>
 						<div class="dd-slogan-txt">
 							Интернет-магазин<br> 
 							строительных материалов
