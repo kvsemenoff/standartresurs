@@ -149,7 +149,8 @@
 .df-new{
 	display: inline-block;
     //float: left;
-    margin: 0 2.5px;
+    //margin: 0 2.5px;
+    margin-right: 3.5px;
     margin-bottom: 30px;    
     text-align: center;   
     .df-new-box{    	
@@ -380,6 +381,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.df-new-4boxs{
+		text-align: left;
+	}
 	
 }
 
