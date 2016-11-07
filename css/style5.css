@@ -127,7 +127,7 @@
 
 .df-new {
   display: inline-block;
-  margin-right: 3.5px;
+  margin-right: 5.9px;
   margin-bottom: 30px;
   text-align: center; }
   .df-new .df-new-box .df-bg-new {
@@ -288,9 +288,12 @@
         color: #000000;
         font-size: 13px; }
 
+div.df-new:nth-child(4n+1) {
+  margin-right: 0px; }
+
 @media only screen and (min-width: 768px) {
   .df-top-caption {
-    margin-top: 40px; }
+    margin-top: 50px; }
     .df-top-caption .df-caption-popular {
       float: left;
       padding: 0; }
