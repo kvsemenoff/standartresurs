@@ -51,7 +51,7 @@
 		<div class="container">
 			
 			<div class="main-content-left">
-				<?php require_once('includes/sidebar.php'); ?>
+				<?php require_once('includes/sidebar-index.php'); ?>
 			</div>
 			<div class="main-content-right">
 				<!-- Место для ваших includ-ов -->
