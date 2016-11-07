@@ -13,7 +13,7 @@
 		height: 4px;
 		width: 100%;
 		background-size:cover;
-		box-shadow: 0 0 22px 1px;
+		//box-shadow: 0 0 22px 1px !important;
 	}
 	.dd-padding0{
 		padding-left:0 !important;
@@ -44,8 +44,9 @@
 			span:first-child{
 				color:#00CA48;
 			}
-			span:last-child{
-				color:#262E45;
+			.dd-res{
+				color:#262E45 !important;
+				//outline: 1px solid red;
 			}
 			.dd-slogan-txt{	
 				padding-top: 5px;
@@ -356,7 +357,7 @@
 						border-bottom:4px solid #00B334;
 					}
 					.dd-first-el{
-						padding-left:0 !important;
+						padding-left:23px !important;
 					}
 				}
 			}
@@ -850,7 +851,6 @@
 	.container{
 		width: 1017px !important;
 	}
-
 	.dd-poisk-wrap{
 		.dd-poisk{
 			.dd-input{
@@ -858,7 +858,6 @@
 			}	
 		}		
 	}
-
 	.dd-new-wrap{
 		.dd-new{
 		    text-align: left;
@@ -885,6 +884,8 @@
 	}		
 
 	.dd-header-wrapper{
+		background:url(../img/bg-h.jpg) repeat-x;
+		height: 122px;
 		.dd-phone-wrap{
 			// outline: 1px solid red;
 			float: left;

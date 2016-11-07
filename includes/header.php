@@ -9,7 +9,7 @@
 					</div>
 					<div class="dd-logo-txt">
 						<span>Standart</span>
-						<span>Resurs</span>
+						<span class="dd-res">Resurs</span>
 						<div class="dd-slogan-txt">
 							Интернет-магазин<br> 
 							строительных материалов
