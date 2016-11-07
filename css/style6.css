@@ -1,11 +1,21 @@
 /*style6*/
+@media only screen and (max-width: 1200px) {
+  .owl-buttons {
+    display: none; } }
 @media only screen and (min-width: 1200px) {
   .cost {
     margin-left: 435px;
     padding: 0; }
 
   .right-footer {
-    padding: 0; } }
+    padding: 0; }
+
+  .dg-asb-a {
+    position: relative; }
+
+  .dg-asb {
+    position: absolute;
+    top: -18px; } }
 @media only screen and (min-width: 992px) {
   .catbox {
     width: 19%;
@@ -180,48 +190,51 @@
       .dg-catalog ul li a:hover {
         color: #2ed903; }
 
-.dg-slider .wor {
-  padding-top: 25px;
-  height: 109px; }
-.dg-slider #owl-demo .item {
-  margin-top: 30px;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%); }
-.dg-slider .customNavigation {
-  text-align: center; }
-.dg-slider .customNavigation a {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent; }
-.dg-slider .owl-buttons {
-  position: absolute !important;
-  width: 100% !important;
-  top: 0px; }
-.dg-slider .owl-prev {
-  position: absolute;
-  left: -24px;
-  width: 50px;
-  height: 50px; }
-.dg-slider .owl-prev:before {
-  content: url("../img/prev.png");
-  position: relative;
-  top: 20px; }
-.dg-slider .owl-next {
-  position: absolute;
-  right: -20px;
-  width: 50px;
-  height: 50px; }
-.dg-slider .owl-next:before {
-  content: url("../img/next.png");
-  position: relative;
-  top: 20px; }
+.dg-slider {
+  max-width: 1015px;
+  margin: 0 auto; }
+  .dg-slider .wor {
+    padding-top: 25px;
+    height: 109px; }
+  .dg-slider #owl-demo .item {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .dg-slider .customNavigation {
+    text-align: center; }
+  .dg-slider .customNavigation a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; }
+  .dg-slider .owl-buttons {
+    position: absolute !important;
+    width: 100% !important;
+    top: 0px; }
+  .dg-slider .owl-prev {
+    position: absolute;
+    left: -24px;
+    width: 50px;
+    height: 50px; }
+  .dg-slider .owl-prev:before {
+    content: url("../img/prev.png");
+    position: relative;
+    top: 20px; }
+  .dg-slider .owl-next {
+    position: absolute;
+    right: -20px;
+    width: 50px;
+    height: 50px; }
+  .dg-slider .owl-next:before {
+    content: url("../img/next.png");
+    position: relative;
+    top: 20px; }
 
 .dg-footer {
   background-color: #2d3246;
@@ -318,13 +331,17 @@
       right: 0;
       text-align: right; }
 
+/*.owl-item{
+	width: 111px !important;
+}*/
 .dg-cart {
   max-width: 715px;
   border-style: solid;
   border-width: 1px;
   border-color: #ebedef;
   border-radius: 3px;
-  padding: 26px; }
+  padding: 26px;
+  color: #ffffff; }
   .dg-cart .bolder span {
     font-size: 13px;
     font-family: "OpenSans-Regular";
