@@ -336,6 +336,12 @@
 /*.owl-item{
 	width: 111px !important;
 }*/
+.hr-dashed {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ccc; }
+
 .dg-cart {
   margin-top: 28px;
   max-width: 715px;
