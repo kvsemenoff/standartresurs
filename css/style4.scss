@@ -669,11 +669,13 @@
 	}
 }
 
+
 /*================================*/
 
 /*======= Селект Анзара ========*/
 .dd-select-wrap{
 	//padding-left:22px;
+	margin-top:33px;
 	padding-right:50px;
 	padding-bottom:14px;
 	.dd-select-txt{
@@ -853,6 +855,17 @@
 
 /*================================*/
 
+.dd-poisk-wrap2{
+	.dd-poisk{
+		margin: 0 auto;
+		.dd-input{
+
+			width: 56% !important;
+		}	
+	}
+}
+
+
 /*=========== banner =============*/
 
 .dd-banner{
@@ -897,6 +910,17 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-poisk-wrap2{
+		padding-right:0 !important;
+		.dd-poisk{
+			.dd-input{
+				width: 76% !important;
+			}
+			.dd-poisk-txt{
+				right: 185px !important;
+			}		
+		}
+	}
 
 	.container{
 		width: 1017px !important;
