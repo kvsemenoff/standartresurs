@@ -391,11 +391,30 @@ h3{
 .db-paddleft{
     padding-left: 50px !important;
 }
-.ah-font1{
+.ah-font1 {
+    position: relative;
 	color: #2d3246 !important;
 	font-family: "OpenSans-Semibold" !important;
 	font-size: 13px !important;
 	// line-height: 42px;
+}
+.ah-font1:before{
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 10px;
+    bottom: 18px;
+    right: calc(0% - -9%);
+    background: url(../img/db-side-arr-gr.png) center center no-repeat;
+}
+.ah-font2:before{
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 10px;
+    bottom: 18px;
+    right: calc(0% - -9%);
+    background: url(../img/db-side-arr-top.png) center center no-repeat;
 }
 .ah-menu-list {
     display: block;
@@ -418,6 +437,17 @@ h3{
 			padding: 11px 0px 9px 40px;
 			text-decoration: none !important;
     	}
+        .ah-menu-list_item-link1{
+            display: inline-block;
+            width: 100%;
+            font-family: "OpenSans-LightOpenSans-Light";
+            font-size: 13px;
+            line-height: 22px;
+            cursor: pointer;
+            color: #5c6d7d;
+            padding: 11px 0px 9px 19px;
+            text-decoration: none !important;
+        }
     	.ah-menu-list_item-link:hover{
     		background-color: #27cf59;
     		color: #fff;
@@ -1031,8 +1061,8 @@ h3{
 }
 /* позиционируем ползунки */
 .ui-slider-horizontal .ui-slider-handle { 
-    top: 1px;
-    margin-left: -6px;
+    top: 2px;
+    margin-left: -7px;
 }
 .ui-slider-horizontal .ui-slider-range {
     top: 0;
@@ -1046,8 +1076,8 @@ h3{
 }
 /* оформление полосы по которой ходит ползунок */
 .ui-widget-content { 
-    border: 1px solid #25cc57;
-    background: #fff;
+    // border: 1px solid #25cc57;
+    background: #e2e3e4;
 }
 /* оформление активного участка (между двумя ползунками) */
 .ui-widget-header { 
