@@ -6,7 +6,7 @@
 @import url(style6.css);
 @import url(fonts.css);
 body {
-  color: #fafbfd; }
+  background: #fafbfd; }
 
 .clear {
   clear: both; }
