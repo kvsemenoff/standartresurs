@@ -114,14 +114,20 @@
 							</select>
 						</div>
 						<a href="#">
-							<div class="dd-sort ">
-							<i class="fa fa-th-list" aria-hidden="true"></i>
+							<div class="dd-sort">
+							<div class="dd-im-sp">
+								
+							</div>
+							<!-- <i class="fa fa-th-list" aria-hidden="true"></i> -->
 							<span>Список</span>
 							</div>
 						</a>
 						<a href="#">
 							<div class="dd-sort dd-sort2">
-							<i class="fa fa-th" aria-hidden="true"></i>
+							<div class="dd-im-pl">
+							
+							</div>
+							<!-- <i class="fa fa-th" aria-hidden="true"></i> -->
 							<span>Плитка</span>
 							</div>
 						</a>

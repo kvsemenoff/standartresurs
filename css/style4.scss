@@ -791,6 +791,18 @@
 		float: right;
 		position:relative;
 		cursor: pointer;
+		.dd-im-sp{
+			position:relative;
+		}
+		.dd-im-sp:after{
+			position:absolute;
+			content: "";
+			background:url(../img/sp-ch.png);
+			left: 8px;
+			top:5px;
+			width: 10px;
+			height: 10px;
+		}
 		.fa{
 			position:absolute;
 			top: 3px;
@@ -813,9 +825,29 @@
 		span{
 			color:#00C746;
 		}
+		.dd-im-sp:after{
+			background:url(../img/sp-zel.png);
+		}
 	}
 	.dd-sort2{
 		margin-right:6px;
+		.dd-im-pl{
+			position:relative;
+		}
+		.dd-im-pl:after{
+			position:absolute;
+			content: "";
+			background:url(../img/pl-ch.png);
+			left: 8px;
+			top:5px;
+			width: 10px;
+			height: 10px;
+		}
+	}
+	.dd-sort2:hover{
+		.dd-im-pl:after{
+			background:url(../img/pl-zel.png);
+		}
 	}
 }
 
