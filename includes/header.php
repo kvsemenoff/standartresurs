@@ -6,16 +6,9 @@
 				<a href="#">
 				<div class="dd-logo-wrap">
 					<div class="dd-logo-img">
-						<img src="img/dd-logo.png" alt="">
+						<img src="img/logo.png" alt="">
 					</div>
-					<div class="dd-logo-txt">
-						<span>Standart</span>
-						<span class="dd-res">Resurs</span>
-						<div class="dd-slogan-txt">
-							Интернет-магазин<br> 
-							строительных материалов
-						</div>
-					</div>
+					
 					<div class="clearfix"></div>
 				</div>
 			</div>

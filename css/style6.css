@@ -189,6 +189,8 @@
         text-align: left; }
       .dg-catalog ul li a:hover {
         color: #2ed903; }
+  .dg-catalog .li11 {
+    border-bottom: none; }
 
 .dg-slider {
   max-width: 1015px;

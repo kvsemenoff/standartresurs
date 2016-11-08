@@ -60,9 +60,10 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+		<?php require_once('includes/catalog-index.php'); ?>
+		<?php require_once('includes/slider.php'); ?>
 	</section>
-	<?php require_once('includes/catalog-index.php'); ?>
-	<?php require_once('includes/slider.php'); ?>
+	
 	<?php require_once('includes/footer.php'); ?>
 
 	

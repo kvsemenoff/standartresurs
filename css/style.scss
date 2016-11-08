@@ -7,7 +7,8 @@
 @import "fonts.css";
 
 body{
-	color: #fafbfd;
+	background: #fafbfd;
+
 }
 .clear{
     clear: both;
@@ -30,6 +31,7 @@ body{
 	
 }
 .main-slider{
+	margin-bottom: 40px;
 	.item{
 		border-radius: 5px !important;
 		overflow: hidden;
