@@ -214,27 +214,32 @@
       font-family: "OpenSans-Regular";
       font-size: 14px;
       margin-bottom: 4px;
-      transition: background 0.5s, border 0.5s; }
+      transition: background 0.5s, border 0.5s;
+      display: table; }
       .df-new .df-new-box .df-bg-new .df-buy-product .df-number {
         text-align: center;
         background: #14b242;
         border-radius: 3px;
         display: inline-block;
-        width: 60px;
-        height: 22px;
+        display: table-cell;
+        vertical-align: middle;
+        width: 40%;
         color: #fff;
         transition: background 0.5s; }
         .df-new .df-new-box .df-bg-new .df-buy-product .df-number a {
+          color: #fff; }
+      .df-new .df-new-box .df-bg-new .df-buy-product .df-buy {
+        display: table-cell;
+        vertical-align: middle;
+        width: 60%;
+        padding-right: 5px; }
+        .df-new .df-new-box .df-bg-new .df-buy-product .df-buy a {
+          background: url(/img/basket.png) top 0px right no-repeat;
+          width: 70px;
+          padding-right: 25px;
           color: #fff;
-          padding: 0 8px; }
-      .df-new .df-new-box .df-bg-new .df-buy-product .df-buy a {
-        background: url(/img/basket.png) top 0px right no-repeat;
-        width: 70px;
-        padding-right: 25px;
-        padding-left: 10px;
-        color: #fff;
-        font-size: 14px;
-        font-family: "Myriad Pro"; }
+          font-size: 14px;
+          font-family: "Myriad Pro"; }
     .df-new .df-new-box .df-bg-new .df-buy-product:hover {
       background: #da2d26;
       border-bottom: 3px solid #cd1e1a; }
