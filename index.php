@@ -57,6 +57,7 @@
 				<!-- Место для ваших includ-ов -->
 				<?php require_once('includes/main-slider.php'); ?>
 				<?php require_once('includes/newandpopular.php'); ?>
+				<?php require_once('includes/newandpopulartext.php'); ?>
 			</div>
 			<div class="clear"></div>
 		</div>

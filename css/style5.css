@@ -48,7 +48,7 @@
       display: inline-block;
       background-color: #00CF4D;
       padding: 6px 15px 6px 34px;
-      border-radius: 4px;
+      border-radius: 3px;
       border-bottom: 3px solid #00B334;
       font-family: "Conv_MyriadPro-Regular";
       color: #fff;
@@ -123,7 +123,7 @@
     padding: 7px 12px;
     background: #fff;
     border: 1px solid #ebedef;
-    border-radius: 5px; }
+    border-radius: 3px; }
 
 .df-new {
   display: inline-block;
@@ -132,7 +132,7 @@
   text-align: center; }
   .df-new .df-new-box .df-bg-new {
     background: #fff;
-    border-radius: 6px;
+    border-radius: 3px;
     border: 1px solid #ebedef;
     width: 171px;
     padding: 0 5px;
@@ -152,7 +152,7 @@
           font-family: "OpenSans-Bold";
           font-size: 13px;
           border: 1px solid #23c954;
-          border-radius: 5px;
+          border-radius: 3px;
           color: #23c954;
           text-transform: uppercase;
           padding: 5px 7px;
@@ -201,13 +201,14 @@
       .df-new .df-new-box .df-bg-new .df-price b {
         font-weight: normal;
         font-size: 13px;
-        font-family: "OpenSans-LightOpenSans-Light"; }
+        font-family: "OpenSans-LightOpenSans-Light";
+        color: #2d3246; }
     .df-new .df-new-box .df-bg-new .df-buy-product {
       width: 155px;
       height: 33px;
       background: #23c954;
       border-radius: 3px;
-      padding: 5px;
+      padding: 5px 0px 5px 0px;
       border-bottom: 3px solid  #14b242;
       border-radius: 3px;
       font-family: "OpenSans-Regular";
@@ -225,13 +226,15 @@
         transition: background 0.5s; }
         .df-new .df-new-box .df-bg-new .df-buy-product .df-number a {
           color: #fff;
-          padding: 0 px; }
+          padding: 0 8px; }
       .df-new .df-new-box .df-bg-new .df-buy-product .df-buy a {
-        background: url(/img/basket.png) center right no-repeat;
+        background: url(/img/basket.png) top 0px right no-repeat;
         width: 70px;
         padding-right: 25px;
-        padding-left: 5px;
-        color: #fff; }
+        padding-left: 10px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Myriad Pro"; }
     .df-new .df-new-box .df-bg-new .df-buy-product:hover {
       background: #da2d26;
       border-bottom: 3px solid #cd1e1a; }
@@ -239,7 +242,9 @@
         background: #bc130f; }
     .df-new .df-new-box .df-bg-new .df-buy1click {
       text-align: center;
-      font-family: "OpenSans-LightOpenSans-Light"; }
+      font-family: "OpenSans-LightOpenSans-Light";
+      display: inline-block;
+      margin: 3px 0 10px 0; }
       .df-new .df-new-box .df-bg-new .df-buy1click a {
         text-align: center;
         font-size: 12px;
@@ -254,10 +259,11 @@
 .df-new-popular-text {
   background: #fff;
   border: 1px solid #ebedef;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 0 25px 0 25px;
   max-width: 712px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 34px; }
   .df-new-popular-text .dftext1 h3, .df-new-popular-text .dftext2 h3 {
     font-family: "OpenSans-Semibold";
     font-size: 18px;
@@ -272,7 +278,8 @@
   .df-new-popular-text .dftext1 h3 {
     margin: 30px 0 24px 0; }
   .df-new-popular-text .dftext2 h3 {
-    margin: 21px 0 15px 0; }
+    margin: 21px 0 15px 0;
+    font-size: 16px; }
   .df-new-popular-text .dftext3 ul {
     margin-top: 15px; }
     .df-new-popular-text .dftext3 ul li {
