@@ -60,7 +60,7 @@
 			//background: url(/img/dd-tel.png) no-repeat center left;
 			background-color: #00CF4D;
 			padding: 6px 15px 6px 34px;			
-			border-radius: 4px;
+			border-radius: 3px;
 			border-bottom: 3px solid #00B334;
 			font-family: "Conv_MyriadPro-Regular";
 			color: #fff;
@@ -143,9 +143,10 @@
 		padding: 7px 12px;
 		background: #fff;
 		border:1px solid #ebedef;
-		border-radius: 5px;				
+		border-radius: 3px;				
 	}
 }
+
 
 .df-new{
 	display: inline-block;
@@ -157,7 +158,7 @@
     .df-new-box{    	
 	    .df-bg-new{
 	    	background: #fff;
-		    border-radius: 6px;
+		    border-radius: 3px;
 		    border:1px solid #ebedef;
 		    //box-shadow: 0 2px 5px #dcdcdc;		   
 		    width: 171px;
@@ -184,7 +185,7 @@
 		    			font-family: "OpenSans-Bold";
 		    			font-size: 13px;
 		    			border:1px solid #23c954;
-		    			border-radius: 5px;
+		    			border-radius: 3px;
 		    			color:#23c954;
 		    			text-transform: uppercase;
 		    			padding: 5px 7px;
@@ -244,6 +245,7 @@
 			    	font-weight: normal;
 			    	font-size: 13px;
 			    	font-family: "OpenSans-LightOpenSans-Light";
+			    	color:#2d3246;
 			    }
 		    }
 		    .df-buy-product{
@@ -251,7 +253,7 @@
 		    	height: 33px;
 		    	background: #23c954;
 		    	border-radius: 3px;
-		    	padding:5px;
+		    	padding:5px 0px 5px 0px;
 		    	border-bottom: 3px solid  #14b242; border-radius: 3px;
 		    	font-family: "OpenSans-Regular";
 		    	font-size: 14px;
@@ -268,16 +270,17 @@
 					transition:background 0.5s;
 					a{
 						color:#fff;
-						padding: 0 px;
+						padding: 0 8px;
 					}	
 		    	}
 		    	.df-buy a{
-					background: url(/img/basket.png)center right no-repeat;
+					background: url(/img/basket.png)top 0px right no-repeat;
 					width: 70px;
 					padding-right: 25px;
-					padding-left: 5px;
+					padding-left: 10px;
 					color:#fff;
-
+					font-size: 14px;
+					font-family: "Myriad Pro";
 		    	}
 		    }
 		    .df-buy-product:hover{
@@ -290,6 +293,8 @@
 		    .df-buy1click{
 		    	text-align: center;		    	
 		    	font-family: "OpenSans-LightOpenSans-Light";
+		    	display: inline-block;
+		    	margin:3px 0 10px 0;
 		    	a{
 			    	text-align: center;
 			    	font-size: 12px;
@@ -307,14 +312,14 @@
     }
 }
 
-
 .df-new-popular-text{
 	background: #fff;
 	border:1px solid #ebedef;
-	border-radius: 5px;
+	border-radius: 3px;
 	padding: 0 25px 0 25px;
 	max-width: 712px;
 	margin: 0 auto;
+	margin-bottom: 34px;
 	.dftext1, .dftext2{
 		h3{
 			font-family: "OpenSans-Semibold";
@@ -335,6 +340,7 @@
 	}
 	.dftext2 h3{
 		margin:21px 0 15px 0;
+		font-size: 16px;
 	}
 	.dftext3{
 		ul{	
