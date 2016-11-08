@@ -45,26 +45,21 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/test.php'); ?>
-	
 	<section class="db-wrapper db-wrapper2">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 dd-col-brad">
-					<div class="dd-brad-crumps">
-						<a class="dd-f-b" href="#">Главная</a>
-						<span><img src="img/b-str.png" alt=""></span>
-						<a href="#">Пиломатериалы</a>
-						<span><img src="img/b-str.png" alt=""></span>
-						<span>Фанера и ОСБ</span>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-md-3 col-sm-4 col-xs-12">
-					<?php require_once('includes/sidebar2.php'); ?>
-				</div>
-				<div class="col-md-9 col-sm-8 col-xs-12">
-					<!-- Место для ваших includ-ов -->
-					<div class="dd-poisk-wrap">
+			<div class="dd-brad-crumps">
+				<a class="dd-f-b" href="#">Главная</a>
+				<span><img src="img/b-str.png" alt=""></span>
+				<a href="#">Пиломатериалы</a>
+				<span><img src="img/b-str.png" alt=""></span>
+				<span>Фанера и ОСБ</span>
+			</div>
+			<div class="main-content-left">
+				<?php require_once('includes/sidebar-index2.php'); ?>
+			</div>
+			<div class="main-content-right">
+				<!-- Место для ваших includ-ов -->
+				<div class="dd-poisk-wrap">
 						<form class="dd-poisk" action="#">
 							<input class="dd-input" placeholder="Поиск по сайту" type="text">
 							<a class="dd-button" href="#">Найти на сайте</a>
@@ -73,35 +68,8 @@
 							</div>
 						</form>
 					</div>
-
-<div class="clearfix"></div>
-<div class="db-materials2">
-<h3 class="db-h3">Пиломатериалы</h3>
-<div class="db-materials">
-	<!-- <div class="db-materials-wrapper"> -->
-		<div class="db-materials-box1">
-			<ul class="db-materials-list">
-				<li><a href="#">Деревянные бруски</a></li>
-				<li><a href="#">Доска обрезная</a></li>
-			</ul>
-		</div>
-		<div class="db-materials-box2">
-			<ul class="db-materials-list">
-				<li><a href="#">Половая доска</a></li>
-				<li><a href="#">Фанера и ОСБ</a></li>
-			</ul>
-		</div>
-		<div class="db-materials-box3">
-			<ul class="db-materials-list">
-				<li><a href="#">Строганная доска</a></li>
-				<li><a href="#">Блок-хаус</a></li>
-			</ul>
-		</div>
-	<!-- </div> -->
-</div>
-</div>
-<div class="clearfix"></div>
-					<div class="dd-select-wrap">
+				<?php require_once('includes/materials.php'); ?>
+				<div class="dd-select-wrap">
 						<div class="dd-select-txt">
 							<span>Соритровать по</span>
 						</div>
@@ -133,120 +101,29 @@
 						</a>
 						<div class="clearfix"></div>
 					</div>
-					<?php require_once('includes/newandpopular2.php'); ?>
-					<?php require_once('includes/hits.php'); ?>
-					<?php require_once('includes/pagination.php'); ?>
-					<!-- Поле с текстом -->
-					<div class="dd-text-wrap">
-						<div class="dd-text">
-							<h3>Для чего используется плиточный клей</h3>
-							<span class="dd-txt-color">
-								Кафельная плитка на сегодняшний день является одним из самых востребованных и популярных отделочных материалов. Её используют в ванной и на кухнях, в помещениях и вне помещений. Но чтобы она продержалась действительно долго, не доставляя лишних проблем владельцу, при монтаже необходимо использовать качественный клей плиточный.
-								Он используется для максимально прочного прилегания плитки к любым типам поверхности – полу, потолку или стенам. И в первую очередь от него зависит, продержатся ли плитки многие годы, пока не возникнет необходимость демонтажа, или же отвалятся через считанные недели или месяцы.
-							</span>
-							<h3 class="nexth3">Виды временного плиточного клея</h3>
-							<span class="dd-txt-color">
-								Одним из показателей, на который обращает внимание большинство непрофессионалов, покупая клей плиточный, это цена. А ведь есть ещё немало факторов, которые обязательно нужно учитывать при выборе материала. Сегодня на рынке можно увидеть большое количество самых разных марок плиточного клея, каждый из которых нередко имеет довольно узкую специализацию. О наиболее распространенных видах клея будет полезно знать.
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+				<?php require_once('includes/newandpopular2.php'); ?>
+				<?php require_once('includes/hits.php'); ?>
+				<?php require_once('includes/pagination.php'); ?>
 
-	<section class="dg-slider">
-		<div class="container">
-			<div class="row wor">
-				<div id="owl-demo" class="owl-carousel owl-theme">
-				  <div class="item"><img src="img/slide1.png" alt=""></div>
-				  <div class="item"><img src="img/slide2.png" alt=""></div>
-				  <div class="item"><img src="img/slide3.png" alt=""></div>
-				  <div class="item"><img src="img/slide4.png" alt=""></div>
-				  <div class="item"><img src="img/slide5.png" alt=""></div>
-				  <div class="item"><img src="img/slide6.png" alt=""></div>
-				  <div class="item"><img src="img/slide7.png" alt=""></div>
-				  <div class="item"><img src="img/slide8.png" alt=""></div>
-				  <div class="item"><img src="img/slide3.png" alt=""></div>
-				  <div class="item"><img src="img/slide1.png" alt=""></div>
-				  <div class="item"><img src="img/slide5.png" alt=""></div>
-				  <div class="item"><img src="img/slide4.png" alt=""></div>
-				  <div class="item"><img src="img/slide6.png" alt=""></div>
-				</div>
+<div class="df-new-popular-text df-new-popular-text2">
+	<div class="dftext1">
+		<h3>Для чего используется плиточный клей?</h3>
+		<p>Кафельная плитка на сегодняшний день является одним из самых востребованных и популярных отделочных материалов. Её используют в ванной и на кухнях, в помещениях и вне помещений. Но чтобы она продержалась действительно долго, не доставляя лишних проблем владельцу, при монтаже необходимо использовать качественный клей плиточный.
+		Он используется для максимально прочного прилегания плитки к любым типам поверхности – полу, потолку или стенам. И в первую очередь от него зависит, продержатся ли плитки многие годы, пока не возникнет необходимость демонтажа, или же отвалятся через считанные недели или месяцы.</p>
+	</div>
+	<div class="dftext2">
+		<h3>Виды современного плиточного клея.</h3>
+		<p>Одним из показателей, на который обращает внимание большинство непрофессионалов, покупая клей плиточный, это цена. А ведь есть ещё немало факторов, которые обязательно нужно учитывать при выборе материала. Сегодня на рынке можно увидеть большое количество самых разных марок плиточного клея, каждый из которых нередко имеет довольно узкую специализацию. О наиболее распространенных видах клея будет полезно знать.</p>
+	</div>
+</div>
 			</div>
+			<div class="clear"></div>
 		</div>
+		
+		<?php require_once('includes/slider.php'); ?>
 	</section>
-
-<footer class="dg-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-7">
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<ul>
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Магазин</a></li>
-						<li><a href="#">Бренд</a></li>
-						<li><a href="#">Оплата и доставка</a></li>
-					</ul>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<ul>
-						<li><a href="#">Интернет-магазин</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">Контакты</a></li>
-						<li><a href="#">Информация</a></li>
-					</ul>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<ul>
-						<li><a href="#">Наш адрес</a></li>
-						<li><a href="#">Напишите нам</a></li>
-						<li><a href="#">О компании</a></li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-				<div class="leftbottom">
-					<div class="col-md-5 col-sm-5 col-xs-12 logo nopadding">
-						<img src="img/logo-footer.png" alt="">
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<p>Контактные телефоны</p>
-						<span><span class="light">+7 (495)</span> 749 85 35</span><br>
-						<span><span class="light">+7 (919)</span> 997 90 20</span>
-					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12 nopadding">
-						<a href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
-					</div>
-				</div>
-			</div>
-			<div class="right-footer col-md-5">
-				<div class="col-md-12">
-					<div class="col-md-12">
-						<span>Наш адрес:</span>
-						<p>65 км. МКАД Строительный комплекс "Синдика". <br>
-						Павильон ОВ-17</p>
-						<div class="cartbox nopadding">
-							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=MI5JyoYR0DOpkwrjU7tX5TYNo4eEPBXV&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="bot">
-		<div class="container">
-			<div class="row relative">
-				<div class="col-md-12">
-					<p>© 2010 - 2016 гг. Стандарт Ресурс <br> 
-					Интернет-магазин строительных материалов</p>
-				</div>
-				<div class="col-md-12 liveint">
-					<a href="#"><img src="img/liveint.png" alt=""></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
+	
+	<?php require_once('includes/footer2.php'); ?>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -270,7 +147,5 @@
     </div>
   </div>
 </div>
-
-	
 </body>
 </html>

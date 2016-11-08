@@ -371,11 +371,14 @@
 }
 /*==================================*/
 
-
+.df-new-popular-text2{
+	padding-bottom:20px !important;
+}
 /*============= Pagination =============*/
 .dd-pag-wrap{
 	text-align: center;
 	padding-top:10px;
+	padding-bottom:19px;
 	a{
 		display: inline-block;
 		font-family: "MicrosoftSansSerif";
@@ -405,7 +408,7 @@
 /*============= Hits =============*/
 .dd-new-wrap{
 	//padding:0 19px;
-	padding-right:47px;
+	//padding-right:47px;
 	margin-bottom:9px;
 	.dd-new{
 		padding:16px 9px;
@@ -611,7 +614,7 @@
 
 .dd-poisk-wrap{
 	padding-bottom:8px;
-	padding-right:36px;
+	//padding-right:36px;
 	//padding-left:20px;
 	position:relative;
 	.dd-poisk{
@@ -625,6 +628,7 @@
 			font-family: "OpenSans-LightOpenSans-Light";
 			font-size: 13px;
 			padding-left:12px;
+			padding-right:174px;
 			color:#3E4351;
 		}
 		.dd-button{
@@ -676,7 +680,7 @@
 .dd-select-wrap{
 	//padding-left:22px;
 	margin-top:33px;
-	padding-right:50px;
+	//padding-right:50px;
 	padding-bottom:14px;
 	.dd-select-txt{
 		float: left;
@@ -859,7 +863,6 @@
 	.dd-poisk{
 		margin: 0 auto;
 		.dd-input{
-
 			width: 56% !important;
 		}	
 	}
@@ -928,7 +931,7 @@
 	.dd-poisk-wrap{
 		.dd-poisk{
 			.dd-input{
-				width: 71%;
+				width: 76%;
 			}	
 		}		
 	}
@@ -1005,10 +1008,10 @@
 	.dd-poisk-wrap{
 		.dd-poisk{
 			.dd-input{
-				width: 74%;
+				width: 76%;
 			}
 			.dd-poisk-txt{
-				right: 236px;
+				right: 186px;
 			}	
 		}		
 	}
