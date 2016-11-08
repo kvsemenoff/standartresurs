@@ -55,9 +55,11 @@
 			<div class="main-content-right">
 				<?php require_once('includes/cart-page.php'); ?>
 				<?php require_once('includes/newandpopular.php'); ?>
+
 			</div>
 		</div>
 	</section>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 	
 </body>
