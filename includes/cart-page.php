@@ -1,3 +1,4 @@
+<h3>Утеплитель</h3>
 <section class="dg-cart">
 	<div class="row">
 		<div class="cartbox">
