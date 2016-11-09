@@ -139,6 +139,10 @@ h3 {
   margin-top: 31px;
   margin-bottom: 34px; }
 
+.db-h31 {
+  margin-top: 21px;
+  margin-bottom: 16px; }
+
 .db-padd {
   position: relative;
   padding-left: 61px; }
@@ -155,7 +159,7 @@ h3 {
 .db-padd1 {
   padding-left: 10px; }
 
-.db-sidebar4-imgbox1, .db-sidebar4-imgbox2 {
+.db-sidebar4-imgbox2 {
   padding: 0px 10px; }
 
 .db-sidebar4-spantop {
@@ -189,7 +193,7 @@ h3 {
 
 .db-sidebar4-div1 {
   display: table-cell;
-  width: 60%;
+  width: 65%;
   vertical-align: top; }
 
 .db-sidebar4-div2 {
@@ -217,7 +221,8 @@ h3 {
   font-size: 13px;
   line-height: 18px;
   text-decoration: underline;
-  margin-top: 6px; }
+  margin-top: 6px;
+  margin-left: 17px; }
 
 .db-sidebar4-link1 {
   position: relative;
@@ -225,7 +230,9 @@ h3 {
   color: #26ce58;
   font-family: "OpenSans-Regular";
   font-size: 12px;
-  line-height: 18px; }
+  line-height: 18px;
+  margin-left: 17px;
+  margin-top: 9px; }
 
 .db-sidebar4-link1:before {
   position: absolute;
@@ -289,12 +296,12 @@ h3 {
 
 .db-wrapdiv-list {
   display: block;
-  padding: 5px;
+  padding: 3px;
   background-color: #14b242;
   border-radius: 2px; }
   .db-wrapdiv-list li {
     display: inline-block;
-    margin-right: 12px; }
+    margin-right: 16px; }
     .db-wrapdiv-list li span {
       font-family: "OpenSans-Regular";
       font-size: 13px;
@@ -786,9 +793,6 @@ h3 {
   border-radius: 4px; }
 
 @media only screen and (min-width: 992px) {
-  .db-sidebar4-imgbox1 {
-    padding: 0px 40px; }
-
   .db-sidebar4-imgbox2 {
     padding: 0px 55px; } }
 

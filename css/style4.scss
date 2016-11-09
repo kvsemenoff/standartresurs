@@ -676,12 +676,14 @@
 
 
 /*================================*/
-
+.dd-mat-wrap{
+	padding-right:6px;
+}
 /*======= Селект Анзара ========*/
 .dd-select-wrap{
 	//padding-left:22px;
 	margin-top:33px;
-	//padding-right:50px;
+	padding-right:8px;
 	padding-bottom:14px;
 	.dd-select-txt{
 		float: left;
@@ -932,7 +934,7 @@
 	.dd-poisk-wrap{
 		.dd-poisk{
 			.dd-input{
-				width: 76%;
+				width: 75%;
 			}	
 		}		
 	}
