@@ -128,7 +128,7 @@
 .df-new {
   display: inline-block;
   margin-right: 5.9px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
   text-align: center; }
   .df-new .df-new-box .df-bg-new {
     background: #fff;
@@ -136,18 +136,22 @@
     border: 1px solid #ebedef;
     width: 171px;
     padding: 0 5px;
-    padding-bottom: 11px;
-    position: relative; }
+    padding-bottom: 11px; }
     .df-new .df-new-box .df-bg-new .df-name-product {
       display: block;
       padding: 7px; }
       .df-new .df-new-box .df-bg-new .df-name-product .df-img {
-        height: 115px;
-        width: 160px;
-        margin-top: 12px; }
+        height: 120px;
+        width: 155px;
+        position: relative; }
         .df-new .df-new-box .df-bg-new .df-name-product .df-img img {
           margin: 0 auto;
-          display: inline-block; }
+          display: inline-block;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
         .df-new .df-new-box .df-bg-new .df-name-product .df-img .df-new-hit, .df-new .df-new-box .df-bg-new .df-name-product .df-img .hit-red {
           font-family: "OpenSans-Bold";
           font-size: 13px;
@@ -155,10 +159,10 @@
           border-radius: 3px;
           color: #23c954;
           text-transform: uppercase;
-          padding: 5px 7px;
+          padding: 4px 8px;
           position: absolute;
-          top: 11px;
-          left: 8px;
+          top: 5px;
+          left: 1px;
           background: rgba(255, 255, 255, 0.5); }
         .df-new .df-new-box .df-bg-new .df-name-product .df-img .hit-red {
           color: #da2d26;
@@ -187,7 +191,7 @@
       text-align: center;
       color: #2d3246;
       font-family: "OpenSans-Regular";
-      padding: 14px 0px 12px 0px;
+      padding: 18px 0px 12px 0px;
       font-size: 19px;
       font-weight: bold; }
       .df-new .df-new-box .df-bg-new .df-price em {
@@ -208,7 +212,7 @@
       height: 33px;
       background: #23c954;
       border-radius: 3px;
-      padding: 5px 0px 5px 5px;
+      padding: 5px 5px 5px 5px;
       border-bottom: 3px solid  #14b242;
       border-radius: 3px;
       font-family: "OpenSans-Regular";
@@ -223,26 +227,29 @@
         display: inline-block;
         display: table-cell;
         vertical-align: middle;
-        width: 40%;
+        width: 45%;
         color: #fff;
         transition: background 0.5s;
         vertical-align: middle;
-        user-select: none; }
+        user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none; }
         .df-new .df-new-box .df-bg-new .df-buy-product .df-number span {
           color: #fff;
-          padding: 0 6px;
-          cursor: pointer; }
+          padding: 0 1px;
+          cursor: pointer;
+          vertical-align: top; }
         .df-new .df-new-box .df-bg-new .df-buy-product .df-number input {
           background: #14b242;
           outline: none;
           border: none;
-          width: 15px;
+          width: 20px;
           text-align: center;
           transition: background 0.5s; }
       .df-new .df-new-box .df-bg-new .df-buy-product .df-buy {
         display: table-cell;
         vertical-align: middle;
-        width: 60%;
+        width: 55%;
         padding-left: 5px; }
         .df-new .df-new-box .df-bg-new .df-buy-product .df-buy a {
           background: url(/img/basket.png) top 0px right no-repeat;
