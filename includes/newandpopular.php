@@ -89,7 +89,7 @@
 					<div class="df-buy-product">
 						<span class="df-number">
 						<span class="dfbutton">+</span>
-						<input type="text" value="0" disabled="disabled">  
+						<input type="text" value="1" disabled="disabled">  
 						<span class="dfbutton">-</span>
 						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
@@ -106,7 +106,7 @@
 					<a href="#" class="df-name-product">
 						<div class="df-img">
 							<img src="/img/df-product3.png" alt="" class="img-responsive">
-							<span class="df-new-hit hit-red">ХИТ</span>	
+							<!-- <span class="df-new-hit hit-red">ХИТ</span>	 -->
 						</div>
 						<span class="df-title">
 							<b>Цементно-стружечная плита ЦСП 1200х3200 мм 10 мм</b>
@@ -136,8 +136,8 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product4.png" alt="" class="img-responsive">
-							<span class="df-new-hit">NEW</span>	
+							<img src="/img/df-product5.png" alt="" class="img-responsive">
+							<!-- <span class="df-new-hit">NEW</span>	 -->
 						</div>
 						<span class="df-title">
 							<b>Крепежный уголок равносторонний 2,0 мм.</b>
@@ -167,7 +167,7 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product1.png" alt="" class="img-responsive">
+							<img src="/img/df-product6.png" alt="" class="img-responsive">
 							<!-- <span class="df-new-hit">NEW</span>	 -->
 						</div>
 						<span class="df-title">
@@ -198,7 +198,7 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product2.png" alt="" class="img-responsive">
+							<img src="/img/df-product3.png" alt="" class="img-responsive">
 							<!-- <span class="df-new-hit">NEW</span>	 -->
 						</div>
 						<span class="df-title">
@@ -229,8 +229,8 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product3.png" alt="" class="img-responsive">
-							<span class="df-new-hit hit-red">ХИТ</span>	
+							<img src="/img/df-product4.png" alt="" class="img-responsive">
+							<!-- <span class="df-new-hit hit-red">ХИТ</span>	 -->
 						</div>
 						<span class="df-title">
 							<b>Цементно-стружечная плита ЦСП 1200х3200 мм 10 мм</b>
@@ -269,8 +269,8 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product4.png" alt="" class="img-responsive">
-							<span class="df-new-hit">NEW</span>	
+							<img src="/img/df-product2.png" alt="" class="img-responsive">
+							<span class="df-new-hit hit-red">ХИТ</span>	
 						</div>
 						<span class="df-title">
 							<b>Крепежный уголок равносторонний 2,0 мм.</b>
@@ -300,8 +300,8 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product1.png" alt="" class="img-responsive">
-							<!-- <span class="df-new-hit">NEW</span>	 -->
+							<img src="/img/df-product3.png" alt="" class="img-responsive">
+							<span class="df-new-hit">NEW</span>	
 						</div>
 						<span class="df-title">
 							<b>Цементно-стружечная плита ЦСП 1200х3200 мм 10 мм</b>
@@ -331,7 +331,7 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product2.png" alt="" class="img-responsive">
+							<img src="/img/df-product4.png" alt="" class="img-responsive">
 							<!-- <span class="df-new-hit">NEW</span>	 -->
 						</div>
 						<span class="df-title">
@@ -362,8 +362,8 @@
 				<div class="df-bg-new">
 					<a href="#" class="df-name-product">
 						<div class="df-img">
-							<img src="/img/df-product3.png" alt="" class="img-responsive">
-							<span class="df-new-hit hit-red">ХИТ</span>	
+							<img src="/img/df-product1.png" alt="" class="img-responsive">
+							<span class="df-new-hit">NEW</span>	
 						</div>
 						<span class="df-title">
 							<b>Цементно-стружечная плита ЦСП 1200х3200 мм 10 мм</b>
@@ -394,7 +394,7 @@
 					<a href="#" class="df-name-product">
 						<div class="df-img">
 							<img src="/img/df-product4.png" alt="" class="img-responsive">
-							<span class="df-new-hit">NEW</span>	
+							<!-- <span class="df-new-hit">NEW</span>	 -->
 						</div>
 						<span class="df-title">
 							<b>Крепежный уголок равносторонний 2,0 мм.</b>
@@ -487,7 +487,7 @@
 					<a href="#" class="df-name-product">
 						<div class="df-img">
 							<img src="/img/df-product3.png" alt="" class="img-responsive">
-							<span class="df-new-hit hit-red">ХИТ</span>	
+							<!-- <span class="df-new-hit hit-red">ХИТ</span>	 -->
 						</div>
 						<span class="df-title">
 							<b>Цементно-стружечная плита ЦСП 1200х3200 мм 10 мм</b>
