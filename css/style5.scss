@@ -149,37 +149,35 @@
 
 
 .df-new{
-	display: inline-block;
-    //float: left;
-    //margin: 0 2.5px;
+	display: inline-block;   
     margin-right: 5.9px;
-    margin-bottom: 30px;    
+    margin-bottom: 33px;    
     text-align: center;   
     .df-new-box{    	
 	    .df-bg-new{
 	    	background: #fff;
 		    border-radius: 3px;
-		    border:1px solid #ebedef;
-		    //box-shadow: 0 2px 5px #dcdcdc;		   
-		    width: 171px;
-		    //overflow: hidden;
-		    //min-height: 340px;
+		    border:1px solid #ebedef;		   	   
+		    width: 171px;		   
 		    padding: 0 5px;
-		    padding-bottom: 11px;
-		    position: relative;
+		    padding-bottom: 11px;		   
 		    .df-name-product{
 		    	display: block;
 		    	padding: 7px;
-		    	// text-align: center;
+		    	
 		    	.df-img{		    		  		
-		    		height: 115px;
-		    		width: 160px;
-		    		//padding: 15px 20px 0 0px;
-		    		margin-top: 12px;
-		    				    		   		
+		    		height: 120px;//115
+		    		width: 155px;		    		
+		    		// margin-top: 12px;
+		    		position: relative;		    				    		   		
 		    		img{
 		    			margin: 0 auto;		    			
-		    			display: inline-block;  			 			
+		    			display: inline-block;
+		    			display: block;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);  			 			
 		    		}		    		
 		    		.df-new-hit, .hit-red{
 		    			font-family: "OpenSans-Bold";
@@ -188,10 +186,10 @@
 		    			border-radius: 3px;
 		    			color:#23c954;
 		    			text-transform: uppercase;
-		    			padding: 5px 7px;
+		    			padding: 4px 8px;
 		    			position: absolute;
-		    			top:11px;
-		    			left:8px;
+		    			top:5px;
+		    			left:1px;
 		    			background: rgba(#fff,0.5);
 		    		}
 		    		.hit-red{
@@ -228,7 +226,7 @@
 			    color: #2d3246;			    
 			    font-family: "OpenSans-Regular";
 			    //margin-top: 10px;			    
-			    padding: 14px 0px 12px 0px;
+			    padding: 18px 0px 12px 0px;
 			    font-size: 19px;
 			    font-weight: bold;
 			    em{
@@ -253,7 +251,7 @@
 		    	height: 33px;
 		    	background: #23c954;
 		    	border-radius: 3px;
-		    	padding:5px 0px 5px 5px;
+		    	padding:5px 5px 5px 5px;
 		    	border-bottom: 3px solid  #14b242; border-radius: 3px;
 		    	font-family: "OpenSans-Regular";
 		    	font-size: 14px;
@@ -267,29 +265,32 @@
 					display: inline-block;
 					display: table-cell;
 					vertical-align: middle;					
-					width: 40%;
+					width: 45%;
 					color:#fff;
 					transition:background 0.5s;
 					vertical-align: middle;
 					user-select: none;
+					-moz-user-select:none;
+					-o-user-select:none;
 					span{
 						color:#fff;
-						padding: 0 6px;
+						padding: 0 1px;
 						cursor: pointer;
+						vertical-align: top;
 					}
 					input{
 						background: #14b242;
 						outline: none;
 						border:none;
-						width: 15px;
+						width: 20px;
 						text-align: center;
-						transition:background 0.5s;
+						transition:background 0.5s;						
 					}	
 		    	}
 		    	.df-buy {
 		    		display: table-cell;
 					vertical-align: middle;
-					width: 60%;
+					width: 55%;
 		    		padding-left: 5px;
 		    		a{
 						background: url(/img/basket.png)top 0px right no-repeat;
