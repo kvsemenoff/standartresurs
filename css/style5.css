@@ -243,7 +243,7 @@
         display: table-cell;
         vertical-align: middle;
         width: 60%;
-        padding-right: 5px; }
+        padding-left: 5px; }
         .df-new .df-new-box .df-bg-new .df-buy-product .df-buy a {
           background: url(/img/basket.png) top 0px right no-repeat;
           width: 70px;
@@ -262,7 +262,7 @@
       text-align: center;
       font-family: "OpenSans-LightOpenSans-Light";
       display: inline-block;
-      margin: 3px 0 10px 0; }
+      margin: 0px 0 0px 0; }
       .df-new .df-new-box .df-bg-new .df-buy1click a {
         text-align: center;
         font-size: 12px;
