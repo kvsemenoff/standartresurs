@@ -253,7 +253,7 @@
 		    	height: 33px;
 		    	background: #23c954;
 		    	border-radius: 3px;
-		    	padding:5px 0px 5px 0px;
+		    	padding:5px 0px 5px 5px;
 		    	border-bottom: 3px solid  #14b242; border-radius: 3px;
 		    	font-family: "OpenSans-Regular";
 		    	font-size: 14px;
@@ -266,14 +266,24 @@
 					border-radius: 3px;
 					display: inline-block;
 					display: table-cell;
-					vertical-align: middle;
-					
+					vertical-align: middle;					
 					width: 40%;
 					color:#fff;
 					transition:background 0.5s;
-					a{
+					vertical-align: middle;
+					user-select: none;
+					span{
 						color:#fff;
-						//padding: 0 6px;
+						padding: 0 6px;
+						cursor: pointer;
+					}
+					input{
+						background: #14b242;
+						outline: none;
+						border:none;
+						width: 15px;
+						text-align: center;
+						transition:background 0.5s;
 					}	
 		    	}
 		    	.df-buy {
@@ -297,6 +307,9 @@
 		    	border-bottom: 3px solid #cd1e1a;
 		    	.df-number{
 		    		background: #bc130f;
+		    		input{
+		    			background: #bc130f;
+		    		}
 		    	}
 		    }
 		    .df-buy1click{

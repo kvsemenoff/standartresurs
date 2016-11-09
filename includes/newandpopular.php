@@ -25,7 +25,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -52,7 +56,11 @@
 					</div>
 					<p class="df-price"> <!-- <em>1540 <b>руб.</b></em> -->2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -79,7 +87,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>340 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="0" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -106,7 +118,11 @@
 					</div>
 					<p class="df-price"> <em>2520 <b>руб.</b></em> 841 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="1" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -133,7 +149,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="2" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -160,7 +180,11 @@
 					</div>
 					<p class="df-price"> <!-- <em>1540 <b>руб.</b></em> -->2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -187,7 +211,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>340 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -214,7 +242,11 @@
 					</div>
 					<p class="df-price"> <em>2520 <b>руб.</b></em> 841 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -250,7 +282,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -277,7 +313,11 @@
 					</div>
 					<p class="df-price"> <!-- <em>1540 <b>руб.</b></em> -->2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -304,7 +344,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>340 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -331,7 +375,11 @@
 					</div>
 					<p class="df-price"> <em>2520 <b>руб.</b></em> 841 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -358,7 +406,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -385,7 +437,11 @@
 					</div>
 					<p class="df-price"> <!-- <em>1540 <b>руб.</b></em> -->2 980 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -412,7 +468,11 @@
 					</div>
 					<p class="df-price"> <em>1540 <b>руб.</b></em>340 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
@@ -439,7 +499,11 @@
 					</div>
 					<p class="df-price"> <em>2520 <b>руб.</b></em> 841 <b>руб.</b></p>
 					<div class="df-buy-product">
-						<span class="df-number"><a href="#">+</a> 5 <a href="#">-</a></span>
+						<span class="df-number">
+						<span class="dfbutton">+</span>
+						<input type="text" value="5" disabled="disabled">  
+						<span class="dfbutton">-</span>
+						</span>
 						<span class="df-buy"><a href="">Купить</a></span>
 					</div>
 					<span class="df-buy1click"><a href="#">Купить в 1 клик</a></span>
