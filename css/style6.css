@@ -531,7 +531,8 @@
     font-family: "OpenSans-Semibold";
     line-height: 26px;
     color: #2d3246;
-    padding: 15px 0 10px 0; }
+    padding: 15px 0 10px 0;
+    text-transform: capitalize; }
   .dg-text p {
     font-size: 13px;
     line-height: 23px;
