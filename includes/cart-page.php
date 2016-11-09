@@ -1,4 +1,15 @@
-<h3>Утеплитель</h3>
+<div class="dd-poisk-wrap">
+	<form class="dd-poisk" action="#">
+		<input class="dd-input" placeholder="Поиск по сайту" type="text">
+		<a class="dd-button" href="#">Найти на сайте</a>
+		<div class="dd-poisk-txt hidden-xs hidden-sm">
+			<span>Например:<a class="dd-y" href="#">штукатурка</a></span>
+		</div>
+	</form>
+</div>
+
+<h3 class="dg-mtop">Утеплитель</h3>
+
 <section class="dg-cart">
 	<div class="row">
 		<div class="cartbox">

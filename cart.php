@@ -49,6 +49,13 @@
 	
 	<section class="db-wrapper">
 		<div class="container">
+		<div class="dd-brad-crumps">
+			<a class="dd-f-b" href="#">Главная</a>
+			<span><img src="img/b-str.png" alt=""></span>
+			<a href="#">Пиломатериалы</a>
+			<span><img src="img/b-str.png" alt=""></span>
+			<span>Фанера и ОСБ</span>
+		</div>
 			<div class="main-content-left">
 				<?php require_once('includes/sidebar.php'); ?>
 			</div>
