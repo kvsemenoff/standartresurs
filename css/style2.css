@@ -159,7 +159,7 @@ h3 {
 .db-padd1 {
   padding-left: 10px; }
 
-.db-sidebar4-imgbox1, .db-sidebar4-imgbox2 {
+.db-sidebar4-imgbox2 {
   padding: 0px 10px; }
 
 .db-sidebar4-spantop {
@@ -793,9 +793,6 @@ h3 {
   border-radius: 4px; }
 
 @media only screen and (min-width: 992px) {
-  .db-sidebar4-imgbox1 {
-    padding: 0px 40px; }
-
   .db-sidebar4-imgbox2 {
     padding: 0px 55px; } }
 
