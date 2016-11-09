@@ -145,7 +145,8 @@ h3 {
 
 .db-padd {
   position: relative;
-  padding-left: 61px; }
+  padding-left: 61px;
+  text-align: left; }
 
 .db-padd:before {
   position: absolute;
@@ -365,7 +366,10 @@ h3 {
 .ah-menu-list {
   display: block;
   border: 1px solid #24cb56;
-  border-radius: 3px; }
+  border-radius: 3px;
+  text-align: center; }
+  .ah-menu-list li {
+    text-align: left; }
   .ah-menu-list .ah-menu-list_item {
     position: relative;
     display: block;
@@ -389,7 +393,7 @@ h3 {
       line-height: 22px;
       cursor: pointer;
       color: #5c6d7d;
-      padding: 11px 0px 9px 19px;
+      padding: 11px 0px 9px 26px;
       text-decoration: none !important; }
     .ah-menu-list .ah-menu-list_item .ah-menu-list_item-link:hover {
       background-color: #27cf59;
