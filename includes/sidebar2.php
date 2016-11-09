@@ -255,7 +255,7 @@
 
 <div class="db-sidebar4">
 	<div class="db-sidebar4-imgbox db-sidebar4-imgbox1">
-		<img src="img/db-side-baner.jpg" class="img-responsive" alt="db-side-baner">
+		<img src="img/db-side-baner.jpg" alt="db-side-baner">
 	</div>
 </div>
 

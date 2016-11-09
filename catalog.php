@@ -69,7 +69,9 @@
 							</div>
 						</form>
 					</div>
-				<?php require_once('includes/materials.php'); ?>
+				<div class="dd-mat-wrap">	
+					<?php require_once('includes/materials.php'); ?>
+				</div>
 				<div class="dd-select-wrap">
 						<div class="dd-select-txt">
 							<span>Соритровать по</span>
