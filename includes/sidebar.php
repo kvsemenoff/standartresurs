@@ -261,13 +261,13 @@
 
 <div class="clearfix"></div>
 
-<h3 class="db-h3">Рекомендуем</h3>
+<h3 class="db-h31">Рекомендуем</h3>
 <div class="db-sidebar4">
 	<div class="db-sidebar4-div1">
 		<div class="db-sidebar4-imgbox">
 			<img src="img/db-side-img1.jpg" class="img-responsive" alt="db-side-img1">
 		</div>
-		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0 мм.</a>
+		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
 		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
@@ -292,7 +292,7 @@
 		<div class="db-sidebar4-imgbox">
 			<img src="img/db-side-img2.jpg" class="img-responsive" alt="db-side-img2">
 		</div>
-		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0 мм.</a>
+		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
 		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
@@ -364,4 +364,3 @@ $(document).ready(function(){
 });
 
 </script>
-
