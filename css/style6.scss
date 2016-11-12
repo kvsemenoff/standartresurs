@@ -622,7 +622,7 @@
 	padding-right: 0;
 }
 .dg-dostavka{
-	 max-width: 715px;
+	  max-width: 715px;
 	  margin-top: 20px;
 	  border-style: solid;
 	  border-width: 1px;
@@ -638,6 +638,7 @@
 		line-height: 25px;
 		color: #2d3246;
 		border-bottom: 1px dashed #e4e5e7;
+		text-transform: none;
 	}
 	h3:before{
 		position: absolute;
@@ -677,6 +678,7 @@
 		line-height: 26px;
 		color: #2d3246;
 		padding: 15px 0 10px 0;
+		text-transform: none;
 	  }
 	  p{
 		font-size: 13px;
@@ -690,6 +692,9 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
+}
+.dg-mtop{
+	margin-top: 21px;
 }
 .sr-only {
   position: absolute;

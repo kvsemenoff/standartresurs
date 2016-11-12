@@ -445,7 +445,7 @@
   padding-left: 0 !important; }
 
 .dd-brad-crumps {
-  padding: 12px 5px; }
+  padding: 12px 5px 18px; }
   .dd-brad-crumps a {
     font-family: "OpenSans-LightOpenSans-Light";
     font-size: 13px;
@@ -484,7 +484,7 @@
   .dd-poisk-wrap .dd-poisk .dd-button {
     font-family: "MyriadPro-Regular";
     background: #FFDC3B;
-    padding: 9px 41px 8px 21px;
+    padding: 8px 41px 9px 21px;
     display: inline-block;
     border-radius: 4px;
     color: #262E45;

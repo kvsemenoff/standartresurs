@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
 
     $('.az-select').each(function(){
@@ -33,6 +32,61 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+
+
+    $('.main-slider').owlCarousel({
+        loop: true,
+        margin:5,
+        items: 1,
+        nav: true,
+        autoplay: true,
+        smartSpeed:1000,
+        autoplayTimeout:5000,
+
+        navigation : true,
+        navigationText : ["<span><i class='fa fa-chevron-left' aria-hidden='true'></i></span>","<span><i class='fa fa-chevron-right' aria-hidden='true'></i>"],
+        pagination : true,
+      
+        navText:['<span class="arrow-right">ff2222222222222</span>','<span class="arrow-left">ff2222222222222222222222222222</span>'],
+
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+          
+    });
+
+
+
+
+   $(".dfbutton").on("click", function() {
+
+    var $button = $(this);
+    var oldValue = $button.parent().find("input").val();  
+
+    if ($button.text() == "+") {
+      var newVal = parseFloat(oldValue) + 1;
+    }  
+    else {
+     // Don't allow decrementing below zero
+      if (oldValue > 1) {
+        var newVal = parseFloat(oldValue) - 1;
+       } else {
+        newVal = 1;
+      }
+    }
+
+  $button.parent().find("input").val(newVal);
+
+});
+
 
  });
 
@@ -68,3 +122,33 @@ $(document).ready(function() {
 
 
     });
+function navigation_scroll(){
+    var offset = $('.dd-header-wrapper').height() || $(window).height() || 150;
+    var scroll = $(document).scrollTop();
+
+    if (scroll < 50) {
+        $('.df-bg')
+            .toggleClass('header-no-fixed', false)
+             .toggleClass('header-fixed', false);
+       
+            
+           
+     }     
+    else if (scroll >= offset) {
+        $('.df-bg')
+            .toggleClass('header-no-fixed', false)
+            .toggleClass('header-fixed', true);
+            
+    }
+    else if (scroll < offset - 50) {
+        $('.df-bg')
+            .toggleClass('header-fixed', true)
+            .toggleClass('header-no-fixed', false);
+            
+    }
+}
+
+
+$(document).scroll(function(){
+    navigation_scroll();
+});

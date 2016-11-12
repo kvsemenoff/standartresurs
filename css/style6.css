@@ -511,7 +511,8 @@
     font-family: "OpenSans-Bold";
     line-height: 25px;
     color: #2d3246;
-    border-bottom: 1px dashed #e4e5e7; }
+    border-bottom: 1px dashed #e4e5e7;
+    text-transform: none; }
   .dg-dostavka h3:before {
     position: absolute;
     content: url("../img/dg-dostavka.png");
@@ -544,7 +545,8 @@
     font-family: "OpenSans-Semibold";
     line-height: 26px;
     color: #2d3246;
-    padding: 15px 0 10px 0; }
+    padding: 15px 0 10px 0;
+    text-transform: none; }
   .dg-text p {
     font-size: 13px;
     line-height: 23px;
@@ -556,6 +558,9 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
+
+.dg-mtop {
+  margin-top: 21px; }
 
 .sr-only {
   position: absolute;

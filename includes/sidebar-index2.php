@@ -3,7 +3,7 @@
 		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
 		<li class="ah-menu-list_item">
 			<a href="#" class="ah-menu-list_item-link1 ah-font1">По цене:</a>
-			<ul class="ah-submenu-list ah-submenu-list1">
+			<ul style="display: block;" class="ah-submenu-list ah-submenu-list1">
 				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
 				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
 				<div id="slider"></div>
@@ -256,7 +256,7 @@
 		<div class="db-sidebar4-imgbox">
 			<img src="img/db-side-img1.jpg" class="img-responsive" alt="db-side-img1">
 		</div>
-		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0 мм.</a>
+		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
 		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
@@ -281,7 +281,7 @@
 		<div class="db-sidebar4-imgbox">
 			<img src="img/db-side-img2.jpg" class="img-responsive" alt="db-side-img2">
 		</div>
-		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0 мм.</a>
+		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
 		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
