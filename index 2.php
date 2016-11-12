@@ -46,7 +46,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	
-	<section class="db-wrapper">
+	<section class="db-wrapper ">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-sm-4 col-xs-12">
