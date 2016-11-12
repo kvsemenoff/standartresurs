@@ -23,23 +23,23 @@
 					<img src="img/dg-cart.jpg" alt="">
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="col-md-12">
-					<div class="col-md-6 col-sm-6 bolder"><span>Производитель</span></div>
-					<div class="col-md-6 col-sm-6 ccc"><span>Кнауф</span></div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6 col-sm-6 bolder"><span>Материал</span></div>
-					<div class="col-md-6 col-sm-6 ccc"><span>Гипс</span></div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6 col-sm-6 bolder"><span>Ед.изм.:</span></div>
-					<div class="col-md-6 col-sm-6 ccc"><span>мешок</span></div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6 col-sm-6 bolder"><span>Масса, кг:</span></div>
-					<div class="col-md-6 col-sm-6 ccc"><span>15</span></div>
-				</div>
+			<div class="col-md-6 col-sm-12">			
+					<div class="col-md-12 dg-bg dgtop">
+						<div class="col-md-6 col-sm-6 bolder"><span>Производитель</span></div>
+						<div class="col-md-6 col-sm-6 ccc"><span>Кнауф</span></div>
+					</div>
+					<div class="col-md-12 dg-bg">
+						<div class="col-md-6 col-sm-6 bolder"><span>Материал</span></div>
+						<div class="col-md-6 col-sm-6 ccc"><span>Гипс</span></div>
+					</div>
+					<div class="col-md-12 dg-bg">
+						<div class="col-md-6 col-sm-6 bolder"><span>Ед.изм.:</span></div>
+						<div class="col-md-6 col-sm-6 ccc"><span>мешок</span></div>
+					</div>
+					<div class="col-md-12 dg-bg dgbottom">
+						<div class="col-md-6 col-sm-6 bolder"><span>Масса, кг:</span></div>
+						<div class="col-md-6 col-sm-6 ccc"><span>15</span></div>
+					</div>			
 				<div class="col-md-12 col-sm-12 price">
 					<div class="col-md-6 col-sm-6 nopadding"><span class="old"><span class="gray">2520 руб.</span></span></div>
 					<div class="col-md-6 col-sm-6 nopadding"><a href="#" class="click">Купить в 1 клик</a></div>

@@ -239,13 +239,16 @@
 		border-bottom: none;
 	}
 }
-
+.dg-bg-slider{
+	background: #fff;
+}
 .dg-slider{
 	max-width: 1015px;
 	margin: 0 auto;
 	.wor{
 		padding-top: 25px;
 		height: 109px;
+		background: #fff;
 	}
 	#owl-demo .item{
 	margin-top: 30px;
@@ -421,6 +424,16 @@
 /*.owl-item{
 	width: 111px !important;
 }*/
+
+.dg-bg{
+	background: #FAFBFD;	
+}
+.dgtop{
+	padding-top: 20px;
+}
+.dgbottom{
+	padding-bottom: 20px;
+}
 .hr-dashed{
 	margin-top: 10px;
 	width: 100%;
