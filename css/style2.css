@@ -85,7 +85,7 @@ h3 {
     color: #2d3246 !important; }
 .ah-submenu-list label {
   display: block;
-  background: url(../img/db-check0.jpg) center center no-repeat;
+  background: url(../img/db-check0.png) center center no-repeat;
   width: 14px;
   height: 14px;
   font-family: "OpenSans-LightOpenSans-Light";
@@ -125,19 +125,19 @@ h3 {
   width: 45%; }
 
 .ah-submenu-left {
-  padding: 14px 0px 14px 10px; }
+  padding: 7px 0px 0px 26px; }
 
 .ah-submenu-right {
-  padding: 14px 0px 14px 23px; }
+  padding: 7px 0px 0px 32px; }
 
 .ah-submenu-list1 {
   text-align: center !important;
-  padding: 18px 0px;
+  padding: 21px 0px;
   background-color: #fafbfd; }
 
 .db-h3 {
   margin-top: 31px;
-  margin-bottom: 34px; }
+  margin-bottom: 38px; }
 
 .db-h31 {
   margin-top: 21px;
@@ -336,11 +336,29 @@ h3 {
 .db-paddleft {
   padding-left: 50px !important; }
 
-.ah-font1 {
+.ah-font1, .ah-font11 {
   position: relative;
   color: #2d3246 !important;
   font-family: "OpenSans-Semibold" !important;
   font-size: 13px !important; }
+
+.ah-font11:before {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 10px;
+  bottom: 18px;
+  right: calc(0% - -9%);
+  background: url(../img/db-side-arr-top.png) center center no-repeat; }
+
+.ah-font22:before {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 10px;
+  bottom: 18px;
+  right: calc(0% - -9%);
+  background: url(../img/db-side-arr-gr.png) center center no-repeat; }
 
 .ah-font1:before {
   position: absolute;
@@ -392,6 +410,16 @@ h3 {
       color: #5c6d7d;
       padding: 11px 0px 9px 26px;
       text-decoration: none !important; }
+    .ah-menu-list .ah-menu-list_item .ah-menu-list_item-link11 {
+      display: inline-block;
+      width: 100%;
+      font-family: "OpenSans-LightOpenSans-Light";
+      font-size: 13px;
+      line-height: 22px;
+      cursor: pointer;
+      color: #5c6d7d;
+      padding: 11px 0px 9px 26px;
+      text-decoration: none !important; }
     .ah-menu-list .ah-menu-list_item .ah-menu-list_item-link:hover {
       background-color: #27cf59;
       color: #fff;
@@ -427,7 +455,7 @@ h3 {
         content: "";
         width: calc(100% - 19px);
         height: 1px;
-        bottom: -1px;
+        bottom: 0px;
         left: 7px;
         background: #f0f3f8; }
       .ah-menu-list .ah-menu-list_item .ah-submenu-list li.ah-submenu-list_item:last-child {

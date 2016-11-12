@@ -2,7 +2,7 @@
 	<ul class="ah-menu-list">
 		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
 		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По цене:</a>
+			<a href="#" class="ah-menu-list_item-link11 ah-font11">По цене:</a>
 			<ul style="display: block;" class="ah-submenu-list ah-submenu-list1">
 				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
 				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
@@ -10,8 +10,8 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По бренду:</a>
-			<ul class="ah-submenu-list ah-submenu-fon">
+			<a href="#" class="ah-menu-list_item-link11 ah-font11">По бренду:</a>
+			<ul style="display: block;" class="ah-submenu-list ah-submenu-fon">
 				<li class="ah-submenu-left">
 					<span class="ah-submenu-span"><input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label></span>
 					<span class="ah-submenu-span"><input type="checkbox" id="check2" class="check2"><label for="check2" class="ah-check2">Волма</label></span>
@@ -346,6 +346,12 @@ $(document).ready(function(){
 	$('.ah-menu-list li .ah-menu-list_item-link1').click(function(){
 		$(this).next('.ah-submenu-list').slideToggle(500);
 		$(this).toggleClass('ah-font2');
+		return false;
+	});
+
+	$('.ah-menu-list li .ah-menu-list_item-link11').click(function(){
+		$(this).next('.ah-submenu-list').slideToggle(500);
+		$(this).toggleClass('ah-font22');
 		return false;
 	});
 
