@@ -105,7 +105,8 @@
 				font-size: 14px;
 			}
 			.dd-header-button:hover{
-				background:#10DF5D;
+				background:#FFDA36;
+				border-bottom:3px solid #FBC000;
 			}
 			.dd-header-button:after{
 				content:"";
@@ -901,6 +902,121 @@
 
 /*================================*/
 
+/*============= Pop up ==================*/
+
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+
+.window{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    max-width: 388px;
+    //width: 958px;
+    display:none;
+    z-index:9998; 
+    background: #fff;
+    border-radius:4px;
+
+ //    .dd-close{
+	// 	width: 50px;
+	// 	height: 50px;
+	// 	background:url(../img/kr.png) #98BE28 no-repeat center;
+	// 	position:absolute;
+	// 	top:0;
+	// 	right: 0;
+	// 	cursor: pointer;
+	// 	transition: 0.5s;
+	// }
+	// .dd-close:hover{
+	// 	background:url(../img/kr.png) #5F7C0B no-repeat center;
+	// }
+}
+
+.dd-slide-wrap2{
+	max-width: 388px;
+	background:#FFFFFF;
+	padding:49px 40px 62px;
+	position:relative;
+	border-radius:4px;
+	.dd-popup-title{
+		padding-bottom:37px;
+		text-align: center;
+		h2{
+			color:#414143;
+			text-transform: uppercase;
+			font-family: "ArialNarrow";
+			font-size: 21px;
+		}
+	}
+	.dd-pop-poisk-wrap{
+		
+		.dd-pop-form{
+			.dd-inputs{
+				width: 100%;
+				outline: none;
+				border:1px solid #EBEEF0;
+				height: 44px;
+				border-radius:3px;
+				padding-left:13px;
+				font-family: "OpenSans-LightOpenSans-Light";
+				font-size: 13px;
+				margin-bottom: 13px;
+			}
+			::-webkit-input-placeholder { /* WebKit browsers */
+			   color:#4B5763;
+			}
+			:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			   color:#4B5763;
+			}
+			::-moz-placeholder { /* Mozilla Firefox 19+ */
+			   color:#4B5763;
+			}
+			:-ms-input-placeholder { /* Internet Explorer 10+ */
+			   color:#4B5763;
+			}
+		}
+	}
+	.dd-popup-txt{
+		text-align: center;
+		font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 13px;
+		color:#4B5763;
+	}
+	.dd-pop-button{
+		text-align: center;
+		margin-top: 56px;
+		.dd-header-button{
+			position: relative;
+			width: 176px;
+			height: 34px;
+			display: inline-block;
+			background:#00CF4D;
+			padding: 6px 15px 6px 34px;
+			border-radius: 4px;
+			border-bottom:4px solid #00B334;
+			font-family: "Conv_MyriadPro-Regular";
+			color:#fff;
+			font-size: 14px;
+		}
+		.dd-header-button:hover{
+			background:#FFDA36;
+			border-bottom:4px solid #FBC000;
+		}
+		.dd-header-button:after{
+			content:"";
+			position:absolute;
+			background:url(../img/dd-tel.png) no-repeat center;
+			width: 16px;
+			height: 16px;
+			left: 13px;
+			top:7px;
+		}
+	}
+}
+
+/*========================================*/
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -1001,7 +1117,7 @@
 			}
 		}
 		.dd-korzina-wrap{
-			float: left;
+			float: right;
 			padding-left: 25px;
 		    padding-top: 30px;
 		}			
