@@ -27,7 +27,8 @@ h3{
     background-color: #fff !important;
     border: 1px solid #ebedef;
     border-radius: 3px;
-    padding: 22px 50px; 
+    padding: 22px 0px; //50
+    margin-bottom:-9px;
 }
 .db-materials-box1, .db-materials-box2, .db-materials-box3{
     display: inline-block;
@@ -38,7 +39,8 @@ h3{
     li{
         position: relative;
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 1px;//15
+       margin-left:49px;
         a{
             font-family: "OpenSans-LightOpenSans-Light";
             color: #2d3246;
@@ -171,7 +173,7 @@ h3{
     width: 45%;
 }
 .ah-submenu-left{
-    padding: 7px 0px 0px 26px;
+    padding: 7px 0px 10px 26px;
 }
 .ah-submenu-right{
     // margin-left: 8%;
@@ -186,6 +188,9 @@ h3{
 .db-h3{
     margin-top: 31px;
     margin-bottom: 38px;
+}
+.df-margin{
+    margin-bottom:11px;
 }
 .db-h31{
     margin-top: 21px;

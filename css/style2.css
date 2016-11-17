@@ -18,7 +18,8 @@ h3 {
   background-color: #fff !important;
   border: 1px solid #ebedef;
   border-radius: 3px;
-  padding: 22px 50px; }
+  padding: 22px 0px;
+  margin-bottom: -9px; }
 
 .db-materials-box1, .db-materials-box2, .db-materials-box3 {
   display: inline-block;
@@ -27,7 +28,8 @@ h3 {
 .db-materials-list li {
   position: relative;
   display: block;
-  margin-bottom: 15px; }
+  margin-bottom: 1px;
+  margin-left: 49px; }
   .db-materials-list li a {
     font-family: "OpenSans-LightOpenSans-Light";
     color: #2d3246;
@@ -126,7 +128,7 @@ h3 {
   width: 45%; }
 
 .ah-submenu-left {
-  padding: 7px 0px 0px 26px; }
+  padding: 7px 0px 10px 26px; }
 
 .ah-submenu-right {
   padding: 7px 0px 0px 32px; }
@@ -139,6 +141,9 @@ h3 {
 .db-h3 {
   margin-top: 31px;
   margin-bottom: 38px; }
+
+.df-margin {
+  margin-bottom: 11px; }
 
 .db-h31 {
   margin-top: 21px;

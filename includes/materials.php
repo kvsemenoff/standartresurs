@@ -1,7 +1,7 @@
 
 <div class="clearfix"></div>
 
-<h3 class="db-h3">Пиломатериалы</h3>
+<h3 class="db-h3 df-margin">Пиломатериалы</h3>
 <div class="db-materials">
 	<!-- <div class="db-materials-wrapper"> -->
 		<div class="db-materials-box1">

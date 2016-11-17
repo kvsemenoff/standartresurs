@@ -20,9 +20,13 @@
 			<img src="/img/ico-check.png">
 				в наличии
 			</div>
-			<div class="dd-number-wrap">	
-				<span class="dd-number"><a href="#">+</a> 5 <a href="#">-</a></span>
-				<span class="dd-buy"><a href="">Купить</a></span>
+			<div class="df-buy-product">
+				<span class="df-number">
+					<span class="dfbutton">+</span>
+					<input type="text" value="5" disabled="disabled">  
+					<span class="dfbutton">-</span>
+				</span>
+				<span class="df-buy"><a href="#">Купить</a></span>
 			</div>
 			<span class="dd-buy1click"><a href="#log-in2" name="modal">Купить в 1 клик</a></span>
 		</div>
@@ -49,10 +53,14 @@
 			<div class="dd-status-product">
 			<img src="/img/ico-check.png">
 				в наличии
-			</div>
-			<div class="dd-number-wrap">	
-				<span class="dd-number"><a href="#">+</a> 5 <a href="#">-</a></span>
-				<span class="dd-buy"><a href="">Купить</a></span>
+			</div>			
+			<div class="df-buy-product">
+				<span class="df-number">
+					<span class="dfbutton">+</span>
+					<input type="text" value="5" disabled="disabled">  
+					<span class="dfbutton">-</span>
+				</span>
+				<span class="df-buy"><a href="#">Купить</a></span>
 			</div>
 			<span class="dd-buy1click"><a href="#log-in2" name="modal">Купить в 1 клик</a></span>
 		</div>
@@ -80,9 +88,13 @@
 			<img src="/img/ico-check.png">
 				в наличии
 			</div>
-			<div class="dd-number-wrap">	
-				<span class="dd-number"><a href="#">+</a> 5 <a href="#">-</a></span>
-				<span class="dd-buy"><a href="">Купить</a></span>
+			<div class="df-buy-product">
+				<span class="df-number">
+					<span class="dfbutton">+</span>
+					<input type="text" value="5" disabled="disabled">  
+					<span class="dfbutton">-</span>
+				</span>
+				<span class="df-buy"><a href="#">Купить</a></span>
 			</div>
 			<span class="dd-buy1click"><a href="#log-in2" name="modal">Купить в 1 клик</a></span>
 		</div>
@@ -111,9 +123,13 @@
 			<img src="/img/ico-check.png">
 				в наличии
 			</div>
-			<div class="dd-number-wrap">	
-				<span class="dd-number"><a href="#">+</a> 5 <a href="#">-</a></span>
-				<span class="dd-buy"><a href="">Купить</a></span>
+			<div class="df-buy-product">
+				<span class="df-number">
+					<span class="dfbutton">+</span>
+					<input type="text" value="5" disabled="disabled">  
+					<span class="dfbutton">-</span>
+				</span>
+				<span class="df-buy"><a href="#">Купить</a></span>
 			</div>
 			<span class="dd-buy1click"><a href="#log-in2" name="modal">Купить в 1 клик</a></span>
 		</div>

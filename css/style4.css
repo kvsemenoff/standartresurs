@@ -374,35 +374,64 @@
       font-size: 12px;
       margin: 0 5px 3px;
       padding: 0 10px; }
-    .dd-new-wrap .dd-new .dd-buy-product .dd-number-wrap {
-      margin: 0 auto;
-      background: #23c954 none repeat scroll 0 0;
-      border-bottom: 3px solid #14b242;
+    .dd-new-wrap .dd-new .dd-buy-product .df-buy-product {
+      width: 155px;
+      height: 33px;
+      background: #23c954;
+      border-radius: 3px;
+      padding: 5px 5px 5px 5px;
+      border-bottom: 3px solid  #14b242;
       border-radius: 3px;
       font-family: "OpenSans-Regular";
       font-size: 14px;
-      height: 33px;
       margin-bottom: 4px;
-      padding: 5px;
-      transition: background 0.5s ease 0s, border 0.5s ease 0s;
-      width: 155px; }
-      .dd-new-wrap .dd-new .dd-buy-product .dd-number-wrap .dd-number {
-        background: #14b242 none repeat scroll 0 0;
-        border-radius: 3px;
-        color: #fff;
-        display: inline-block;
-        height: 22px;
+      transition: background 0.5s, border 0.5s;
+      display: table; }
+      .dd-new-wrap .dd-new .dd-buy-product .df-buy-product .df-number {
         text-align: center;
-        transition: background 0.5s ease 0s;
-        width: 60px; }
-        .dd-new-wrap .dd-new .dd-buy-product .dd-number-wrap .dd-number a {
-          color: #fff; }
-      .dd-new-wrap .dd-new .dd-buy-product .dd-number-wrap .dd-buy a {
-        background: transparent url("/img/basket.png") no-repeat scroll right center;
+        background: #14b242;
+        border-radius: 3px;
+        display: inline-block;
+        display: table-cell;
+        vertical-align: middle;
+        width: 45%;
         color: #fff;
-        padding-left: 5px;
-        padding-right: 25px;
-        width: 70px; }
+        transition: background 0.5s;
+        vertical-align: middle;
+        user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none; }
+        .dd-new-wrap .dd-new .dd-buy-product .df-buy-product .df-number span {
+          color: #fff;
+          padding: 0 1px;
+          cursor: pointer;
+          vertical-align: top; }
+        .dd-new-wrap .dd-new .dd-buy-product .df-buy-product .df-number input {
+          background: #14b242;
+          outline: none;
+          border: none;
+          width: 20px;
+          text-align: center;
+          transition: background 0.5s; }
+      .dd-new-wrap .dd-new .dd-buy-product .df-buy-product .df-buy {
+        display: table-cell;
+        vertical-align: middle;
+        width: 55%;
+        padding-left: 9px; }
+        .dd-new-wrap .dd-new .dd-buy-product .df-buy-product .df-buy a {
+          background: url(/img/basket.png) top 0px right no-repeat;
+          width: 70px;
+          padding-right: 25px;
+          color: #fff;
+          font-size: 14px;
+          font-family: "Myriad Pro"; }
+    .dd-new-wrap .dd-new .dd-buy-product .df-buy-product:hover {
+      background: #da2d26;
+      border-bottom: 3px solid #cd1e1a; }
+      .dd-new-wrap .dd-new .dd-buy-product .df-buy-product:hover .df-number {
+        background: #bc130f; }
+        .dd-new-wrap .dd-new .dd-buy-product .df-buy-product:hover .df-number input {
+          background: #bc130f; }
     .dd-new-wrap .dd-new .dd-buy-product .dd-buy1click a {
       border-bottom: 1px dashed #26ce58;
       color: #26ce58;
@@ -413,11 +442,6 @@
     .dd-new-wrap .dd-new .dd-buy-product .dd-buy1click a:hover {
       border-bottom: 1px dashed #da2d26;
       color: #da2d26; }
-    .dd-new-wrap .dd-new .dd-number-wrap:hover {
-      background: #da2d26;
-      border-bottom: 3px solid #cd1e1a; }
-      .dd-new-wrap .dd-new .dd-number-wrap:hover .dd-number {
-        background: #bc130f; }
 
 /*================================*/
 /*===== ╨в╨╡╨║╤Б╤В ╨┐╨╛╨┤ ╨┐╨░╨│╨╕╨╜╨░╤Ж╨╕╨╡╨╣ =====*/
