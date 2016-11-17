@@ -1,54 +1,9 @@
 
 <div class="clearfix"></div>
 
-<div class="db-sidebar">
-	<ul class="ah-menu-list">
-		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
-		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По цене:</a>
-			<ul style="display: block;" class="ah-submenu-list ah-submenu-list1">
-				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
-				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
-				<div id="slider"></div>
-			</ul>
-		</li>
-		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По бренду:</a>
-			<ul class="ah-submenu-list ah-submenu-fon">
-				<li class="ah-submenu-left">
-					<span class="ah-submenu-span"><input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label></span>
-					<span class="ah-submenu-span"><input type="checkbox" id="check2" class="check2"><label for="check2" class="ah-check2">Волма</label></span>
-					<span class="ah-submenu-span"><input type="checkbox" id="check3" class="check3"><label for="check3" class="ah-check3">Ветонит</label></span>
-					<span class="ah-submenu-span1"><input type="checkbox" id="check4" class="check4"><label for="check4" class="ah-check4">Церезит</label></span>
-				</li>
-				<li class="ah-submenu-right">
-					<span class="ah-submenu-span"><input type="checkbox" id="check5" class="check5"><label for="check5" class="ah-check5">Основит</label></span>
-					<span class="ah-submenu-span"><input type="checkbox" id="check6" class="check6"><label for="check6" class="ah-check6">Глимс</label></span>
-					<span class="ah-submenu-span"><input type="checkbox" id="check7" class="check7"><label for="check7" class="ah-check7">Литокол</label></span>
-					<span class="ah-submenu-span1"><input type="checkbox" id="check8" class="check8"><label for="check8" class="ah-check8">Пуфас</label></span>
-				</li>
-			</ul>
-		</li>
-		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По материалу:</a>
-			<ul class="ah-submenu-list">
-				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
-				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
-				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
-			</ul>
-		</li>
-		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По цвету:</a>
-			<ul class="ah-submenu-list">
-				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 1</a></li>
-				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 2</a></li>
-				<li class="ah-submenu-list_item"><a href="#" class="ah-submenu-list_item-link">Пункт 3</a></li>
-			</ul>
-		</li>
-	</ul>
-</div>
 
-<div class="clearfix"></div>
+
+
 
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
@@ -242,14 +197,14 @@
 
 <div class="clearfix"></div>
 
-<div class="db-sidebar4">
+<!-- <div class="db-sidebar4">
 	<span class="db-sidebar4-spantop">перевозка<br>манипулятором</span>
 	<div class="db-sidebar4-imgbox db-sidebar4-imgbox2">
 		<img src="img/db-side-img.jpg" class="img-responsive" alt="db-side-img">
-	<!-- </div> -->
+	
 	<a href="#" class="db-sidebar4-linktop">Подробнее</a>
 	</div>
-</div>
+</div> -->
 
 <div class="clearfix"></div>
 
@@ -261,7 +216,7 @@
 
 <div class="clearfix"></div>
 
-<h3 class="db-h31">Рекомендуем</h3>
+<h3 class="db-h31">ЛИДЕР ПРОДАЖ</h3>
 <div class="db-sidebar4">
 	<div class="db-sidebar4-div1">
 		<div class="db-sidebar4-imgbox">
@@ -275,11 +230,13 @@
 		<span class="db-sidebar4-span1">2520руб.</span>
 		<span class="db-sidebar4-span2">1520руб</span>
 		<div class="db-wrapdiv">
-			<ul class="db-wrapdiv-list">
-				<li><a href="#">+</a></li>
-				<li><span>5</span></li>
-				<li><a href="#">-</a></li>
-			</ul>
+			<div class="db-wrapdiv-list">
+				<span class="df-number">
+				<span class="dfbutton">+</span>
+				<input type="text" value="5" disabled="disabled">  
+				<span class="dfbutton">-</span>
+				</span>				
+			</div>
 			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
 		</div>
 	</div>
@@ -300,31 +257,20 @@
 		<span class="db-sidebar4-span1">2520руб.</span>
 		<span class="db-sidebar4-span2 db-sidebar4-span22">1520руб</span>
 		<div class="db-wrapdiv">
-			<ul class="db-wrapdiv-list">
-				<li><a href="#">+</a></li>
-				<li><span>5</span></li>
-				<li><a href="#">-</a></li>
-			</ul>
+			<div class="db-wrapdiv-list">
+				<span class="df-number">
+				<span class="dfbutton">+</span>
+				<input type="text" value="5" disabled="disabled">  
+				<span class="dfbutton">-</span>
+				</span>				
+			</div>
 			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
 		</div>
 	</div>
 </div>
 
 
-<!-- <input type="text" id="minCost" value="0"/>
-<input type="text" id="maxCost" value="1000"/> -->
-<!-- 
-<br>
-<br>
-<br>
-<br>
 
-<div id="slider"></div>
-
-<br>
-<br>
-<br>
-<br> -->
 
 <script type="text/javascript">
 

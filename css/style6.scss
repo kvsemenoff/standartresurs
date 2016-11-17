@@ -426,13 +426,14 @@
 }*/
 
 .dg-bg{
-	background: #FAFBFD;	
+	background: #FAFBFD;
+	margin-left:19px;	
 }
 .dgtop{
-	padding-top: 20px;
+	padding-top: 0px;//20
 }
 .dgbottom{
-	padding-bottom: 20px;
+	padding-bottom: 0px;//20
 }
 .hr-dashed{
 	margin-top: 10px;
@@ -441,7 +442,7 @@
 	border-bottom: 1px dashed #ccc;
 }
 .dg-cart{
-	  margin-top: 28px;
+	  margin-top: 24px;
 	  max-width: 715px;
 	  border-style: solid;
 	  border-width: 1px;
@@ -474,11 +475,11 @@
 	}
 	.dg-mb{
 		position: relative;
-		margin-bottom: 30px;
+		margin-bottom: 10px;//30
 	}
 	.price{
-		margin-top: 40px;
-		padding-left: 0;
+		margin-top: 43px;
+		padding-left: 22px;
 		padding-right: 0;
 		.old {
 		  color: red;
@@ -513,48 +514,75 @@
 		}
 		.light{
 			font-family: "OpenSans-LightOpenSans-Light";
+			font-size:23px;
 		}
-
 		.df-buy-product{
-	    	width: 155px;
-	    	height: 33px;
-	    	background: #23c954;
-	    	border-radius: 3px;
-	    	padding:5px;
-	    	border-bottom: 3px solid  #14b242; border-radius: 3px;
-	    	font-family: "OpenSans-Regular";
-	    	font-size: 14px;
-	    	transition:background 0.5s, border 0.5s ;
-	    	.df-number {
-	    		text-align: center;
-				background: #14b242;
-				border-radius: 3px;
-				display: inline-block;
-				width: 60px;
-				height: 22px;
-				color:#fff;
-				transition:background 0.5s;
-				a{
+		    	width: 155px;
+		    	height: 33px;
+		    	background: #23c954;
+		    	border-radius: 3px;
+		    	padding:5px 5px 5px 5px;
+		    	border-bottom: 3px solid  #14b242; border-radius: 3px;
+		    	font-family: "OpenSans-Regular";
+		    	font-size: 14px;
+		    	margin-bottom: 4px;
+		    	transition:background 0.5s, border 0.5s ;
+		    	display: table;
+		    	.df-number {
+		    		text-align: center;
+					background: #14b242;
+					border-radius: 3px;
+					display: inline-block;
+					display: table-cell;
+					vertical-align: middle;					
+					width: 45%;
 					color:#fff;
-					padding: 0 5px;
-				}	
-	    	}
-	    	.df-buy a{
-				background: url(/img/basket.png)center right no-repeat;
-				width: 70px;
-				padding-right: 25px;
-				padding-left: 5px;
-				color:#fff;
-
-	    	}
-	    }
-	    .df-buy-product:hover{
-	    	background: #da2d26;
-	    	border-bottom: 3px solid #cd1e1a;
-	    	.df-number{
-	    		background: #bc130f;
-	    	}
-	    }
+					transition:background 0.5s;
+					vertical-align: middle;
+					user-select: none;
+					-moz-user-select:none;
+					-o-user-select:none;
+					span{
+						color:#fff;
+						padding: 0 1px;
+						cursor: pointer;
+						vertical-align: top;
+					}
+					input{
+						background: #14b242;
+						outline: none;
+						border:none;
+						width: 20px;
+						text-align: center;
+						transition:background 0.5s;						
+					}	
+		    	}
+		    	.df-buy {
+		    		display: table-cell;
+					vertical-align: middle;
+					width: 55%;
+		    		padding-left: 5px;
+		    		a{
+						background: url(/img/basket.png)top 0px right no-repeat;
+						width: 70px;
+						padding-right: 25px;
+						//padding-left: 10px;
+						color:#fff;
+						font-size: 14px;
+						font-family: "Myriad Pro";
+					}
+		    	}
+		    }
+		 .df-buy-product:hover{
+		    	background: #da2d26;
+		    	border-bottom: 3px solid #cd1e1a;
+		    	.df-number{
+		    		background: #bc130f;
+		    		input{
+		    			background: #bc130f;
+		    		}
+		    	}
+		    }	    
 	    .df-buy1click{
 	    	text-align: center;		    	
 	    	font-family: "OpenSans-LightOpenSans-Light";
@@ -600,8 +628,8 @@
 	.action{
 		display: block;
 		position: absolute;
-	    bottom: -49px;
-	    left: 15px;
+	    bottom: -39px;
+	    left: 12px;
 	    z-index: 9;
 	    font-size: 13px;
 	    background-color: #fff;
@@ -661,15 +689,18 @@
 		}
 	}
 }
+
+
+
 .dg-text{
 	  max-width: 715px;
-	  margin-top: 20px;
+	  margin-top: 16px;
 	  border-style: solid;
 	  border-width: 1px;
 	  border-color: rgb(235, 237, 239);
 	  border-radius: 3px;
 	  padding: 20px;
-	  padding-left: 30px;
+	  padding-left: 35px;
 	  background-color: #fff;
 
 	  h3{
@@ -685,6 +716,10 @@
 		line-height: 23px;
 		font-family: "OpenSans-LightOpenSans-Light";
 		color: #5c6d7d;
+		margin-bottom: 17px;
+	  }
+	  p:last-child{
+	  	margin-bottom: -2px;
 	  }
 }
 hr {

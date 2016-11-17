@@ -46,7 +46,11 @@
 					<div class="col-md-6 col-sm-6 nopadding lh10"><span class="newprice">1780 <span class="light">руб.</span></span></div>
 					<div class="col-md-6 col-sm-6 nopadding lh10">
 						<div class="df-buy-product">
-							<span class="df-number"><a href="#">+</a> 1 <a href="#">-</a></span>
+							<span class="df-number">
+								<span class="dfbutton">+</span>
+								<input type="text" value="5" disabled="disabled">  
+								<span class="dfbutton">-</span>
+							</span>
 							<span class="df-buy"><a href="">Купить</a></span>
 						</div>
 					</div>

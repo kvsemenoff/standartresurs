@@ -47,7 +47,7 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/test.php'); ?>
 	
-	<section class="db-wrapper">
+	<section class="db-wrapper dfbg">
 		<div class="container">
 		<div class="dd-brad-crumps">
 			<a class="dd-f-b" href="#">Главная</a>
@@ -61,7 +61,7 @@
 			</div>
 			<div class="main-content-right">
 				<?php require_once('includes/cart-page.php'); ?>
-				<?php require_once('includes/newandpopular.php'); ?>
+				<?php require_once('includes/newandpopularcart.php'); ?>
 
 			</div>
 		</div>

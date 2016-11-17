@@ -188,7 +188,10 @@ h3{
 }
 .db-h31{
     margin-top: 21px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    color:#2d3246;
 }
 .db-padd{
     position: relative;
@@ -230,19 +233,18 @@ h3{
     color: #fff;
     font-family: "MyriadPro-Bold";
     font-size: 14px;
-    line-height: 35px;
-    text-align: center;
-    // outline: none;
+    line-height: 30px;
+    text-align: center;    
     border: none;
-    margin-top: 50px;
-    margin-bottom: 55px; 
+    margin-top: 65px;
+    margin-bottom: 33px; 
 }
 .db-sidebar4-linktop:hover{
     background: darken(#fbdf5a, 10%);
 }
 .db-sidebar4-div1{
     display: table-cell;
-    width: 65%;
+    width: 63%;
     vertical-align: top;
 }
 .db-sidebar4-div2{
@@ -260,7 +262,7 @@ h3{
     width: 100%;
     border: 1px solid #ebedef;
     border-radius: 3px;
-    padding: 15px 10px;
+    padding: 0px 0px 16px 25px;
     margin-bottom: 13px;
     background: #fff !important; 
 }
@@ -273,26 +275,28 @@ h3{
     text-decoration: underline;
     margin-top: 6px;
     margin-left: 17px;
+    transition: color 0.5s;
+}
+.db-sidebar4-link:hover{
+    color:#25cc56;
 }
 .db-sidebar4-link1{
     position: relative;
-    display: block;
+    display: inline-block;
     color: #26ce58;
     font-family: "OpenSans-Regular";
     font-size: 12px;
     line-height: 18px;
     margin-left: 17px;
     margin-top: 9px;
+    border-bottom: 1px dashed #26ce58;
+    transition: color 0.5s, border 0.5s;
 }
-.db-sidebar4-link1:before{
-    position: absolute;
-    content: "";
-    width: 92px;
-    height: 1px;
-    bottom: 0px;
-    left: 0px;
-    background: url(../img/db-side_line.png) center center no-repeat;
+.db-sidebar4-link1:hover{
+    color:#da2d26;
+    border-bottom: 1px dashed #da2d26;
 }
+
 .db-sidebar4-span{
     position: relative;
     display: block;
@@ -328,54 +332,55 @@ h3{
     margin-bottom: 40px;
 }
 .db-sidebar4-span22{
-    margin-bottom: 52px !important;
+    margin-bottom: 43px !important;
 }
 .db-wrapdiv{
-    width: 100%;
+    width: 87px;//100%;
     // height: 56px;
     background-color: #28d15a;
     background-image: linear-gradient(180deg, #28d15a 0%, #28d15a 2%, #1fc350 94%, #14b242 94%, #14b242 100%);
     border-radius: 3px;
     padding: 5px;
+    //transition:background 0.5s, background-image 0.5s;
 }
 .db-wrapdiv:hover{
-    background-color: #da2d26 !important;
+    background: #da2d26 !important;
     background-image: linear-gradient(180deg, #da2d26 0%, #da2d26 2%, #da2d26 91%, #cd1e1a 91%, #cd1e1a 100%);
-    transition:background 0.5s, border 0.5s;
-    .db-wrapdiv-list{
-        background-color: #a80905 !important;
+   .db-wrapdiv-list{
+    background: #a80905;    
+    .df-number{
+        background:#a80905;    
+        input{
+            background: #a80905;    
+        }
     }
+}
 }
 .db-wrapdiv-list{
     display: block;
     padding: 3px;
     background-color: #14b242;
-    border-radius: 2px;
-    // margin-bottom: 8px;
-    li{
-        display: inline-block;
-        margin-right: 16px;
-        span{
-            font-family: "OpenSans-Regular";
-            font-size: 13px;
-            line-height: 14px;
-            color: #fff;
-        }
-        a{
-            font-family: "OpenSans-Regular";
-            font-size: 13px;
-            line-height: 14px;
-            color: #fff;
-            cursor: pointer;
-        }
+    border-radius: 2px;    
+    
+    span{
+        color:#fff;
+        padding: 0 1px;
+        cursor: pointer;
+        vertical-align: top;
+        font-family: "OpenSans-Regular";
+        font-size: 14px;            
     }
-    li:last-child{
-         margin-right: 0px;   
-    }
+    input{
+        background: #14b242;
+        outline: none;
+        font-size: 13px;    
+        border:none;
+        width: 20px;
+        text-align: center;
+        font-family: "OpenSans-Regular";        
+        margin: 0 5px;                             
+    }     
 }
-// .db-wrapdiv-list:hover{
-//     background-color: #a80905 !important;
-// }
 .db-sidebar4-span3{
     position: relative;
     display: block;
@@ -391,8 +396,8 @@ h3{
     content: "";
     width: 15px;
     height: 13px;
-    top: 3px;
-    right: 8px;
+    top: 4px;
+    right: 5px;
     background: url(../img/db-side_kor.png) center center no-repeat;
 }
 // **********************************************

@@ -114,6 +114,10 @@
 
 //NEW AND POPULAR
 
+.dfbg{
+	background:#fafbfd;
+}
+
 .clear{
 	clear:both;
 }
@@ -144,6 +148,57 @@
 		background: #fff;
 		border:1px solid #ebedef;
 		border-radius: 3px;				
+	}
+	.df-radiobuttons{		
+		padding-bottom: 9px;
+		float:right;
+		.df-cap{
+			font-size: 16px; 
+			color:#414143;
+			font-family: "OpenSans-Semibold";
+			text-transform: uppercase;
+			margin: 15px 0 8px 0;
+		}
+		form{
+			span{
+				font-size: 14px;				
+				color:#878489;
+				font-family: "OpenSans-Regular";
+				width: 270px;
+				padding-left: 5px;				
+			}		
+			label{
+				display: inline-block;				
+			}				
+			.checkbox {
+			    display: none;
+			}
+			.checkbox-custom {
+				position: relative;     
+			    width: 15px;             
+			    height: 15px;            
+			    border: 1px solid #cdd1d2;
+			    background:#fff;
+			    border-radius: 70px;				    
+			    display: inline-block;
+			}				
+			.checkbox-custom{
+			    display: inline-block;			    
+			}
+			.checkbox:checked + .checkbox-custom::after {
+			    content: "";            
+			    display: inline-block;          
+			    position: absolute;   	    
+			    top: 3px;
+			    right: 0px;
+			    bottom: 2px;
+			    left: 3px;		    
+			    border-radius: 70px;		   			    
+			    width:7px;
+			    height: 7px;
+			    background: #21c753;
+			}						
+		}		
 	}
 }
 

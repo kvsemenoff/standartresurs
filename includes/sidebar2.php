@@ -275,11 +275,13 @@
 		<span class="db-sidebar4-span1">2520руб.</span>
 		<span class="db-sidebar4-span2">1520руб</span>
 		<div class="db-wrapdiv">
-			<ul class="db-wrapdiv-list">
-				<li><a href="#">+</a></li>
-				<li><span>5</span></li>
-				<li><a href="#">-</a></li>
-			</ul>
+			<div class="db-wrapdiv-list">
+				<span class="df-number">
+				<span class="dfbutton">+</span>
+				<input type="text" value="5" disabled="disabled">  
+				<span class="dfbutton">-</span>
+				</span>				
+			</div>
 			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
 		</div>
 	</div>
@@ -300,31 +302,20 @@
 		<span class="db-sidebar4-span1">2520руб.</span>
 		<span class="db-sidebar4-span2 db-sidebar4-span22">1520руб</span>
 		<div class="db-wrapdiv">
-			<ul class="db-wrapdiv-list">
-				<li><a href="#">+</a></li>
-				<li><span>5</span></li>
-				<li><a href="#">-</a></li>
-			</ul>
+			<div class="db-wrapdiv-list">
+				<span class="df-number">
+				<span class="dfbutton">+</span>
+				<input type="text" value="5" disabled="disabled">  
+				<span class="dfbutton">-</span>
+				</span>				
+			</div>
 			<a href="#"><span class="db-sidebar4-span3">Купить</span></a>
 		</div>
 	</div>
 </div>
 
 
-<!-- <input type="text" id="minCost" value="0"/>
-<input type="text" id="maxCost" value="1000"/> -->
-<!-- 
-<br>
-<br>
-<br>
-<br>
 
-<div id="slider"></div>
-
-<br>
-<br>
-<br>
-<br> -->
 
 <script type="text/javascript">
 
