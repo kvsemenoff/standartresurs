@@ -2,7 +2,7 @@
 	<ul class="ah-menu-list">
 		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
 		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По цене:</a>
+			<a href="#" class="ah-menu-list_item-link11 ah-font11">По цене:</a>
 			<ul style="display: block;" class="ah-submenu-list ah-submenu-list1">
 				<li class="db-input-li"><input type="text" id="minCost" value="0"/></li>
 				<li class="db-input-li1"><input type="text" id="maxCost" value="1000"/></li>
@@ -10,8 +10,8 @@
 			</ul>
 		</li>
 		<li class="ah-menu-list_item">
-			<a href="#" class="ah-menu-list_item-link1 ah-font1">По бренду:</a>
-			<ul class="ah-submenu-list ah-submenu-fon">
+			<a href="#" class="ah-menu-list_item-link11 ah-font11">По бренду:</a>
+			<ul style="display: block;" class="ah-submenu-list ah-submenu-fon">
 				<li class="ah-submenu-left">
 					<span class="ah-submenu-span"><input type="checkbox" id="check1" class="check1"><label for="check1" class="ah-check1">Юниc</label></span>
 					<span class="ah-submenu-span"><input type="checkbox" id="check2" class="check2"><label for="check2" class="ah-check2">Волма</label></span>
@@ -257,7 +257,7 @@
 			<img src="img/db-side-img1.jpg" class="img-responsive" alt="db-side-img1">
 		</div>
 		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
-		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
+		<a href="#log-in2" name="modal" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
 		<span class="db-sidebar4-span">в наличии</span>
@@ -284,7 +284,7 @@
 			<img src="img/db-side-img2.jpg" class="img-responsive" alt="db-side-img2">
 		</div>
 		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
-		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
+		<a href="#log-in2" name="modal" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
 		<span class="db-sidebar4-span">в наличии</span>
@@ -303,7 +303,27 @@
 	</div>
 </div>
 
-
+<div id="mask"></div>
+<div id="log-in2" class="window">
+	<div class="dd-slide-wrap2">
+		<div class="dd-close"></div>
+		<div class="dd-popup-title">
+			<h2>Заказать в один клик</h2>
+		</div>
+        <div class="dd-pop-poisk-wrap">
+            <form class="dd-pop-form" action="#">
+                <input class="dd-inputs" placeholder="Представьтесь пожалуйста" type="text">
+                <input class="dd-inputs" placeholder="Ваш номер телефона" type="text">
+            </form>
+        </div>
+        <div class="dd-popup-txt">
+            <span>Мы перезвоним вам в ближайшее время</span>
+        </div>
+        <div class="dd-pop-button">
+            <a class="dd-header-button">Перезвоните мне</a>
+        </div>
+	</div>
+</div>
 <!-- <input type="text" id="minCost" value="0"/>
 <input type="text" id="maxCost" value="1000"/> -->
 <!-- 
@@ -350,6 +370,12 @@ $(document).ready(function(){
 	$('.ah-menu-list li .ah-menu-list_item-link1').click(function(){
 		$(this).next('.ah-submenu-list').slideToggle(500);
 		$(this).toggleClass('ah-font2');
+		return false;
+	});
+
+	$('.ah-menu-list li .ah-menu-list_item-link11').click(function(){
+		$(this).next('.ah-submenu-list').slideToggle(500);
+		$(this).toggleClass('ah-font22');
 		return false;
 	});
 

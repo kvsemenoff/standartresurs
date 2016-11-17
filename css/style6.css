@@ -589,7 +589,10 @@ hr {
   border-top: 1px solid #eeeeee; }
 
 .dg-mtop {
-  margin-top: 21px; }
+  margin-top: 21px;
+  font-size: 19px;
+  color: #2d3246;
+  font-family: "OpenSans-Regular"; }
 
 .sr-only {
   position: absolute;

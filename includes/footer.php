@@ -36,7 +36,7 @@
 						<span><span class="light">+7 (919)</span> 997 90 20</span>
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 nopadding">
-						<a class="dg-zakaz-a" href="#" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
+						<a class="dg-zakaz-a" href="#log-in" name="modal">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
@@ -69,25 +69,25 @@
 	</div>
 </footer>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-    	<div class="row dg-form">
-    		<h4 class="dg-zakaz">Заказать звонок</h4>
-	        <form action="#">
-	        	<div class="col-md-12">
-	        		<input type="text" name="username" placeholder="Представьтесь пожалуйста">
-	        	</div>
-	        	<div class="col-md-12">
-	        		<input type="text" name="number" placeholder="Ваш номер телефона">
-	        	</div>
-	        	<span>Мы перезвоним вам в ближайшее время</span>
-	        	<input type="submit" class="dg-button" name="submit" value="Перезвоните мне"><span class="dg-icon"></span>
-	        </form>
-    	</div>
-      </div>
-    </div>
-  </div>
+<div id="mask"></div>
+<div id="log-in" class="window">
+	<div class="dd-slide-wrap2">
+		<div class="dd-close"></div>
+		<div class="dd-popup-title">
+			<h2>Заказать звонок</h2>
+		</div>
+        <div class="dd-pop-poisk-wrap">
+            <form class="dd-pop-form" action="#">
+                <input class="dd-inputs" placeholder="Представьтесь пожалуйста" type="text">
+                <input class="dd-inputs" placeholder="Ваш номер телефона" type="text">
+            </form>
+        </div>
+        <div class="dd-popup-txt">
+            <span>Мы перезвоним вам в ближайшее время</span>
+        </div>
+        <div class="dd-pop-button">
+            <a class="dd-header-button">Перезвоните мне</a>
+        </div>
+	</div>
 </div>
+

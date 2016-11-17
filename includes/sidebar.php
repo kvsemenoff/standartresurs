@@ -1,10 +1,4 @@
 
-<div class="clearfix"></div>
-
-
-
-
-
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
 		<h3 class="db-h3 db-padd">Каталог</h3>
@@ -304,6 +298,12 @@ $(document).ready(function(){
 	$('.ah-menu-list li .ah-menu-list_item-link1').click(function(){
 		$(this).next('.ah-submenu-list').slideToggle(500);
 		$(this).toggleClass('ah-font2');
+		return false;
+	});
+
+	$('.ah-menu-list li .ah-menu-list_item-link11').click(function(){
+		$(this).next('.ah-submenu-list').slideToggle(500);
+		$(this).toggleClass('ah-font22');
 		return false;
 	});
 

@@ -47,7 +47,7 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/test.php'); ?>
 	
-	<section class="db-wrapper">
+	<section class="db-wrapper db-wrapper2">
 		<div class="container">
 			
 			<div class="main-content-left">
