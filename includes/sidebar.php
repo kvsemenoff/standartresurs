@@ -217,7 +217,7 @@
 			<img src="img/db-side-img1.jpg" class="img-responsive" alt="db-side-img1">
 		</div>
 		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
-		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
+		<a href="#log-in" name="modal" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
 		<span class="db-sidebar4-span">в наличии</span>
@@ -244,7 +244,7 @@
 			<img src="img/db-side-img2.jpg" class="img-responsive" alt="db-side-img2">
 		</div>
 		<a href="#" class="db-sidebar4-link">Крепежный уголок<br>равносторонний 2,0</a>
-		<a href="#" class="db-sidebar4-link1">Купить в 1 клик</a>
+		<a href="#log-in2" name="modal" class="db-sidebar4-link1">Купить в 1 клик</a>
 	</div>
 	<div class="db-sidebar4-div2">
 		<span class="db-sidebar4-span">в наличии</span>
@@ -263,6 +263,27 @@
 	</div>
 </div>
 
+<div id="mask"></div>
+<div id="log-in2" class="window">
+	<div class="dd-slide-wrap2">
+		<div class="dd-close"></div>
+		<div class="dd-popup-title">
+			<h2>Заказать в один клик</h2>
+		</div>
+        <div class="dd-pop-poisk-wrap">
+            <form class="dd-pop-form" action="#">
+                <input class="dd-inputs" placeholder="Представьтесь пожалуйста" type="text">
+                <input class="dd-inputs" placeholder="Ваш номер телефона" type="text">
+            </form>
+        </div>
+        <div class="dd-popup-txt">
+            <span>Мы перезвоним вам в ближайшее время</span>
+        </div>
+        <div class="dd-pop-button">
+            <a class="dd-header-button">Перезвоните мне</a>
+        </div>
+	</div>
+</div>
 
 
 
