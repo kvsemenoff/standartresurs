@@ -1,10 +1,3 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
-
 h3{
     display: block;
     font-family: "ArialNarrow";
@@ -27,7 +20,8 @@ h3{
     background-color: #fff !important;
     border: 1px solid #ebedef;
     border-radius: 3px;
-    padding: 22px 50px; 
+    padding: 22px 0px; //50
+    margin-bottom:-9px;
 }
 .db-materials-box1, .db-materials-box2, .db-materials-box3{
     display: inline-block;
@@ -38,7 +32,8 @@ h3{
     li{
         position: relative;
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 1px;//15
+       margin-left:49px;
         a{
             font-family: "OpenSans-LightOpenSans-Light";
             color: #2d3246;
@@ -171,7 +166,7 @@ h3{
     width: 45%;
 }
 .ah-submenu-left{
-    padding: 7px 0px 0px 26px;
+    padding: 7px 0px 10px 26px;
 }
 .ah-submenu-right{
     // margin-left: 8%;
@@ -184,8 +179,18 @@ h3{
     background-color: #fafbfd;
 }
 .db-h3{
+    margin: 0 auto;
     margin-top: 31px;
     margin-bottom: 38px;
+}
+.dfborder{    
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #ebedef;
+    width: 262px;  
+    padding-bottom: 39px;
+}
+.df-margin{
+    margin-bottom:11px;
 }
 .db-h31{
     margin-top: 21px;
