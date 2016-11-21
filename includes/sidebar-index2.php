@@ -1,6 +1,6 @@
 <div class="db-sidebar">
 	<ul class="ah-menu-list">
-		<h3 class="db-h3 db-padd1">Подбор по параметрам</h3>
+		<h3 class="db-h3 db-padd1 dfborder">Подбор по параметрам</h3>
 		<li class="ah-menu-list_item">
 			<a href="#" class="ah-menu-list_item-link11 ah-font11">По цене:</a>
 			<ul style="display: block;" class="ah-submenu-list ah-submenu-list1">

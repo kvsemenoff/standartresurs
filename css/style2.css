@@ -139,8 +139,15 @@ h3 {
   background-color: #fafbfd; }
 
 .db-h3 {
+  margin: 0 auto;
   margin-top: 31px;
   margin-bottom: 38px; }
+
+.dfborder {
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid #ebedef;
+  width: 262px;
+  padding-bottom: 39px; }
 
 .df-margin {
   margin-bottom: 11px; }
