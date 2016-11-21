@@ -10,17 +10,17 @@
 			<h2>Заказать звонок</h2>
 		</div>
         <div class="dd-pop-poisk-wrap">
-            <form class="dd-pop-form" action="#">
+        <form class="dd-pop-form" action="#">
                 <input class="dd-inputs" placeholder="Представьтесь пожалуйста" type="text">
                 <input class="dd-inputs" placeholder="Ваш номер телефона" type="text">
-            </form>
-        </div>
-        <div class="dd-popup-txt">
-            <span>Мы перезвоним вам в ближайшее время</span>
-        </div>
-        <div class="dd-pop-button">
-            <a href="#" class="dd-header-button">Перезвоните мне</a>
-        </div>
+            </div>
+            <div class="dd-popup-txt">
+                <span>Мы перезвоним вам в ближайшее время</span>
+            </div>
+            <div class="dd-pop-button">
+                <a href="#" class="dd-header-button">Перезвоните мне</a>
+            </div>
+        </form>
 	</div>
 </div>
 

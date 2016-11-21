@@ -282,7 +282,7 @@
             <span>Мы перезвоним вам в ближайшее время</span>
         </div>
         <div class="dd-pop-button">
-            <a class="dd-header-button">Перезвоните мне</a>
+            <a href="#" class="dd-header-button">Перезвоните мне</a>
         </div>
 	</div>
 </div>

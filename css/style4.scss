@@ -1,25 +1,17 @@
 
 .db-materials2{
-	//padding-left:21px;
 	padding-right:51px;
 	margin-bottom:33px;
 }
-// .dd-header-wrapper, .dd-header{
-// 	position:fixed;
-// }
 
 .dd-header-wrapper{
-	//outline:1px solid red;
 	background:#fff;
-	//position:fixed;
-	//height:200px;
 	padding-bottom:12px;
 	.dd-line{
 		background: url(../img/dd-line.png) no-repeat center;
 		height: 4px;
 		width: 100%;
 		background-size:cover;
-		//box-shadow: 0 0 22px 1px !important;
 	}
 	.dd-padding0{
 		padding-left:0 !important;
@@ -29,16 +21,12 @@
 		padding-top:33px;
 		margin:0 auto;
 		width: 236px;
-		//max-height: 106px;
-		// outline: 1px solid red;
 		.dd-logo-img{
 			float: left;
 			height: 68px;
-			//outline: 1px solid black;
 		}
 		.dd-logo-txt{
 			float: left;
-			//outline: 1px solid red;
 			padding-left:12px;
 			span{
 				text-transform: uppercase;
@@ -52,7 +40,6 @@
 			}
 			.dd-res{
 				color:#262E45 !important;
-				//outline: 1px solid red;
 			}
 			.dd-slogan-txt{	
 				padding-top: 5px;
@@ -63,7 +50,6 @@
 		}
 	}
 	.dd-phone-wrap{
-		//outline: 1px solid black;
 		.dd-phone{
 			padding-top:33px;
 			text-align: center;
@@ -798,7 +784,7 @@
 	.dd-sort{
 		width: 77px;
 		height: 23px;
-		border:1px solid #9DEEC7;
+		border:1px solid #EBEEF0;
 		border-radius:2px;
 		float: right;
 		position:relative;
@@ -831,6 +817,7 @@
 		}
 	}
 	.dd-sort:hover{
+		border:1px solid #9DEEC7;
 		.fa{
 			color:#00C746;
 		}
@@ -918,19 +905,19 @@
     background: #fff;
     border-radius:4px;
 
- //    .dd-close{
-	// 	width: 50px;
-	// 	height: 50px;
-	// 	background:url(../img/kr.png) #98BE28 no-repeat center;
-	// 	position:absolute;
-	// 	top:0;
-	// 	right: 0;
-	// 	cursor: pointer;
-	// 	transition: 0.5s;
-	// }
-	// .dd-close:hover{
-	// 	background:url(../img/kr.png) #5F7C0B no-repeat center;
-	// }
+    .dd-close{
+		width: 30px;
+		height: 30px;
+		background:url(../img/kres.png) #98BE28 no-repeat center;
+		position:absolute;
+		top:0;
+		right: 0;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+	.dd-close:hover{
+		background:url(../img/kres.png) #5F7C0B no-repeat center;
+	}
 }
 
 .dd-slide-wrap2{
